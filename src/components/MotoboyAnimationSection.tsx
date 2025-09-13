@@ -33,7 +33,7 @@ const MotoboyAnimationSection = () => {
     >
       <div className="max-w-full mx-auto relative h-20">
         <div 
-          className={`absolute bottom-1 left-0 transition-opacity duration-1000 ${
+          className={`absolute -bottom-2 left-0 transition-opacity duration-1000 ${
             isVisible ? 'opacity-100 moto-loop' : 'opacity-0'
           }`}
         >
