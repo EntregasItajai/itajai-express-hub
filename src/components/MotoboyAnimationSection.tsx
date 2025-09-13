@@ -29,11 +29,11 @@ const MotoboyAnimationSection = () => {
   return (
     <section 
       id="motoboy-animation"
-      className="absolute bottom-0 left-0 right-0 py-8 px-5 overflow-hidden pointer-events-none z-20"
+      className="absolute bottom-0 left-0 right-0 py-2 px-5 overflow-hidden pointer-events-none z-20"
     >
-      <div className="max-w-full mx-auto relative h-32">
+      <div className="max-w-full mx-auto relative h-20">
         <div 
-          className={`absolute bottom-4 left-0 transition-opacity duration-1000 ${
+          className={`absolute bottom-1 left-0 transition-opacity duration-1000 ${
             isVisible ? 'opacity-100 moto-loop' : 'opacity-0'
           }`}
         >
@@ -45,7 +45,7 @@ const MotoboyAnimationSection = () => {
         </div>
         
         <div 
-          className={`absolute bottom-5 left-0 transition-opacity duration-1000 ${
+          className={`absolute bottom-2 left-0 transition-opacity duration-1000 ${
             isVisible ? 'opacity-100 text-loop' : 'opacity-0'
           }`}
         >
