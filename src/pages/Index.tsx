@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import IntroSection from "@/components/IntroSection";
 import AdvantagesSection from "@/components/AdvantagesSection";
 import CTASection from "@/components/CTASection";
 import VideoSection from "@/components/VideoSection";
@@ -16,6 +17,7 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
+        <IntroSection />
         <AdvantagesSection />
         <CTASection />
         <VideoSection />
