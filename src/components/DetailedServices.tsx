@@ -1,4 +1,4 @@
-import servicesImage from "@/assets/services-illustration.jpg";
+import servicesImage from "@/assets/motoboy-with-documents.png";
 
 const DetailedServices = () => {
   const services = [

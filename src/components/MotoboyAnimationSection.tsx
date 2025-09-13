@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import motoboyMoving from "@/assets/motoboy-with-documents.png";
+import motoboyMoving from "@/assets/motoboy-moving.png";
 
 const MotoboyAnimationSection = () => {
   const [isVisible, setIsVisible] = useState(false);
