@@ -8,30 +8,30 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Delivery Service Brand Colors */
-    --background: 244 247 252; /* Light blue background - not yellow */
-    --foreground: 33 33 33; /* Dark text */
+    /* Delivery Service Brand Colors - NO YELLOW */
+    --background: 248 250 252; /* Light gray-blue, definitely not yellow */
+    --foreground: 15 23 42; /* Dark slate text */
 
-    --card: 0 0% 100%; /* White cards */
-    --card-foreground: 33 33 33; /* Dark text on cards */
+    --card: 255 255 255; /* Pure white cards */
+    --card-foreground: 15 23 42; /* Dark slate text on cards */
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 33 33 33;
+    --popover: 255 255 255; /* Pure white */
+    --popover-foreground: 15 23 42; /* Dark slate text */
 
     /* Brand Primary - Dark Blue */
     --primary: 218 45% 19%; /* #1a2a44 */
     --primary-foreground: 0 0% 100%;
 
     /* WhatsApp Green */
-    --secondary: 142 70% 49%; /* #25D366 */
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 34 197 94; /* Pure green #22c55e */
+    --secondary-foreground: 255 255 255; /* White text on green */
 
     /* Orange Accent */
     --accent: 16 100% 50%; /* #ff4500 */
     --accent-foreground: 0 0% 100%;
 
-    --muted: 220 15% 96%;
-    --muted-foreground: 220 10% 46%;
+    --muted: 248 250 252; /* Light background */
+    --muted-foreground: 100 116 139; /* Gray text */
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;

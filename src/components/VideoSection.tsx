@@ -17,13 +17,13 @@ const VideoSection = () => {
   };
 
   return (
-    <section className="py-16 px-5 text-center">
-      <div className="max-w-4xl mx-auto">
-        <div className="relative w-full aspect-video rounded-xl overflow-hidden shadow-card hover:shadow-card-hover transition-shadow duration-300">
+    <section className="py-16 px-5 text-center bg-background">
+      <div className="max-w-sm mx-auto">
+        <div className="relative w-full aspect-[9/16] rounded-xl overflow-hidden shadow-card hover:shadow-card-hover transition-shadow duration-300 max-h-[600px] mx-auto">
           <video
             ref={videoRef}
             className="w-full h-full object-cover"
-            poster="/api/placeholder/800/450"
+            poster="/api/placeholder/360/640"
             onPlay={() => setIsPlaying(true)}
             onPause={() => setIsPlaying(false)}
             onEnded={() => setIsPlaying(false)}
