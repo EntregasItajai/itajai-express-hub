@@ -1,5 +1,5 @@
 import AdvantageCard from "./AdvantageCard";
-import { Clock, Building2, User, Headphones } from "lucide-react";
+import { Clock, Building2, MapPin, Headphones } from "lucide-react";
 
 const AdvantagesSection = () => {
   const advantages = [
@@ -14,9 +14,9 @@ const AdvantagesSection = () => {
       description: "Parceiro logístico ideal: retiradas e entregas em transportadoras de Itajaí e região, incluindo transportadoras aéreas no Aeroporto de Navegantes, além de protocolos em prefeituras, cartórios e repartições."
     },
     {
-      icon: User,
-      title: "Assistência Pessoal",
-      description: "Buscamos itens pessoais por você: chave esquecida, celular com um amigo, retirada em lojas e presentes — praticidade e cuidado no seu dia a dia."
+      icon: MapPin,
+      title: "Cobertura Regional",
+      description: "Itajaí, Navegantes, Penha, Piçarras, Balneário Camboriú, Camboriú, Itapema e cidades próximas."
     },
     {
       icon: Headphones,
