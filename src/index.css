@@ -130,6 +130,6 @@ All colors MUST be HSL.
     0% { transform: translateX(calc(100vw + 160px)); }
     100% { transform: translateX(calc(-220px + 160px)); }
   }
-  .moto-loop { animation: moto-loop 15s linear infinite; }
-  .text-loop { animation: text-loop 15s linear infinite; }
+  .moto-loop { animation: moto-loop 13s linear infinite; }
+  .text-loop { animation: text-loop 13s linear infinite; }
 }
