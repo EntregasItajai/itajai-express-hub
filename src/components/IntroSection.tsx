@@ -13,8 +13,7 @@ const IntroSection = () => {
         
         <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 max-w-3xl mx-auto">
           Levar um item, pode ser uma caixa, sacola, mochila, ou que precisar. Postar uma encomenda, ir no cartório. 
-          Somos seu parceiro de confiança na região. Como podemos lhe ajudar? Deixe-nos saber suas necessidades 
-          específicas e estaremos prontos para atendê-las rapidamente.
+          Somos seu parceiro de confiança na região. Como podemos lhe ajudar? Estamos prontos para lhe atender rapidamente. <strong>Chame agora!</strong>
         </p>
 
         <p className="text-xl md:text-2xl font-semibold text-primary mb-8">
