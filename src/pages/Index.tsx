@@ -4,7 +4,7 @@ import IntroSection from "@/components/IntroSection";
 import AdvantagesSection from "@/components/AdvantagesSection";
 import CTASection from "@/components/CTASection";
 import VideoSection from "@/components/VideoSection";
-import DetailedServices from "@/components/DetailedServices";
+
 import MoreAdvantagesSection from "@/components/MoreAdvantagesSection";
 import MotoboyAnimationSection from "@/components/MotoboyAnimationSection";
 import HoursSection from "@/components/HoursSection";
@@ -22,7 +22,7 @@ const Index = () => {
         <AdvantagesSection />
         <CTASection />
         <VideoSection />
-        <DetailedServices />
+        
         
         <HoursSection />
       </main>
