@@ -94,15 +94,15 @@ export default {
         "pulse-whatsapp-smooth": {
           "0%": {
             transform: "scale(1)",
-            boxShadow: "0 0 0 0 rgba(37, 211, 102, 0.4)"
+            boxShadow: "0 0 0 0 rgba(37, 211, 102, 0.3)"
           },
           "50%": {
-            transform: "scale(1.02)",
-            boxShadow: "0 0 0 15px rgba(37, 211, 102, 0.1)"
+            transform: "scale(1.01)",
+            boxShadow: "0 0 0 8px rgba(37, 211, 102, 0.05)"
           },
           "100%": {
             transform: "scale(1)",
-            boxShadow: "0 0 0 20px rgba(37, 211, 102, 0)"
+            boxShadow: "0 0 0 12px rgba(37, 211, 102, 0)"
           },
         },
         "moto-loop": {
@@ -125,7 +125,7 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "pulse-whatsapp-smooth": "pulse-whatsapp-smooth 3s ease-in-out infinite",
+        "pulse-whatsapp-smooth": "pulse-whatsapp-smooth 4s ease-in-out infinite",
         "moto-loop": "moto-loop 25s linear infinite",
         "text-loop": "text-loop 25s linear infinite",
       },
