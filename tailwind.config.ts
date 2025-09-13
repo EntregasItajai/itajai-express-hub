@@ -115,10 +115,10 @@ export default {
         },
         "text-loop": {
           "0%": {
-            transform: "translateX(calc(100vw + 50px)) translateY(-50%)"
+            transform: "translateX(calc(100vw + 160px)) translateY(-50%)"
           },
           "100%": {
-            transform: "translateX(-400px) translateY(-50%)"
+            transform: "translateX(calc(-200px + 160px)) translateY(-50%)"
           }
         },
       },
