@@ -7,6 +7,7 @@ import DetailedServices from "@/components/DetailedServices";
 import MoreAdvantagesSection from "@/components/MoreAdvantagesSection";
 import HoursSection from "@/components/HoursSection";
 import Footer from "@/components/Footer";
+import FloatingWhatsAppButton from "@/components/FloatingWhatsAppButton";
 
 const Index = () => {
   return (
@@ -22,6 +23,7 @@ const Index = () => {
         <HoursSection />
       </main>
       <Footer />
+      <FloatingWhatsAppButton />
     </div>
   );
 };

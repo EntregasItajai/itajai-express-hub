@@ -1,18 +1,56 @@
-import { Play } from "lucide-react";
+import { Play, Pause } from "lucide-react";
+import { useState, useRef } from "react";
 
 const VideoSection = () => {
+  const [isPlaying, setIsPlaying] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  const toggleVideo = () => {
+    if (videoRef.current) {
+      if (isPlaying) {
+        videoRef.current.pause();
+      } else {
+        videoRef.current.play();
+      }
+      setIsPlaying(!isPlaying);
+    }
+  };
+
   return (
     <section className="py-16 px-5 text-center">
       <div className="max-w-4xl mx-auto">
-        <div 
-          className="relative w-full aspect-video bg-gradient-to-br from-primary/90 to-primary rounded-xl cursor-pointer hover:scale-105 transition-transform duration-300 shadow-card hover:shadow-card-hover flex items-center justify-center group"
-          style={{
-            backgroundImage: `linear-gradient(rgba(26, 42, 68, 0.8), rgba(26, 42, 68, 0.8)), url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=450&fit=crop')`
-          }}
-        >
-          <div className="w-20 h-20 bg-white/90 rounded-full flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform duration-300">
-            <Play size={32} className="text-primary ml-1" />
-          </div>
+        <div className="relative w-full aspect-video rounded-xl overflow-hidden shadow-card hover:shadow-card-hover transition-shadow duration-300">
+          <video
+            ref={videoRef}
+            className="w-full h-full object-cover"
+            poster="/api/placeholder/800/450"
+            onPlay={() => setIsPlaying(true)}
+            onPause={() => setIsPlaying(false)}
+            onEnded={() => setIsPlaying(false)}
+          >
+            <source src="/motoboy-video.mp4" type="video/mp4" />
+            Seu navegador não suporta o elemento de vídeo.
+          </video>
+          
+          {!isPlaying && (
+            <div 
+              className="absolute inset-0 bg-black/20 flex items-center justify-center cursor-pointer group"
+              onClick={toggleVideo}
+            >
+              <div className="w-20 h-20 bg-white/90 rounded-full flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform duration-300">
+                <Play size={32} className="text-primary ml-1" />
+              </div>
+            </div>
+          )}
+          
+          {isPlaying && (
+            <button
+              onClick={toggleVideo}
+              className="absolute top-4 right-4 w-12 h-12 bg-black/50 rounded-full flex items-center justify-center text-white hover:bg-black/70 transition-colors duration-300"
+            >
+              <Pause size={20} />
+            </button>
+          )}
         </div>
       </div>
     </section>
