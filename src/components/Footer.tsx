@@ -51,8 +51,12 @@ const Footer = () => {
             <a 
               href="https://www.facebook.com/entregasitajai" 
               target="_blank" 
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               className="hover:opacity-80 transition-opacity"
+              onClick={(e) => {
+                e.preventDefault();
+                window.open('https://www.facebook.com/entregasitajai', '_blank', 'noopener,noreferrer');
+              }}
             >
               <img 
                 src={facebookIcon} 
@@ -63,8 +67,12 @@ const Footer = () => {
             <a 
               href="https://www.instagram.com/entregasitajai.com.br/" 
               target="_blank" 
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               className="hover:opacity-80 transition-opacity"
+              onClick={(e) => {
+                e.preventDefault();
+                window.open('https://www.instagram.com/entregasitajai.com.br/', '_blank', 'noopener,noreferrer');
+              }}
             >
               <img 
                 src={instagramIcon} 
