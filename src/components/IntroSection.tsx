@@ -5,7 +5,7 @@ const IntroSection = () => {
   const whatsappUrl = "https://wa.me/5547991508563?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento.";
 
   return (
-    <section className="py-16 px-5 bg-background">
+    <section className="py-16 px-5 bg-ice">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-4xl md:text-5xl font-bold mb-8 text-foreground">
           Motoboy em Itajaí e Região: Sua Entrega Urgente, Simplificada.

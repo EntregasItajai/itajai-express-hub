@@ -68,6 +68,8 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "ice": "hsl(var(--ice-background))",
+        "soft-green": "hsl(var(--soft-green-background))",
       },
       borderRadius: {
         lg: "var(--radius)",

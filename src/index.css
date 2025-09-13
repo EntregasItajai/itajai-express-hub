@@ -47,6 +47,10 @@ All colors MUST be HSL.
     --card-shadow: 0 4px 25px -5px hsl(218 45% 19% / 0.1);
     --card-shadow-hover: 0 8px 35px -5px hsl(218 45% 19% / 0.2);
     
+    /* Elegant Backgrounds */
+    --ice-background: 210 20% 98%; /* Elegant ice tone */
+    --soft-green-background: 150 20% 96%; /* Soft green tone */
+    
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-bounce: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
