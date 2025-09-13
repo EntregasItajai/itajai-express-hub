@@ -34,7 +34,7 @@ const MotoboyAnimationSection = () => {
       <div className="max-w-full mx-auto relative h-32">
         <div 
           className={`absolute bottom-4 left-0 transition-opacity duration-1000 ${
-            isVisible ? 'opacity-100 animate-[moto-loop_15s_linear_infinite]' : 'opacity-0'
+            isVisible ? 'opacity-100 moto-loop' : 'opacity-0'
           }`}
         >
           <img 
@@ -46,7 +46,7 @@ const MotoboyAnimationSection = () => {
         
         <div 
           className={`absolute bottom-5 left-0 transition-opacity duration-1000 ${
-            isVisible ? 'opacity-100 animate-[text-loop_15s_linear_infinite]' : 'opacity-0'
+            isVisible ? 'opacity-100 text-loop' : 'opacity-0'
           }`}
         >
           <h2 className="text-2xl md:text-3xl font-bold text-primary-foreground text-center whitespace-nowrap drop-shadow-lg">

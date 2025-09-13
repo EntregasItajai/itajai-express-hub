@@ -120,3 +120,16 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  @keyframes moto-loop {
+    0% { transform: translateX(100vw); }
+    100% { transform: translateX(-220px); }
+  }
+  @keyframes text-loop {
+    0% { transform: translateX(calc(100vw + 160px)); }
+    100% { transform: translateX(calc(-220px + 160px)); }
+  }
+  .moto-loop { animation: moto-loop 15s linear infinite; }
+  .text-loop { animation: text-loop 15s linear infinite; }
+}
