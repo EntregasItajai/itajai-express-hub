@@ -11,7 +11,8 @@ const FloatingWhatsAppButton = () => {
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-50 w-20 h-20 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transform hover:scale-110 transition-all duration-300 animate-pulse-whatsapp-smooth"
       style={{
-        backgroundColor: '#25D366'
+        backgroundColor: '#25D366',
+        border: 'none'
       }}
       aria-label="Falar no WhatsApp"
     >
