@@ -21,7 +21,7 @@ const Index = () => {
         <VideoSection />
         <DetailedServices />
         <MoreAdvantagesSection />
-        <MotoboyAnimationSection />
+        
         <HoursSection />
       </main>
       <Footer />

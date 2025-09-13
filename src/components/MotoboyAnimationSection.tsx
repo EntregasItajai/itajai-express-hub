@@ -29,9 +29,9 @@ const MotoboyAnimationSection = () => {
   return (
     <section 
       id="motoboy-animation"
-      className="py-16 px-5 bg-muted overflow-hidden relative"
+      className="absolute bottom-0 left-0 right-0 py-8 px-5 overflow-hidden pointer-events-none z-20"
     >
-      <div className="max-w-6xl mx-auto relative h-40">
+      <div className="max-w-6xl mx-auto relative h-32">
         <div 
           className={`absolute right-0 top-1/2 transform -translate-y-1/2 transition-all duration-[2000ms] ease-out ${
             isVisible ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'
@@ -40,7 +40,7 @@ const MotoboyAnimationSection = () => {
           <img 
             src={motoboyMoving} 
             alt="Motoboy em movimento" 
-            className="h-32 w-auto"
+            className="h-24 w-auto"
           />
         </div>
         
@@ -49,7 +49,7 @@ const MotoboyAnimationSection = () => {
             isVisible ? '-translate-x-1/2 opacity-100' : 'translate-x-full opacity-0'
           }`}
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-primary text-center whitespace-nowrap">
+          <h2 className="text-2xl md:text-3xl font-bold text-primary-foreground text-center whitespace-nowrap drop-shadow-lg">
             Motoboy vai onde precisar
           </h2>
         </div>

@@ -91,25 +91,25 @@ export default {
             height: "0",
           },
         },
-        "pulse-whatsapp": {
+        "pulse-whatsapp-smooth": {
           "0%": {
             transform: "scale(1)",
-            boxShadow: "0 0 0 0 hsl(142 70% 49% / 0.7)"
+            boxShadow: "0 0 0 0 rgba(37, 211, 102, 0.4)"
           },
-          "70%": {
-            transform: "scale(1)",
-            boxShadow: "0 0 0 10px hsl(142 70% 49% / 0)"
+          "50%": {
+            transform: "scale(1.02)",
+            boxShadow: "0 0 0 15px rgba(37, 211, 102, 0.1)"
           },
           "100%": {
             transform: "scale(1)",
-            boxShadow: "0 0 0 0 hsl(142 70% 49% / 0)"
+            boxShadow: "0 0 0 20px rgba(37, 211, 102, 0)"
           },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "pulse-whatsapp": "pulse-whatsapp 2s ease-out infinite",
+        "pulse-whatsapp-smooth": "pulse-whatsapp-smooth 3s ease-in-out infinite",
       },
     },
   },

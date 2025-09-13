@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
 import heroImage from "@/assets/hero-motoboy-new.jpg";
+import MotoboyAnimationSection from "@/components/MotoboyAnimationSection";
 
 const Hero = () => {
   const whatsappUrl = "https://wa.me/5547991508563?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento.";
@@ -34,6 +35,7 @@ const Hero = () => {
           </a>
         </Button>
       </div>
+      <MotoboyAnimationSection />
     </section>
   );
 };
