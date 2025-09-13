@@ -1,4 +1,6 @@
 import { MapPin, Mail, Phone } from "lucide-react";
+import facebookIcon from "@/assets/facebook-icon.png";
+import instagramIcon from "@/assets/instagram-icon.png";
 
 const Footer = () => {
   return (
@@ -41,6 +43,36 @@ const Footer = () => {
 
         <div className="text-sm opacity-80 mb-8">
           CNPJ 25.340.232/0001-10 Entregas Itajaí
+        </div>
+
+        <div className="mb-8">
+          <p className="text-lg font-semibold mb-4">Nos siga nas redes sociais</p>
+          <div className="flex items-center justify-center gap-6">
+            <a 
+              href="https://www.facebook.com/entregasitajai" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <img 
+                src={facebookIcon} 
+                alt="Facebook" 
+                className="w-10 h-10"
+              />
+            </a>
+            <a 
+              href="https://www.instagram.com/entregasitajai.com.br/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <img 
+                src={instagramIcon} 
+                alt="Instagram" 
+                className="w-10 h-10"
+              />
+            </a>
+          </div>
         </div>
 
         <div className="pt-8 border-t border-primary-foreground/20 text-sm opacity-80">
