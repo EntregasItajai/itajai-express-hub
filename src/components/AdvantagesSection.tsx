@@ -18,11 +18,6 @@ const AdvantagesSection = () => {
       title: "Cobertura Regional",
       description: "Itajaí, Navegantes, Penha, Piçarras, Balneário Camboriú, Camboriú, Itapema e cidades próximas."
     },
-    {
-      icon: Headphones,
-      title: "Suporte Profissional",
-      description: "Coleta de assinaturas, visitas técnicas para levantamento de informações, registro fotográfico de locais e suporte operacional sob demanda."
-    }
   ];
 
   return (
