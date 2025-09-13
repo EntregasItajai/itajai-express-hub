@@ -105,11 +105,29 @@ export default {
             boxShadow: "0 0 0 20px rgba(37, 211, 102, 0)"
           },
         },
+        "moto-loop": {
+          "0%": {
+            transform: "translateX(100vw) translateY(-50%)"
+          },
+          "100%": {
+            transform: "translateX(-200px) translateY(-50%)"
+          }
+        },
+        "text-loop": {
+          "0%": {
+            transform: "translateX(calc(100vw + 50px)) translateY(-50%)"
+          },
+          "100%": {
+            transform: "translateX(-400px) translateY(-50%)"
+          }
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "pulse-whatsapp-smooth": "pulse-whatsapp-smooth 3s ease-in-out infinite",
+        "moto-loop": "moto-loop 8s linear infinite",
+        "text-loop": "text-loop 8s linear infinite",
       },
     },
   },
