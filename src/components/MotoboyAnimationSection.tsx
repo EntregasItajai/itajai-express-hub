@@ -34,7 +34,7 @@ const MotoboyAnimationSection = () => {
       <div className="max-w-full mx-auto relative h-32">
         <div 
           className={`absolute top-1/2 transform -translate-y-1/2 transition-opacity duration-1000 ${
-            isVisible ? 'opacity-100 animate-moto-loop' : 'opacity-0'
+            isVisible ? 'opacity-100 animate-[moto-loop_30s_linear_infinite]' : 'opacity-0'
           }`}
         >
           <img 
@@ -45,9 +45,10 @@ const MotoboyAnimationSection = () => {
         </div>
         
         <div 
-          className={`absolute top-1/2 transform -translate-y-1/2 transition-opacity duration-1000 delay-300 ${
-            isVisible ? 'opacity-100 animate-text-loop' : 'opacity-0'
+          className={`absolute top-1/2 transform -translate-y-1/2 transition-opacity duration-1000 ${
+            isVisible ? 'opacity-100 animate-[text-loop_30s_linear_infinite]' : 'opacity-0'
           }`}
+          style={{ animationDelay: '0.8s' }}
         >
           <h2 className="text-2xl md:text-3xl font-bold text-primary-foreground text-center whitespace-nowrap drop-shadow-lg">
             Motoboy vai onde precisar
