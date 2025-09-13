@@ -26,7 +26,7 @@ const AdvantagesSection = () => {
   ];
 
   return (
-    <section className="py-16 px-5">
+    <section className="py-16 px-5 bg-ice">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {advantages.map((advantage, index) => (
