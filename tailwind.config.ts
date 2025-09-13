@@ -107,18 +107,18 @@ export default {
         },
         "moto-loop": {
           "0%": {
-            transform: "translateX(100vw) translateY(-50%)"
+            transform: "translateX(100vw)"
           },
           "100%": {
-            transform: "translateX(-200px) translateY(-50%)"
+            transform: "translateX(-220px)"
           }
         },
         "text-loop": {
           "0%": {
-            transform: "translateX(calc(100vw + 160px)) translateY(-50%)"
+            transform: "translateX(calc(100vw + 160px))"
           },
           "100%": {
-            transform: "translateX(calc(-200px + 160px)) translateY(-50%)"
+            transform: "translateX(calc(-220px + 160px))"
           }
         },
       },

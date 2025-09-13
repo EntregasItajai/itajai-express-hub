@@ -33,7 +33,7 @@ const MotoboyAnimationSection = () => {
     >
       <div className="max-w-full mx-auto relative h-32">
         <div 
-          className={`absolute left-0 top-1/2 transform -translate-y-1/2 transition-opacity duration-1000 ${
+          className={`absolute bottom-4 left-0 transition-opacity duration-1000 ${
             isVisible ? 'opacity-100 animate-[moto-loop_5s_linear_infinite]' : 'opacity-0'
           }`}
         >
@@ -45,7 +45,7 @@ const MotoboyAnimationSection = () => {
         </div>
         
         <div 
-          className={`absolute left-0 top-1/2 transform -translate-y-1/2 transition-opacity duration-1000 ${
+          className={`absolute bottom-5 left-0 transition-opacity duration-1000 ${
             isVisible ? 'opacity-100 animate-[text-loop_5s_linear_infinite]' : 'opacity-0'
           }`}
         >
