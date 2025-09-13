@@ -5,6 +5,7 @@ import CTASection from "@/components/CTASection";
 import VideoSection from "@/components/VideoSection";
 import DetailedServices from "@/components/DetailedServices";
 import MoreAdvantagesSection from "@/components/MoreAdvantagesSection";
+import MotoboyAnimationSection from "@/components/MotoboyAnimationSection";
 import HoursSection from "@/components/HoursSection";
 import Footer from "@/components/Footer";
 import FloatingWhatsAppButton from "@/components/FloatingWhatsAppButton";
@@ -20,6 +21,7 @@ const Index = () => {
         <VideoSection />
         <DetailedServices />
         <MoreAdvantagesSection />
+        <MotoboyAnimationSection />
         <HoursSection />
       </main>
       <Footer />

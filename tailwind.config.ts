@@ -92,20 +92,24 @@ export default {
           },
         },
         "pulse-whatsapp": {
-          "0%, 100%": {
+          "0%": {
             transform: "scale(1)",
-            boxShadow: "var(--whatsapp-shadow)"
+            boxShadow: "0 0 0 0 hsl(142 70% 49% / 0.7)"
           },
-          "50%": {
-            transform: "scale(1.05)",
-            boxShadow: "0 6px 30px hsl(142 70% 49% / 0.6)"
+          "70%": {
+            transform: "scale(1)",
+            boxShadow: "0 0 0 10px hsl(142 70% 49% / 0)"
+          },
+          "100%": {
+            transform: "scale(1)",
+            boxShadow: "0 0 0 0 hsl(142 70% 49% / 0)"
           },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "pulse-whatsapp": "pulse-whatsapp 2s ease-in-out infinite",
+        "pulse-whatsapp": "pulse-whatsapp 2s ease-out infinite",
       },
     },
   },
