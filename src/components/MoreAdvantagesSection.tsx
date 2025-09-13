@@ -11,7 +11,7 @@ const MoreAdvantagesSection = () => {
     {
       icon: User,
       title: "Assistência Pessoal",
-      description: "Buscamos itens pessoais por você: chave da casa ou escritório, celular na assistência, retirada em lojas e presentes, buscar um item na casa de um amigo — praticidade e cuidado no seu dia a dia."
+      description: "Buscamos itens pessoais por você: chave da casa ou escritório, celular na assistência, retirada em lojas, entregar um presente, buscar um item na casa de um amigo — praticidade e cuidado no seu dia a dia."
     },
     {
       icon: Search,
