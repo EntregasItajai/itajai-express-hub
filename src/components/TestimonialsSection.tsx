@@ -34,7 +34,7 @@ const testimonials = [
     text: "Excelente profissional, honesto e prestativo…atendimento impecável recomendo gratidão"
   },
   {
-    name: "Leia",
+    name: "Léia",
     text: "Contratei esse serviço para ir a Itapema colher assinatura de um contrato, foram atenciosos e muito rápido o atendimento. Super indico!"
   },
   {
