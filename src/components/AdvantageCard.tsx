@@ -28,8 +28,8 @@ const AdvantageCard = ({ icon: Icon, title, description, variant = 'light' }: Ad
       </CardHeader>
       <CardContent>
         <p className={`
-          leading-relaxed
-          ${variant === 'dark' ? 'text-primary-foreground/80' : 'text-muted-foreground'}
+          leading-relaxed font-medium text-base
+          ${variant === 'dark' ? 'text-primary-foreground/90' : 'text-foreground/80'}
         `}>
           {description}
         </p>
