@@ -27,17 +27,17 @@ const Footer = () => {
             </span>
           </div>
           
-          <div className="flex items-center justify-center gap-3 text-lg">
-            <Phone size={24} className="text-secondary" />
-            <span>
-              <strong>Telefone/WhatsApp:</strong>{" "}
-              <a 
-                href="tel:+5547991508563" 
-                className="text-secondary hover:text-secondary/80 transition-colors"
-              >
-                55 (47) 99150-8563
-              </a>
-            </span>
+          <div className="flex flex-col items-center justify-center gap-2 text-lg">
+            <div className="flex items-center gap-3">
+              <Phone size={24} className="text-secondary" />
+              <span><strong>Telefone/WhatsApp:</strong></span>
+            </div>
+            <a 
+              href="tel:+5547991508563" 
+              className="text-secondary hover:text-secondary/80 transition-colors text-xl font-medium"
+            >
+              (47) 99150-8563
+            </a>
           </div>
         </div>
 
