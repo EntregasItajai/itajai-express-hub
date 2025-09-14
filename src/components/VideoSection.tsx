@@ -1,6 +1,6 @@
 import { Play, Pause } from "lucide-react";
 import { useState, useRef } from "react";
-import videoCover from "@/assets/video-cover-model.png";
+import videoCover from "@/assets/video-cover-new.png";
 
 const VideoSection = () => {
   const [isPlaying, setIsPlaying] = useState(false);
