@@ -11,7 +11,7 @@ const CTASection = () => {
           Pronto para agilizar seu dia?
         </h2>
         <p className="text-xl mb-8 text-muted-foreground">
-          Fale agora com nossa equipe pelo WhatsApp e receba seu orçamento agora.
+          Fale agora com nossa equipe pelo WhatsApp e o motoboy vai onde precisar para você.
         </p>
         <Button 
           variant="whatsapp" 
