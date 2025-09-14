@@ -3,7 +3,7 @@ import logoEscudo from "@/assets/logo-escudo.png";
 
 const Header = () => {
   return (
-    <header className="bg-primary text-primary-foreground py-4 px-5">
+    <header className="bg-primary text-primary-foreground py-4 px-5 sticky top-0 z-50 shadow-lg">
       <div className="max-w-7xl mx-auto flex items-center justify-center">
         <div className="flex items-center gap-3">
           <img 

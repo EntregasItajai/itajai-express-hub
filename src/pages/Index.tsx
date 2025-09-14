@@ -10,6 +10,7 @@ import MotoboyAnimationSection from "@/components/MotoboyAnimationSection";
 import HoursSection from "@/components/HoursSection";
 import Footer from "@/components/Footer";
 import FloatingWhatsAppButton from "@/components/FloatingWhatsAppButton";
+import ScrollToTopButton from "@/components/ScrollToTopButton";
 
 const Index = () => {
   return (
@@ -27,6 +28,7 @@ const Index = () => {
       </main>
       <Footer />
       <FloatingWhatsAppButton />
+      <ScrollToTopButton />
     </div>
   );
 };
