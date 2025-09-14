@@ -13,7 +13,7 @@ const IntroSection = () => {
         
         <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 max-w-3xl mx-auto">
           Nosso serviço de <strong>motoboy em Itajaí</strong> oferece entrega no mesmo dia em mãos para documentos, encomendas e pequenos volumes. 
-          Realizamos transporte rápido com moto em Itajaí, Navegantes Camboriú e toda região com total segurança. <strong>Chame agora!</strong>
+          Realizamos transporte rápido com moto em Itajaí, Navegantes, Camboriú e toda região com total segurança. <strong>Chame agora!</strong>
         </p>
 
         <p className="text-xl md:text-2xl font-semibold text-primary mb-8">
