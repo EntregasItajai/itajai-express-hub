@@ -35,17 +35,11 @@ const VideoSection = () => {
           
           {!isPlaying && (
             <div 
-              className="absolute inset-0 bg-black/20 flex flex-col items-center justify-center cursor-pointer group"
+              className="absolute inset-0 bg-black/20 flex items-center justify-center cursor-pointer group"
               onClick={toggleVideo}
             >
-              <div className="w-20 h-20 bg-white/90 rounded-full flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform duration-300 mb-4">
+              <div className="w-20 h-20 bg-white/90 rounded-full flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform duration-300">
                 <Play size={32} className="text-primary ml-1" />
-              </div>
-              <div className="text-white text-center px-4">
-                <h3 className="text-lg font-bold tracking-wide">
-                  SUPORTE SOB DEMANDA E<br />
-                  ASSISTÊNCIA OPERACIONAL
-                </h3>
               </div>
             </div>
           )}
