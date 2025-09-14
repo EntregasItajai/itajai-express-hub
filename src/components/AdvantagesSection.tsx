@@ -1,5 +1,5 @@
 import AdvantageCard from "./AdvantageCard";
-import { Clock, Building2, MapPin, Headphones } from "lucide-react";
+import { Clock, Building2, MapPin, MessageCircle } from "lucide-react";
 
 const AdvantagesSection = () => {
   const advantages = [
@@ -18,6 +18,11 @@ const AdvantagesSection = () => {
       title: "Cobertura Regional",
       description: "Itajaí, Navegantes, Penha, Piçarras, Balneário Camboriú, Camboriú, Itapema e cidades próximas."
     },
+    {
+      icon: MessageCircle,
+      title: "Orçamento Imediato",
+      description: "Acione pelo WhatsApp e receba retorno rápido, sem burocracia. Super simples!"
+    }
   ];
 
   return (

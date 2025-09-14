@@ -1,5 +1,5 @@
 import AdvantageCard from "./AdvantageCard";
-import { FileText, MapPin, User, Search, MessageCircle } from "lucide-react";
+import { FileText, MapPin, User, Search } from "lucide-react";
 
 const MoreAdvantagesSection = () => {
   const advantages = [
@@ -17,11 +17,6 @@ const MoreAdvantagesSection = () => {
       icon: Search,
       title: "Suporte Operacional",
       description: "Visitas in loco, diligências e levantamentos de informações — como se fosse o cliente vendo de perto cada detalhe."
-    },
-    {
-      icon: MessageCircle,
-      title: "Orçamento Imediato",
-      description: "Acione pelo WhatsApp e receba retorno rápido, sem burocracia. Super simples!"
     }
   ];
 
