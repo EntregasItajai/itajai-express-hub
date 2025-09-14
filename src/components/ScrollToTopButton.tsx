@@ -7,7 +7,12 @@ const ScrollToTopButton = () => {
 
   useEffect(() => {
     const toggleVisibility = () => {
-      if (window.pageYOffset > 300) {
+      const scrolled = document.documentElement.scrollTop;
+      const maxHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scrollPercentage = (scrolled / maxHeight) * 100;
+      
+      // Aparece quando está a 80% do final da página ou mais
+      if (scrollPercentage > 80) {
         setIsVisible(true);
       } else {
         setIsVisible(false);
@@ -33,7 +38,7 @@ const ScrollToTopButton = () => {
   return (
     <Button
       onClick={scrollToTop}
-      className="fixed bottom-6 right-6 z-50 rounded-full p-3 bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg transition-all duration-300 hover:scale-110"
+      className="fixed bottom-6 left-1/2 transform -translate-x-1/2 z-50 rounded-full p-3 bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg transition-all duration-300 hover:scale-110"
       aria-label="Voltar ao topo"
     >
       <ChevronUp size={24} />
