@@ -3,8 +3,8 @@ import logoEscudo from "@/assets/logo-escudo.png";
 
 const Header = () => {
   return (
-    <header className="bg-primary text-primary-foreground py-4 px-5 relative">
-      <div className="max-w-7xl mx-auto flex items-center justify-between">
+    <header className="bg-primary text-primary-foreground py-4 px-5">
+      <div className="max-w-7xl mx-auto flex items-center justify-center">
         <div className="flex items-center gap-3">
           <img 
             src={logoEscudo} 
@@ -19,17 +19,6 @@ const Header = () => {
               Seu parceiro de confiança
             </p>
           </div>
-        </div>
-        
-        <div className="text-right">
-          <a 
-            href="tel:+5547991508563" 
-            className="text-primary-foreground no-underline text-xl font-bold hover:text-secondary transition-colors duration-300 flex items-center justify-end gap-2"
-          >
-            <Phone size={22} />
-            (47) 99150-8563
-          </a>
-          <p className="mt-1 text-sm opacity-90">Clique aqui para ligar</p>
         </div>
       </div>
     </header>
