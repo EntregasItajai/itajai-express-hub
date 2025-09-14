@@ -16,7 +16,7 @@ const Header = () => {
               ENTREGAS ITAJAÍ
             </h1>
             <p className="text-sm text-primary-foreground/80 font-medium">
-              Seu parceiro de confiança
+              Motoboy & Serviços sob Demanda
             </p>
           </div>
         </div>
