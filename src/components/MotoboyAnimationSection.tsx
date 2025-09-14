@@ -41,7 +41,7 @@ const MotoboyAnimationSection = () => {
           <LazyImage 
             src={motoboyMoving} 
             alt="Motoboy em movimento" 
-            className="h-24 w-auto transform scale-x-[-1]"
+            className="h-24 w-auto"
           />
         </div>
         
