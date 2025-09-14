@@ -8,12 +8,12 @@ const IntroSection = () => {
     <section className="py-16 px-5 bg-ice">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-4xl md:text-5xl font-bold mb-8 text-foreground">
-          Motoboy em Itajaí e Região: Sua Entrega Urgente, Simplificada.
+          Entrega de Documentos e Coletas Rápidas em Itajaí
         </h2>
         
         <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 max-w-3xl mx-auto">
-          Levar um item, pode ser uma caixa, sacola, mochila, ou que precisar. Postar uma encomenda, ir no cartório. 
-          Como podemos lhe ajudar? Estamos prontos para lhe atender rapidamente. <strong>Chame agora!</strong>
+          Nosso serviço de <strong>motoboy em Itajaí</strong> oferece entrega no mesmo dia em mãos para documentos, encomendas e pequenos volumes. 
+          Realizamos transporte rápido com moto em Itajaí, Navegantes e Camboriú com total segurança. <strong>Chame agora!</strong>
         </p>
 
         <p className="text-xl md:text-2xl font-semibold text-primary mb-8">

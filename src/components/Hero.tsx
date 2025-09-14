@@ -17,7 +17,7 @@ const Hero = () => {
     >
       <div className="max-w-4xl mx-auto z-10">
         <h1 className="text-5xl md:text-6xl font-bold mb-4 uppercase tracking-wide">
-          MOTOBOY ENTREGAS ITAJAÍ
+          SERVIÇO DE MOTOBOY EXPRESS EM ITAJAÍ E REGIÃO
         </h1>
         <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-8 leading-relaxed">
           Você com mais tempo para o que realmente importa. Somos seu braço externo, 
