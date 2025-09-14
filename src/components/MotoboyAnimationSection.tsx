@@ -38,11 +38,13 @@ const MotoboyAnimationSection = () => {
             isVisible ? 'opacity-100 moto-loop' : 'opacity-0'
           }`}
         >
-          <LazyImage 
-            src={motoboyMoving} 
-            alt="Motoboy em movimento" 
-            className="h-24 w-auto transform scale-x-[-1]"
-          />
+          <div className="transform scale-x-[-1]">
+            <LazyImage 
+              src={motoboyMoving} 
+              alt="Motoboy em movimento" 
+              className="h-24 w-auto"
+            />
+          </div>
         </div>
         
         <div 
