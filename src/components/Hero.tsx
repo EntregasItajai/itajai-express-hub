@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
+import LazyImage from "@/components/LazyImage";
 import heroImage from "@/assets/hero-motoboy-new.jpg";
 import MotoboyAnimationSection from "@/components/MotoboyAnimationSection";
 

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import LazyImage from "@/components/LazyImage";
 import motoboyMoving from "@/assets/motoboy-moving.png";
 
 const MotoboyAnimationSection = () => {
@@ -37,7 +38,7 @@ const MotoboyAnimationSection = () => {
             isVisible ? 'opacity-100 moto-loop' : 'opacity-0'
           }`}
         >
-          <img 
+          <LazyImage 
             src={motoboyMoving} 
             alt="Motoboy em movimento" 
             className="h-24 w-auto transform scale-x-[-1]"
