@@ -6,7 +6,7 @@ const MoreAdvantagesSection = () => {
     {
       icon: FileText,
       title: "Documentos",
-      description: "Notificações, protocolos, coleta de assinaturas, notificações para jurídico, suporte a despachante veicular ou aduaneiro."
+      description: "Retiradas, envios, protocolos, coleta de assinaturas, notificações para jurídico, suporte a despachante veicular ou aduaneiro."
     },
     {
       icon: User,
