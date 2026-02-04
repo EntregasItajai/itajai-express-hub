@@ -17,7 +17,7 @@ const CasosReais = () => {
       title: "A Imobiliária Fantasma",
       subtitle: "Golpe de Aluguel Evitado",
       description: "Um profissional liberal de outra cidade queria alugar uma sala comercial em prédio de luxo. A imobiliária parecia legítima, mas algo não batia.",
-      resultado: "Nossa diligência confirmou: a sala estava completamente vazia e a imobiliária não existia. O cliente evitou perder a caução e meses de aluguel adiantado.",
+      resultado: "Nossa diligência confirmou: a sala estava completamente vazia e a imobiliária não existia. O cliente evitou perder o valor da caução.",
       tipo: "Verificação de Endereço",
       cor: "destructive"
     },
@@ -35,7 +35,7 @@ const CasosReais = () => {
       title: "O Pátio Vazio",
       subtitle: "Containers Inexistentes",
       description: "Um cliente buscava um container para sua obra e encontrou um anúncio com preço atrativo. Solicitou verificação antes de pagar.",
-      resultado: "O pátio anunciado era, na verdade, um terreno vazio e trancado. Nenhum container, nenhuma estrutura. Prejuízo evitado com relatório fotográfico.",
+      resultado: "Em visita ao endereço, constatamos que a empresa estava encerrando suas atividades. O pátio já não tinha nenhum container, com mato alto, e os funcionários não souberam explicar sobre o vídeo anunciado como atual mostrando o pátio cheio.",
       tipo: "Verificação de Estoque",
       cor: "destructive"
     },
