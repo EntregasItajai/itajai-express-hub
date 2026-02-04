@@ -6,17 +6,17 @@ const AdvantagesSection = () => {
     {
       icon: Clock,
       title: "Ganhe Tempo",
-      description: "Oferecemos agilidade e confiabilidade em Itajaí e região. Entregas expressas de documentos e pequenos objetos (até 50 kg) com rapidez e segurança."
+      description: "Oferecemos agilidade e confiabilidade em Itajaí e região. Diligências, visita técnica para coleta de assinaturas e entrega de contrato bancário com digitalização."
     },
     {
       icon: Building2,
       title: "Soluções para Empresas",
-      description: "Parceiro logístico ideal: retiradas e entregas em transportadoras de Itajaí e região, incluindo transportadoras aéreas no Aeroporto de Navegantes, além de protocolos em prefeituras, cartórios e repartições."
+      description: "Parceiro logístico ideal: vistoria técnica de obra e edificação, protocolos em prefeituras, cartórios, repartições e confirmação de existência de comércio presencial."
     },
     {
       icon: MapPin,
       title: "Cobertura Regional",
-      description: "Itajaí, Navegantes, Penha, Piçarras, Balneário Camboriú, Camboriú, Itapema e cidades próximas."
+      description: "Itajaí, Navegantes, Penha, Piçarras, Balneário Camboriú, Camboriú, Itapema e cidades próximas. Verificação de endereço e combate a golpes em toda região."
     },
     {
       icon: MessageCircle,

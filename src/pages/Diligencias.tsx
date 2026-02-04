@@ -1,16 +1,25 @@
+import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingWhatsAppButton from "@/components/FloatingWhatsAppButton";
 import ScrollToTopButton from "@/components/ScrollToTopButton";
 import TechnicalReportBadge from "@/components/TechnicalReportBadge";
 import { Button } from "@/components/ui/button";
-import { MessageCircle, CreditCard, Shield, Building2, FileCheck, Camera, MapPin } from "lucide-react";
+import { MessageCircle, CreditCard, ShieldCheck, Building2, FileSignature, Smartphone, MapPin } from "lucide-react";
 
 const Diligencias = () => {
-  const whatsappUrl = "https://wa.me/5547991508563?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20diligências.";
+  const whatsappUrl = "https://wa.me/5547991508563?text=Olá%20Alan!%20Preciso%20de%20uma%20verificação%20de%20anúncio%20ou%20local%20em%20Itajaí.";
 
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>Diligências e Verificações Técnicas em Itajaí | Entregas Itajaí</title>
+        <meta name="description" content="Diligência para verificação de anúncio de veículo em Itajaí. Vistoria técnica de obra e edificação, entrega de contrato bancário com digitalização e verificação de endereço para combate a golpes." />
+        <meta name="keywords" content="diligência verificação anúncio veículo, vistoria técnica obra edificação, entrega contrato bancário digitalização, verificação endereço combate golpes, motoboy coletar assinatura itajaí" />
+        <link rel="canonical" href="https://entregasitajai.com.br/diligencias" />
+        <meta property="og:title" content="Diligências e Verificações Técnicas em Itajaí" />
+        <meta property="og:description" content="Visita técnica para coleta de assinaturas em contratos, digitalização de documentos para operações bancárias e confirmação de existência de comércio presencial." />
+      </Helmet>
       <Header />
       <main>
         {/* Hero Section */}
@@ -20,8 +29,8 @@ const Diligencias = () => {
               Diligências e Verificações Técnicas
             </h1>
             <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-8 leading-relaxed">
-              Vistorias in loco com documentação profissional para operações de crédito, 
-              prevenção de fraudes e inspeções técnicas de edificações.
+              Visita técnica para coleta de assinaturas em contratos, digitalização de documentos 
+              para operações bancárias e confirmação de existência de comércio presencial.
             </p>
             <Button 
               variant="hero" 
@@ -55,21 +64,21 @@ const Diligencias = () => {
                 </p>
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
-                    <FileCheck className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
+                    <FileSignature className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                     <span className="text-foreground">
-                      <strong>Coleta de assinaturas</strong> em contratos com verificação de identidade
+                      <strong>Visita técnica para coleta de assinaturas</strong> em contratos com verificação de identidade
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Camera className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
+                    <Smartphone className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                     <span className="text-foreground">
-                      <strong>Digitalização profissional</strong> de documentos com qualidade certificada
+                      <strong>Digitalização de documentos</strong> para operações bancárias com qualidade certificada
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                     <span className="text-foreground">
-                      <strong>Fotos técnicas</strong> de fachada e rua para comprovação de residência
+                      <strong>Fotos técnicas de fachada e rua</strong> para comprovação de residência e verificação de endereço
                     </span>
                   </li>
                 </ul>
@@ -95,32 +104,32 @@ const Diligencias = () => {
               <div className="lg:order-2">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-12 h-12 bg-destructive/20 rounded-full flex items-center justify-center">
-                    <Shield className="w-6 h-6 text-destructive" />
+                    <ShieldCheck className="w-6 h-6 text-destructive" />
                   </div>
                   <h2 className="text-3xl font-bold text-foreground">
                     Prevenção de Fraudes (Anti-Golpe)
                   </h2>
                 </div>
                 <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                  Verificação presencial para evitar golpes e anúncios fraudulentos antes de fechar negócios.
+                  Diligência para verificação de anúncio de veículo, imóvel ou empresa antes de fechar negócios.
                 </p>
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
-                    <Shield className="w-5 h-5 text-destructive mt-1 flex-shrink-0" />
+                    <ShieldCheck className="w-5 h-5 text-destructive mt-1 flex-shrink-0" />
                     <span className="text-foreground">
-                      <strong>Verificação física</strong> de empresas, lojas e estabelecimentos
+                      <strong>Confirmação de existência</strong> de comércio presencial, lojas e estabelecimentos
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Shield className="w-5 h-5 text-destructive mt-1 flex-shrink-0" />
+                    <ShieldCheck className="w-5 h-5 text-destructive mt-1 flex-shrink-0" />
                     <span className="text-foreground">
-                      <strong>Constatação de anúncios</strong> de veículos, imóveis e containers
+                      <strong>Verificação de anúncios</strong> de veículos, imóveis e containers para combate a golpes
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Shield className="w-5 h-5 text-destructive mt-1 flex-shrink-0" />
+                    <ShieldCheck className="w-5 h-5 text-destructive mt-1 flex-shrink-0" />
                     <span className="text-foreground">
-                      <strong>Coleta de contatos oficiais</strong> no local para validação
+                      <strong>Coleta de contatos oficiais</strong> no local para validação e verificação de endereço
                     </span>
                   </li>
                 </ul>
@@ -149,7 +158,7 @@ const Diligencias = () => {
                     <Building2 className="w-6 h-6 text-accent" />
                   </div>
                   <h2 className="text-3xl font-bold text-foreground">
-                    Vistoria de Edificações e Estruturas
+                    Vistoria Técnica de Obra e Edificação
                   </h2>
                 </div>
                 <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
@@ -157,7 +166,7 @@ const Diligencias = () => {
                 </p>
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
-                    <Camera className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
+                    <Building2 className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                     <span className="text-foreground">
                       <strong>Fotos de progresso</strong> de obras para investidores e construtores
                     </span>
@@ -169,7 +178,7 @@ const Diligencias = () => {
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <FileCheck className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
+                    <FileSignature className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                     <span className="text-foreground">
                       <strong>Documentação</strong> para licenciamento ambiental e fiscal
                     </span>

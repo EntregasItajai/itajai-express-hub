@@ -15,6 +15,7 @@ const Hero = () => {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
+      aria-label="Motoboy para coletar assinatura em Itajaí - Diligências e vistorias técnicas"
     >
       <div className="max-w-4xl mx-auto z-10">
         <h1 className="text-5xl md:text-6xl font-bold mb-4 uppercase tracking-wide">
@@ -25,7 +26,7 @@ const Hero = () => {
           seu assistente de confiança para a correria do dia a dia.
         </p>
         <p className="text-lg md:text-xl max-w-3xl mx-auto mb-8 leading-relaxed text-secondary font-semibold">
-          Especialistas em Diligências In Loco, Apoio Jurídico e Inspeções Técnicas de Edificações.
+          Especialistas em Diligências In Loco, Apoio Jurídico e Vistorias Técnicas de Edificações.
         </p>
         <Button 
           variant="hero" 
