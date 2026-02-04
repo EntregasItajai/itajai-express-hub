@@ -199,7 +199,7 @@ const ApoioJuridico = () => {
               Agilize seus Processos Jurídicos
             </h2>
             <p className="text-xl mb-8 opacity-90">
-              Apoio operacional confiável para seu escritório de advocacia
+              Apoio operacional confiável para seu escritório
             </p>
             <Button 
               variant="hero" 
