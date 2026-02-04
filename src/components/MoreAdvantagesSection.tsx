@@ -1,12 +1,12 @@
 import AdvantageCard from "./AdvantageCard";
-import { FileText, MapPin, User, Search } from "lucide-react";
+import { FileSignature, User, ShieldCheck } from "lucide-react";
 
 const MoreAdvantagesSection = () => {
   const advantages = [
     {
-      icon: FileText,
+      icon: FileSignature,
       title: "Documentos",
-      description: "Retiradas, envios, protocolos, coleta de assinaturas, notificações para jurídico, suporte a despachante veicular ou aduaneiro."
+      description: "Retiradas, envios, protocolos, visita técnica para coleta de assinaturas em contratos, notificações para jurídico, suporte a despachante veicular ou aduaneiro."
     },
     {
       icon: User,
@@ -14,9 +14,9 @@ const MoreAdvantagesSection = () => {
       description: "Buscamos itens pessoais por você: chave da casa ou escritório, celular na assistência, retirada em lojas, entregar um presente, buscar um item na casa de um amigo — praticidade e cuidado no seu dia a dia."
     },
     {
-      icon: Search,
-      title: "Suporte Operacional",
-      description: "Visitas in loco, diligências e levantamentos de informações — como se fosse o cliente vendo de perto cada detalhe."
+      icon: ShieldCheck,
+      title: "Diligências Anti-Golpe",
+      description: "Diligência para verificação de anúncio de veículo, imóvel ou empresa. Confirmação de existência de comércio presencial e verificação de endereço para combate a golpes."
     }
   ];
 

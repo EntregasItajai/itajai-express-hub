@@ -1,27 +1,41 @@
+import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingWhatsAppButton from "@/components/FloatingWhatsAppButton";
 import ScrollToTopButton from "@/components/ScrollToTopButton";
 import TechnicalReportBadge from "@/components/TechnicalReportBadge";
 import { Button } from "@/components/ui/button";
-import { MessageCircle, Scale, FileSignature, Building, HandCoins, Clock, Shield } from "lucide-react";
+import { MessageCircle, Scale, FileSignature, Building2, HandCoins, Clock, ShieldCheck, Smartphone, Users } from "lucide-react";
 
 const ApoioJuridico = () => {
-  const whatsappUrl = "https://wa.me/5547991508563?text=Olá!%20Gostaria%20de%20saber%20sobre%20apoio%20jurídico.";
+  const whatsappUrl = "https://wa.me/5547991508563?text=Olá!%20Gostaria%20de%20suporte%20para%20coleta%20de%20assinaturas%20e%20notificações%20jurídicas.";
 
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>Apoio Jurídico e Coleta de Assinaturas em Itajaí | Entregas Itajaí</title>
+        <meta name="description" content="Motoboy para coletar assinatura em Itajaí. Notificações extrajudiciais, protocolos detalhados e acompanhamento bancário para escritórios de advocacia e assessorias jurídicas." />
+        <meta name="keywords" content="motoboy coletar assinatura itajaí, notificação extrajudicial itajaí, coleta assinatura contrato, protocolo jurídico, apoio escritório advocacia" />
+        <link rel="canonical" href="https://entregasitajai.com.br/apoio-juridico" />
+        <meta property="og:title" content="Apoio Jurídico e Coleta de Assinaturas em Itajaí" />
+        <meta property="og:description" content="Suporte operacional para escritórios de advocacia: notificações, coleta de assinaturas e acompanhamento bancário." />
+      </Helmet>
       <Header />
       <main>
         {/* Hero Section */}
         <section className="bg-primary text-primary-foreground py-20 px-5">
           <div className="max-w-4xl mx-auto text-center">
+            <div className="flex justify-center mb-6">
+              <div className="w-16 h-16 bg-secondary/20 rounded-full flex items-center justify-center">
+                <Scale className="w-8 h-8 text-secondary" />
+              </div>
+            </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4 uppercase tracking-wide">
               Apoio Jurídico Especializado
             </h1>
             <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-8 leading-relaxed">
-              Suporte operacional para advogados e assessorias jurídicas. 
-              Notificações, protocolos e acompanhamento com documentação profissional.
+              Motoboy para coletar assinatura em Itajaí. Suporte operacional especializado 
+              para advogados e assessorias jurídicas com documentação profissional.
             </p>
             <Button 
               variant="hero" 
@@ -55,7 +69,7 @@ const ApoioJuridico = () => {
                 </p>
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
-                    <Shield className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
+                    <ShieldCheck className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                     <span className="text-foreground">
                       <strong>Fé pública digital</strong> com registro fotográfico e geolocalização
                     </span>
@@ -98,11 +112,11 @@ const ApoioJuridico = () => {
                     <Scale className="w-6 h-6 text-accent" />
                   </div>
                   <h2 className="text-3xl font-bold text-foreground">
-                    Protocolos e Coleta de Assinaturas
+                    Visita Técnica para Coleta de Assinaturas
                   </h2>
                 </div>
                 <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                  Coleta de assinaturas em documentos jurídicos com protocolo detalhado e seguro.
+                  Visita técnica para coleta de assinaturas em contratos, procurações e documentos jurídicos com protocolo detalhado.
                 </p>
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
@@ -112,7 +126,7 @@ const ApoioJuridico = () => {
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Shield className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
+                    <ShieldCheck className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                     <span className="text-foreground">
                       <strong>Verificação de identidade</strong> com foto do documento
                     </span>
@@ -146,14 +160,14 @@ const ApoioJuridico = () => {
               <div>
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center">
-                    <Building className="w-6 h-6 text-accent" />
+                    <Building2 className="w-6 h-6 text-accent" />
                   </div>
                   <h2 className="text-3xl font-bold text-foreground">
                     Acompanhamento Bancário
                   </h2>
                 </div>
                 <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                  Suporte para liberações de valores, alvarás e recebimento de honorários advocatícios.
+                  Entrega de contrato bancário com digitalização, suporte para liberações de alvarás e recebimento de honorários.
                 </p>
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
@@ -163,15 +177,15 @@ const ApoioJuridico = () => {
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Building className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
+                    <Building2 className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                     <span className="text-foreground">
                       <strong>Protocolo em bancos</strong> de documentos e solicitações
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <FileSignature className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
+                    <Smartphone className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                     <span className="text-foreground">
-                      <strong>Retirada de documentos</strong> e comprovantes bancários
+                      <strong>Digitalização de documentos</strong> para operações bancárias
                     </span>
                   </li>
                 </ul>
@@ -185,6 +199,40 @@ const ApoioJuridico = () => {
                   <li>• Protocolo de documentos</li>
                   <li>• Acompanhamento de processos</li>
                 </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Diferenciais */}
+        <section className="py-16 px-5 bg-muted/50">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-foreground mb-4">
+                Por que Escritórios nos Escolhem
+              </h2>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div className="text-center p-6">
+                <Clock className="w-10 h-10 text-accent mx-auto mb-4" />
+                <h3 className="font-semibold text-foreground mb-2">Agilidade</h3>
+                <p className="text-sm text-muted-foreground">Atendimento no mesmo dia para demandas urgentes</p>
+              </div>
+              <div className="text-center p-6">
+                <Scale className="w-10 h-10 text-accent mx-auto mb-4" />
+                <h3 className="font-semibold text-foreground mb-2">Confiabilidade</h3>
+                <p className="text-sm text-muted-foreground">Protocolos detalhados aceitos juridicamente</p>
+              </div>
+              <div className="text-center p-6">
+                <Smartphone className="w-10 h-10 text-accent mx-auto mb-4" />
+                <h3 className="font-semibold text-foreground mb-2">Digitalização</h3>
+                <p className="text-sm text-muted-foreground">Documentos digitalizados com qualidade profissional</p>
+              </div>
+              <div className="text-center p-6">
+                <Users className="w-10 h-10 text-accent mx-auto mb-4" />
+                <h3 className="font-semibold text-foreground mb-2">Experiência</h3>
+                <p className="text-sm text-muted-foreground">Equipe treinada para demandas jurídicas</p>
               </div>
             </div>
           </div>

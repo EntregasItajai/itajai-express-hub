@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingWhatsAppButton from "@/components/FloatingWhatsAppButton";
@@ -5,52 +6,60 @@ import ScrollToTopButton from "@/components/ScrollToTopButton";
 import TechnicalReportBadge from "@/components/TechnicalReportBadge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { MessageCircle, Building2, Car, Package, Radio, Shield, AlertTriangle, CheckCircle } from "lucide-react";
+import { MessageCircle, Building2, Car, Package, Radio, ShieldCheck, AlertTriangle, CheckCircle, BadgeCheck } from "lucide-react";
 
 const CasosReais = () => {
-  const whatsappUrl = "https://wa.me/5547991508563?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20diligências.";
+  const whatsappUrl = "https://wa.me/5547991508563?text=Vi%20os%20casos%20reais%20no%20site%20e%20gostaria%20de%20um%20orçamento%20para%20uma%20vistoria%20similar.";
 
   const casos = [
     {
       icon: Building2,
       title: "A Imobiliária Fantasma",
       subtitle: "Golpe de Aluguel Evitado",
-      description: "Cliente estava prestes a depositar caução de R$ 8.000 para alugar apartamento de luxo. Solicitou nossa diligência antes da transferência.",
-      resultado: "Encontramos sala comercial completamente vazia em prédio de alto padrão. O suposto corretor não existia no CRECI. Golpe evitado com relatório fotográfico e coordenadas GPS.",
-      tipo: "Prevenção de Fraude",
+      description: "Um profissional liberal de outra cidade queria alugar uma sala comercial em prédio de luxo. A imobiliária parecia legítima, mas algo não batia.",
+      resultado: "Nossa diligência confirmou: a sala estava completamente vazia e a imobiliária não existia. O cliente evitou perder a caução e meses de aluguel adiantado.",
+      tipo: "Verificação de Endereço",
       cor: "destructive"
     },
     {
       icon: Car,
-      title: "O Vídeo Antigo",
-      subtitle: "Revenda de Veículos Fraudulenta",
-      description: "Investidor de São Paulo queria comprar lote de veículos de revenda em Itajaí. Vendedor enviava vídeos de estoque e funcionárias atendendo.",
-      resultado: "Vistoria revelou loja fechada há meses. Vídeos eram gravações antigas. Coletamos fotos do local abandonado e contatos de vizinhos que confirmaram o fechamento.",
-      tipo: "Verificação de Anúncio",
+      title: "O Anúncio Clonado",
+      subtitle: "Carro já Vendido",
+      description: "Um cliente de fora do estado queria reservar um veículo específico anunciado online. Pediu para confirmarmos se o carro realmente estava disponível.",
+      resultado: "A vistoria provou que o anúncio era clone - o veículo já havia sido vendido há semanas. Golpe evitado antes da transferência.",
+      tipo: "Diligência Anti-Golpe",
       cor: "destructive"
     },
     {
       icon: Package,
       title: "O Pátio Vazio",
-      subtitle: "Estoque de Containers Inexistente",
-      description: "Empresa de logística negociava compra de 50 containers usados. Vendedor alegava ter pátio repleto em Navegantes.",
-      resultado: "Diligência encontrou terreno baldio com mato alto. Nenhum container, nenhuma estrutura. Relatório com geolocalização comprovou fraude antes do pagamento de R$ 150.000.",
+      subtitle: "Containers Inexistentes",
+      description: "Um cliente buscava um container para sua obra e encontrou um anúncio com preço atrativo. Solicitou verificação antes de pagar.",
+      resultado: "O pátio anunciado era, na verdade, um terreno vazio e trancado. Nenhum container, nenhuma estrutura. Prejuízo evitado com relatório fotográfico.",
       tipo: "Verificação de Estoque",
       cor: "destructive"
     },
     {
       icon: Radio,
-      title: "Inspeção de Ninhos em Torres",
+      title: "Inspeção de Torres",
       subtitle: "Documentação para Licenciamento",
-      description: "Empresa de telecomunicações precisava de registro fotográfico de torres para licenciamento ambiental, verificando presença de ninhos de aves.",
-      resultado: "Realizamos inspeção visual de 12 torres na região, documentando condições estruturais e presença de fauna. Relatório técnico aceito pelo órgão ambiental.",
-      tipo: "Inspeção Técnica",
+      description: "Empresa de telecomunicações precisava de registro fotográfico de torres para licenciamento ambiental.",
+      resultado: "Realizamos inspeção visual de 12 torres na região, documentando condições estruturais. Relatório técnico aceito pelo órgão ambiental.",
+      tipo: "Vistoria Técnica",
       cor: "accent"
     }
   ];
 
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>Casos Reais de Diligências em Itajaí | Entregas Itajaí</title>
+        <meta name="description" content="Histórias reais de diligências que evitaram golpes: imobiliárias fantasmas, anúncios clonados de veículos, estoques fictícios. Verificação de endereço e combate a fraudes em Itajaí." />
+        <meta name="keywords" content="diligência anti-golpe, verificação anúncio veículo, imobiliária fantasma, combate fraude itajaí, verificação endereço" />
+        <link rel="canonical" href="https://entregasitajai.com.br/casos-reais" />
+        <meta property="og:title" content="Casos Reais de Diligências - Golpes Evitados" />
+        <meta property="og:description" content="Veja como nossas diligências evitaram prejuízos reais: imobiliárias fantasmas, anúncios clonados e estoques fictícios." />
+      </Helmet>
       <Header />
       <main>
         {/* Hero Section */}
@@ -98,8 +107,8 @@ const CasosReais = () => {
                 Histórias que Fazem a Diferença
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Cada diligência conta uma história. Conheça casos reais onde nossa atuação 
-                fez a diferença na proteção dos nossos clientes.
+                Cada diligência conta uma história. Veja casos reais onde nossa 
+                verificação de endereço e combate a golpes fez a diferença.
               </p>
             </div>
 
@@ -142,6 +151,13 @@ const CasosReais = () => {
                         </div>
                         <p className="text-muted-foreground text-sm">{caso.resultado}</p>
                       </div>
+                      {/* Selo de História Real */}
+                      <div className="pt-4 border-t border-border">
+                        <div className="flex items-center gap-2 text-xs text-muted-foreground">
+                          <BadgeCheck className="w-4 h-4 text-accent" />
+                          <span className="italic">História real baseada em diligência executada pela Entregas Itajaí</span>
+                        </div>
+                      </div>
                     </div>
                   </CardContent>
                 </Card>
@@ -153,13 +169,13 @@ const CasosReais = () => {
         {/* Alerta */}
         <section className="py-12 px-5 bg-destructive/10">
           <div className="max-w-4xl mx-auto text-center">
-            <Shield className="w-16 h-16 text-destructive mx-auto mb-4" />
+            <ShieldCheck className="w-16 h-16 text-destructive mx-auto mb-4" />
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
               Não Seja a Próxima Vítima
             </h2>
             <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
-              Antes de transferir valores altos, solicite uma diligência. 
-              O custo da verificação é infinitamente menor que o prejuízo de um golpe.
+              Antes de transferir valores, solicite uma diligência para verificação de anúncio de veículo, 
+              imóvel ou empresa. O custo da verificação é infinitamente menor que o prejuízo de um golpe.
             </p>
           </div>
         </section>
