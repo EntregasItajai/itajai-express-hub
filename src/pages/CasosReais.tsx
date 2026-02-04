@@ -167,15 +167,16 @@ const CasosReais = () => {
         </section>
 
         {/* Alerta */}
-        <section className="py-12 px-5 bg-destructive/10">
+        <section className="py-12 px-5 bg-accent/10">
           <div className="max-w-4xl mx-auto text-center">
-            <ShieldCheck className="w-16 h-16 text-destructive mx-auto mb-4" />
+            <ShieldCheck className="w-16 h-16 text-accent mx-auto mb-4" />
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-              Não Seja a Próxima Vítima
+              Segurança e Transparência para os Seus Negócios
             </h2>
             <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
-              Antes de transferir valores, solicite uma diligência para verificação de anúncio de veículo, 
-              imóvel ou empresa. O custo da verificação é infinitamente menor que o prejuízo de um golpe.
+              <strong>Proteção de interesses</strong> através de verificação profissional. 
+              Solicite uma diligência para <strong>garantia de veracidade</strong> de anúncios de veículos, 
+              imóveis ou empresas antes de fechar negócio.
             </p>
           </div>
         </section>
