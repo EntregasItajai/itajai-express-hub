@@ -17,7 +17,7 @@ const CasosReais = () => {
       title: "A Imobiliária Fantasma",
       subtitle: "Golpe de Aluguel Evitado",
       description: "Um profissional liberal de outra cidade queria alugar uma sala comercial em prédio de luxo. A imobiliária parecia legítima, mas algo não batia.",
-      resultado: "Nossa diligência confirmou: a sala estava completamente vazia e a imobiliária não existia. O cliente evitou perder o valor da caução.",
+      resultado: "Nossa diligência confirmou: a sala estava completamente vazia e a imobiliária não existia. O cliente evitou perder o valor depositado como caução.",
       tipo: "Verificação de Endereço",
       cor: "destructive"
     },
