@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { MessageCircle, Scale, FileSignature, Building2, HandCoins, Clock, ShieldCheck, Smartphone, Users } from "lucide-react";
 
 const ApoioJuridico = () => {
-  const whatsappUrl = "https://wa.me/5547991508563?text=Olá!%20Gostaria%20de%20suporte%20para%20coleta%20de%20assinaturas%20e%20notificações%20jurídicas.";
+  const whatsappUrl = "https://wa.me/5547991508563?text=Olá!%20Gostaria%20de%20solicitar%20uma%20diligência%20jurídica%20na%20região%20de%20Itajaí.";
 
   return (
     <div className="min-h-screen bg-background">
