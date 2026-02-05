@@ -6,6 +6,7 @@ import ScrollToTopButton from "@/components/ScrollToTopButton";
 import TechnicalReportBadge from "@/components/TechnicalReportBadge";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, CreditCard, ShieldCheck, Building2, FileSignature, Smartphone, MapPin } from "lucide-react";
+import { Car, Wrench, Eye } from "lucide-react";
 
 const Diligencias = () => {
   const whatsappUrl = "https://wa.me/5547991508563?text=Olá!%20Gostaria%20de%20solicitar%20uma%20diligência%20técnica%20na%20região%20de%20Itajaí.";
@@ -142,6 +143,59 @@ const Diligencias = () => {
                   <li>• Empresas inexistentes</li>
                   <li>• Estoques fictícios</li>
                   <li>• Vendedores fraudulentos</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Edificações */}
+        {/* Pátios de Leilão */}
+        <section className="py-16 px-5 bg-muted/50">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div className="lg:order-2">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center">
+                    <Car className="w-6 h-6 text-accent" />
+                  </div>
+                  <h2 className="text-3xl font-bold text-foreground">
+                    Verificação em Pátios de Leilão
+                  </h2>
+                </div>
+                <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+                  Inspeção minuciosa de veículos em pátios de leilão antes da compra, garantindo segurança na sua decisão.
+                </p>
+                <ul className="space-y-4">
+                  <li className="flex items-start gap-3">
+                    <Wrench className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
+                    <span className="text-foreground">
+                      <strong>Verificação de vazamentos</strong> de óleo, fluidos e sinais de problemas mecânicos
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <Eye className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
+                    <span className="text-foreground">
+                      <strong>Inspeção de danos estruturais</strong>, lataria, pintura e sinais de colisão
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <Car className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
+                    <span className="text-foreground">
+                      <strong>Avaliação da conservação interna</strong>, painel, bancos, acabamentos e funcionamento geral
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div className="bg-card rounded-2xl p-8 shadow-lg lg:order-1">
+                <h3 className="text-xl font-semibold text-foreground mb-4">O que verificamos:</h3>
+                <ul className="space-y-3 text-muted-foreground">
+                  <li>• Vazamentos de óleo e fluidos</li>
+                  <li>• Danos na estrutura e chassi</li>
+                  <li>• Estado da pintura e lataria</li>
+                  <li>• Conservação do interior</li>
+                  <li>• Pneus, freios e suspensão</li>
+                  <li>• Sinais de alagamento ou incêndio</li>
                 </ul>
               </div>
             </div>
