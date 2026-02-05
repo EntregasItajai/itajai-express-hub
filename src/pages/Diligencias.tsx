@@ -15,11 +15,11 @@ const Diligencias = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Diligências e Verificações Técnicas em Itajaí | Entregas Itajaí</title>
-        <meta name="description" content="Diligência para verificação de anúncio de veículo em Itajaí. Vistoria técnica de obra e edificação, entrega de contrato bancário com digitalização e verificação de endereço para combate a golpes." />
-        <meta name="keywords" content="diligência verificação anúncio veículo, vistoria técnica obra edificação, entrega contrato bancário digitalização, verificação endereço combate golpes, motoboy coletar assinatura itajaí" />
+        <meta name="description" content="Verificação de veículos em pátios de leilão em Itajaí e Navegantes. Diligência para inspeção de vazamentos, danos estruturais e conservação. Vistoria técnica de obra, entrega de contrato bancário e verificação de endereço." />
+        <meta name="keywords" content="verificação veículo leilão itajaí, inspeção carro pátio leilão navegantes, vistoria veículo antes compra, verificar vazamento óleo veículo, diligência verificação anúncio veículo, vistoria técnica obra edificação, entrega contrato bancário digitalização, verificação endereço combate golpes, motoboy coletar assinatura itajaí" />
         <link rel="canonical" href="https://entregasitajai.com.br/diligencias" />
         <meta property="og:title" content="Diligências e Verificações Técnicas em Itajaí" />
-        <meta property="og:description" content="Visita técnica para coleta de assinaturas em contratos, digitalização de documentos para operações bancárias e confirmação de existência de comércio presencial." />
+        <meta property="og:description" content="Verificação de veículos em pátios de leilão, inspeção de vazamentos e danos. Diligências técnicas para operações bancárias e prevenção de fraudes em Itajaí, Navegantes e região." />
       </Helmet>
       <Header />
       <main>
