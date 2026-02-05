@@ -8,17 +8,17 @@ const IntroSection = () => {
     <section className="py-16 px-5 bg-ice">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-4xl md:text-5xl font-bold mb-8 text-foreground">
-          Motoboy para Coletar Assinatura em Itajaí
+          Entrega de Documentos e Coletas Rápidas em Itajaí
         </h2>
         
         <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 max-w-3xl mx-auto">
-          Nosso serviço de <strong>motoboy em Itajaí</strong> oferece visita técnica para coleta de assinaturas em contratos, 
-          digitalização de documentos para operações bancárias e entrega de contrato bancário com digitalização. 
-          Atendemos Itajaí, Navegantes, Camboriú e região com total segurança. <strong>Chame agora!</strong>
+          Nosso serviço de <strong>motoboy em Itajaí</strong> oferece entrega no mesmo dia em mãos para documentos, 
+          encomendas e pequenos volumes. Realizamos transporte rápido com moto em Itajaí, Navegantes, Camboriú 
+          e toda região com total segurança. <strong>Chame agora!</strong>
         </p>
 
         <p className="text-xl md:text-2xl font-semibold text-primary mb-8">
-          Entre em contato! Sua diligência está a um WhatsApp de distância.
+          Entre em contato! Sua entrega expressa está a um WhatsApp de distância.
         </p>
 
         <Button 
