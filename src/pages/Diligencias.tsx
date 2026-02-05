@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { MessageCircle, CreditCard, ShieldCheck, Building2, FileSignature, Smartphone, MapPin } from "lucide-react";
 
 const Diligencias = () => {
-  const whatsappUrl = "https://wa.me/5547991508563?text=Olá%20Alan!%20Preciso%20de%20uma%20verificação%20de%20anúncio%20ou%20local%20em%20Itajaí.";
+  const whatsappUrl = "https://wa.me/5547991508563?text=Olá!%20Gostaria%20de%20solicitar%20uma%20diligência%20técnica%20na%20região%20de%20Itajaí.";
 
   return (
     <div className="min-h-screen bg-background">
