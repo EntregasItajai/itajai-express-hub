@@ -15,8 +15,10 @@ const MoreAdvantagesSection = () => {
     },
     {
       icon: ShieldCheck,
-      title: "Diligências para Levantamento de Informações e Validação Local",
-      description: "Oferecemos um serviço especializado de inteligência de campo para validação de dados e segurança em negócios. Nossa equipe realiza visitas técnicas presenciais para verificar a existência de estabelecimentos físicos, validar endereços e realizar registros fotográficos detalhados. Além da constatação visual, executamos levantamentos de informações locais, incluindo entrevistas discretas com vizinhos e verificação de ambiente (investigação social), garantindo que sua tomada de decisão seja baseada em fatos reais apurados in loco."
+      title: "Validação Local",
+      shortDescription: "Inteligência de campo para validação de dados e segurança em negócios.",
+      description: "Oferecemos um serviço especializado de inteligência de campo para validação de dados e segurança em negócios. Nossa equipe realiza visitas técnicas presenciais para verificar a existência de estabelecimentos físicos, validar endereços e realizar registros fotográficos detalhados. Além da constatação visual, executamos levantamentos de informações locais, incluindo entrevistas discretas com vizinhos e verificação de ambiente (investigação social), garantindo que sua tomada de decisão seja baseada em fatos reais apurados in loco.",
+      collapsible: true
     }
   ];
 
@@ -33,6 +35,8 @@ const MoreAdvantagesSection = () => {
               icon={advantage.icon}
               title={advantage.title}
               description={advantage.description}
+              shortDescription={advantage.shortDescription}
+              collapsible={advantage.collapsible}
               variant="dark"
             />
           ))}
