@@ -13,12 +13,14 @@ const ApoioJuridico = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Apoio Jurídico e Coleta de Assinaturas em Itajaí | Entregas Itajaí</title>
-        <meta name="description" content="Motoboy para coletar assinatura em Itajaí. Notificações extrajudiciais, protocolos detalhados e acompanhamento bancário para escritórios de advocacia e assessorias jurídicas." />
-        <meta name="keywords" content="motoboy coletar assinatura itajaí, notificação extrajudicial itajaí, coleta assinatura contrato, protocolo jurídico, apoio escritório advocacia" />
+        <title>Motoboy em Itajaí para Apoio Jurídico e Coleta de Assinaturas | Entregas Itajaí</title>
+        <meta name="description" content="Motoboy em Itajaí para apoio jurídico: coleta de assinaturas, entrega de notificações extrajudiciais e acompanhamento bancário. Serviço especializado para advogados e assessorias em Itajaí e região." />
+        <meta name="keywords" content="motoboy itajaí, motoboy em itajaí, apoio jurídico itajaí, motoboy coletar assinatura, notificação extrajudicial itajaí, motoboy advocacia, coleta assinatura contrato, motoboy navegantes, motoboy camboriú" />
         <link rel="canonical" href="https://entregasitajai.com.br/apoio-juridico" />
-        <meta property="og:title" content="Apoio Jurídico e Coleta de Assinaturas em Itajaí" />
-        <meta property="og:description" content="Suporte operacional para escritórios de advocacia: notificações, coleta de assinaturas e acompanhamento bancário." />
+        <meta property="og:title" content="Motoboy em Itajaí para Apoio Jurídico Especializado" />
+        <meta property="og:description" content="Motoboy em Itajaí para escritórios de advocacia: coleta de assinaturas, notificações extrajudiciais e acompanhamento bancário com relatório profissional." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://entregasitajai.com.br/apoio-juridico" />
       </Helmet>
       <Header />
       <main>
@@ -31,7 +33,7 @@ const ApoioJuridico = () => {
               </div>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4 uppercase tracking-wide">
-              Apoio Jurídico Especializado
+              Motoboy em Itajaí para Apoio Jurídico Especializado
             </h1>
             <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-8 leading-relaxed">
               Motoboy para coletar assinatura em Itajaí. Suporte operacional especializado 
