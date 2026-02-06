@@ -15,12 +15,68 @@ const ApoioJuridico = () => {
       <Helmet>
         <title>Motoboy em Itajaí para Apoio Jurídico e Coleta de Assinaturas | Entregas Itajaí</title>
         <meta name="description" content="Motoboy em Itajaí para apoio jurídico: coleta de assinaturas, entrega de notificações extrajudiciais e acompanhamento bancário. Serviço especializado para advogados e assessorias em Itajaí e região." />
-        <meta name="keywords" content="motoboy itajaí, motoboy em itajaí, apoio jurídico itajaí, motoboy coletar assinatura, notificação extrajudicial itajaí, motoboy advocacia, coleta assinatura contrato, motoboy navegantes, motoboy camboriú" />
-        <link rel="canonical" href="https://entregasitajai.com.br/apoio-juridico" />
+        <meta name="keywords" content="motoboy itajaí, motoboy em itajaí, apoio jurídico itajaí, motoboy coletar assinatura, notificação extrajudicial itajaí, motoboy advocacia, coleta assinatura contrato, motoboy navegantes, motoboy camboriú, apoio operacional jurídico" />
+        <link rel="canonical" href="https://www.entregasitajai.com.br/apoio-juridico" />
         <meta property="og:title" content="Motoboy em Itajaí para Apoio Jurídico Especializado" />
         <meta property="og:description" content="Motoboy em Itajaí para escritórios de advocacia: coleta de assinaturas, notificações extrajudiciais e acompanhamento bancário com relatório profissional." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://entregasitajai.com.br/apoio-juridico" />
+        <meta property="og:url" content="https://www.entregasitajai.com.br/apoio-juridico" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "@id": "https://www.entregasitajai.com.br/apoio-juridico#service",
+            "serviceType": ["Legal Support Services", "Process Server", "Document Delivery Service"],
+            "name": "Apoio Jurídico Operacional em Itajaí",
+            "description": "Motoboy em Itajaí especializado em apoio jurídico: coleta de assinaturas, entrega de notificações extrajudiciais, acompanhamento bancário e protocolo de documentos para advogados.",
+            "provider": {
+              "@type": "LocalBusiness",
+              "@id": "https://www.entregasitajai.com.br/#organization",
+              "name": "Entregas Itajaí",
+              "telephone": "+55 47 99150-8563"
+            },
+            "areaServed": [
+              { "@type": "City", "name": "Itajaí" },
+              { "@type": "City", "name": "Navegantes" },
+              { "@type": "City", "name": "Camboriú" },
+              { "@type": "City", "name": "Balneário Camboriú" }
+            ],
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Serviços de Apoio Jurídico",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Notificações Extrajudiciais",
+                    "description": "Entrega de notificações com comprovação robusta e fé pública digital"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Coleta de Assinaturas",
+                    "description": "Visita técnica para coleta de assinaturas em contratos e procurações"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Acompanhamento Bancário",
+                    "description": "Suporte para liberações de alvarás e protocolo em bancos"
+                  }
+                }
+              ]
+            },
+            "audience": {
+              "@type": "Audience",
+              "audienceType": "Advogados, Escritórios de Advocacia, Assessorias Jurídicas"
+            }
+          })}
+        </script>
       </Helmet>
       <Header />
       <main>

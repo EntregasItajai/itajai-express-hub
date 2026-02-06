@@ -1,8 +1,13 @@
+# Robots.txt para Entregas Itajaí - Motoboy em Itajaí
+# Otimizado para indexação de serviços de motoboy e diligências
+
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 1
 
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 2
 
 User-agent: Twitterbot
 Allow: /
@@ -10,7 +15,18 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
-User-agent: *
+User-agent: LinkedInBot
 Allow: /
 
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /*.json$
+
+# Sitemap principal
 Sitemap: https://www.entregasitajai.com.br/sitemap.xml
+
+# Páginas prioritárias para indexação:
+# - Motoboy em Itajaí (home)
+# - Diligências em Itajaí
+# - Apoio Jurídico em Itajaí
