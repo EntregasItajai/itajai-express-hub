@@ -108,7 +108,7 @@ const Diligencias = () => {
                     <ShieldCheck className="w-6 h-6 text-destructive" />
                   </div>
                   <h2 className="text-3xl font-bold text-foreground">
-                    Prevenção de Fraudes (Anti-Golpe)
+                    Prevenção e Segurança
                   </h2>
                 </div>
                 <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
@@ -124,7 +124,7 @@ const Diligencias = () => {
                   <li className="flex items-start gap-3">
                     <ShieldCheck className="w-5 h-5 text-destructive mt-1 flex-shrink-0" />
                     <span className="text-foreground">
-                      <strong>Verificação de anúncios</strong> de veículos, imóveis e containers para combate a golpes
+                      <strong>Verificação de anúncios</strong> de veículos, imóveis, containers e outras ofertas de Itajaí e região com visita ao local por nossos profissionais.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
@@ -234,7 +234,7 @@ const Diligencias = () => {
                   <li className="flex items-start gap-3">
                     <FileSignature className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                     <span className="text-foreground">
-                      <strong>Documentação</strong> para licenciamento ambiental e fiscal
+                      <strong>Trabalho de campo</strong> para apoio documental em licenciamento e fiscal com serviço técnico sob medida para sua demanda.
                     </span>
                   </li>
                 </ul>
