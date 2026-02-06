@@ -1,13 +1,8 @@
 import AdvantageCard from "./AdvantageCard";
-import { Clock, Building2, MapPin, MessageCircle } from "lucide-react";
+import { Building2, MapPin, MessageCircle } from "lucide-react";
 
 const AdvantagesSection = () => {
   const advantages = [
-    {
-      icon: Clock,
-      title: "Ganhe Tempo",
-      description: "Oferecemos agilidade e confiabilidade em Itajaí e região. Diligências, visita técnica para coleta de assinaturas e entrega de contrato bancário com digitalização."
-    },
     {
       icon: Building2,
       title: "Soluções para Empresas",
