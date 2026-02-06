@@ -14,12 +14,14 @@ const Diligencias = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Diligências e Verificações Técnicas em Itajaí | Entregas Itajaí</title>
-        <meta name="description" content="Verificação de veículos em pátios de leilão em Itajaí e Navegantes. Diligência para inspeção de vazamentos, danos estruturais e conservação. Vistoria técnica de obra, entrega de contrato bancário e verificação de endereço." />
-        <meta name="keywords" content="verificação veículo leilão itajaí, inspeção carro pátio leilão navegantes, vistoria veículo antes compra, verificar vazamento óleo veículo, diligência verificação anúncio veículo, vistoria técnica obra edificação, entrega contrato bancário digitalização, verificação endereço combate golpes, motoboy coletar assinatura itajaí" />
+        <title>Motoboy em Itajaí para Diligências e Verificações Técnicas | Entregas Itajaí</title>
+        <meta name="description" content="Motoboy em Itajaí para diligências técnicas: verificação de veículos em pátios de leilão, vistoria de obras, coleta de assinaturas e inspeção de anúncios. Atendemos Itajaí, Navegantes e Camboriú." />
+        <meta name="keywords" content="motoboy itajaí, motoboy em itajaí, diligências itajaí, verificação veículo leilão itajaí, inspeção carro pátio leilão navegantes, vistoria técnica obra, motoboy coleta assinatura, verificação endereço itajaí, motoboy navegantes" />
         <link rel="canonical" href="https://entregasitajai.com.br/diligencias" />
-        <meta property="og:title" content="Diligências e Verificações Técnicas em Itajaí" />
-        <meta property="og:description" content="Verificação de veículos em pátios de leilão, inspeção de vazamentos e danos. Diligências técnicas para operações bancárias e prevenção de fraudes em Itajaí, Navegantes e região." />
+        <meta property="og:title" content="Motoboy em Itajaí para Diligências e Verificações Técnicas" />
+        <meta property="og:description" content="Motoboy em Itajaí especializado em diligências: verificação de veículos em leilão, vistorias técnicas e coleta de assinaturas. Atendemos Itajaí, Navegantes e região." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://entregasitajai.com.br/diligencias" />
       </Helmet>
       <Header />
       <main>
@@ -27,7 +29,7 @@ const Diligencias = () => {
         <section className="bg-primary text-primary-foreground py-20 px-5">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 uppercase tracking-wide">
-              Diligências e Verificações Técnicas
+              Motoboy em Itajaí para Diligências e Verificações Técnicas
             </h1>
             <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-8 leading-relaxed">
               Visita técnica para coleta de assinaturas em contratos, digitalização de documentos 
