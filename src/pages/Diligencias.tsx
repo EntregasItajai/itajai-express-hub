@@ -16,12 +16,72 @@ const Diligencias = () => {
       <Helmet>
         <title>Motoboy em Itajaí para Diligências e Verificações Técnicas | Entregas Itajaí</title>
         <meta name="description" content="Motoboy em Itajaí para diligências técnicas: verificação de veículos em pátios de leilão, vistoria de obras, coleta de assinaturas e inspeção de anúncios. Atendemos Itajaí, Navegantes e Camboriú." />
-        <meta name="keywords" content="motoboy itajaí, motoboy em itajaí, diligências itajaí, verificação veículo leilão itajaí, inspeção carro pátio leilão navegantes, vistoria técnica obra, motoboy coleta assinatura, verificação endereço itajaí, motoboy navegantes" />
-        <link rel="canonical" href="https://entregasitajai.com.br/diligencias" />
+        <meta name="keywords" content="motoboy itajaí, motoboy em itajaí, diligências itajaí, verificação veículo leilão itajaí, inspeção carro pátio leilão navegantes, vistoria técnica obra, motoboy coleta assinatura, verificação endereço itajaí, motoboy navegantes, investigação particular, levantamento de informações" />
+        <link rel="canonical" href="https://www.entregasitajai.com.br/diligencias" />
         <meta property="og:title" content="Motoboy em Itajaí para Diligências e Verificações Técnicas" />
         <meta property="og:description" content="Motoboy em Itajaí especializado em diligências: verificação de veículos em leilão, vistorias técnicas e coleta de assinaturas. Atendemos Itajaí, Navegantes e região." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://entregasitajai.com.br/diligencias" />
+        <meta property="og:url" content="https://www.entregasitajai.com.br/diligencias" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "@id": "https://www.entregasitajai.com.br/diligencias#service",
+            "serviceType": ["Legal Support Services", "Private Investigation Service", "Field Verification Service"],
+            "name": "Diligências e Verificações Técnicas em Itajaí",
+            "description": "Serviço especializado de motoboy em Itajaí para diligências técnicas, verificação de veículos em pátios de leilão, vistoria de obras, coleta de assinaturas e levantamento de informações.",
+            "provider": {
+              "@type": "LocalBusiness",
+              "@id": "https://www.entregasitajai.com.br/#organization",
+              "name": "Entregas Itajaí",
+              "telephone": "+55 47 99150-8563"
+            },
+            "areaServed": [
+              { "@type": "City", "name": "Itajaí" },
+              { "@type": "City", "name": "Navegantes" },
+              { "@type": "City", "name": "Camboriú" },
+              { "@type": "City", "name": "Balneário Camboriú" }
+            ],
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Serviços de Diligências",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Verificação de Veículos em Pátios de Leilão",
+                    "description": "Inspeção minuciosa de veículos antes da compra em leilão"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Coleta de Assinaturas",
+                    "description": "Visita técnica para coleta de assinaturas em contratos"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Vistoria Técnica de Obras",
+                    "description": "Registro fotográfico profissional de obras e edificações"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Levantamento de Informações",
+                    "description": "Verificação de anúncios, empresas e endereços para prevenção de fraudes"
+                  }
+                }
+              ]
+            }
+          })}
+        </script>
       </Helmet>
       <Header />
       <main>
