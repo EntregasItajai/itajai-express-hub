@@ -160,51 +160,51 @@ const Diligencias = () => {
           </div>
         </section>
 
-        {/* Prevenção de Fraudes */}
+        {/* Análise de Conformidade */}
         <section className="py-16 px-5 bg-muted/50">
           <div className="max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="lg:order-2">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="w-12 h-12 bg-destructive/20 rounded-full flex items-center justify-center">
-                    <ShieldCheck className="w-6 h-6 text-destructive" />
+                  <div className="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center">
+                    <ShieldCheck className="w-6 h-6 text-accent" />
                   </div>
                   <h2 className="text-3xl font-bold text-foreground">
-                    Prevenção e Segurança
+                    Análise de Conformidade e Segurança
                   </h2>
                 </div>
                 <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                  Diligência para verificação de anúncio de veículo, imóvel ou empresa antes de fechar negócios.
+                  Realizamos diligências técnicas para a validação de anúncios e empresas antes da formalização de negócios. Nosso foco é fornecer um relatório preciso sobre a realidade local.
                 </p>
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
-                    <ShieldCheck className="w-5 h-5 text-destructive mt-1 flex-shrink-0" />
+                    <ShieldCheck className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                     <span className="text-foreground">
-                      <strong>Confirmação de existência</strong> de comércio presencial, lojas e estabelecimentos
+                      <strong>Confirmação de Atividade:</strong> Verificação presencial para atestar se a empresa ou estabelecimento possui operação ativa conforme declarado.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <ShieldCheck className="w-5 h-5 text-destructive mt-1 flex-shrink-0" />
+                    <ShieldCheck className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                     <span className="text-foreground">
-                      <strong>Verificação de anúncios</strong> de veículos, imóveis, containers e outras ofertas de Itajaí e região com visita ao local por nossos profissionais.
+                      <strong>Inspeção In Loco:</strong> Visita técnica detalhada a veículos, imóveis e ativos em Itajaí e região para assegurar a integridade da oferta.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <ShieldCheck className="w-5 h-5 text-destructive mt-1 flex-shrink-0" />
+                    <ShieldCheck className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                     <span className="text-foreground">
-                      <strong>Coleta de contatos oficiais</strong> no local para validação e verificação de endereço
+                      <strong>Diligência Cadastral:</strong> Coleta de evidências e dados oficiais diretamente no local para suporte à tomada de decisão segura.
                     </span>
                   </li>
                 </ul>
               </div>
               <div className="bg-card rounded-2xl p-8 shadow-lg lg:order-1">
-                <h3 className="text-xl font-semibold text-foreground mb-4">Evite golpes como:</h3>
+                <h3 className="text-xl font-semibold text-foreground mb-4">Garantia de Autenticidade:</h3>
                 <ul className="space-y-3 text-muted-foreground">
-                  <li>• Anúncios clonados de veículos</li>
-                  <li>• Imobiliárias fantasmas</li>
-                  <li>• Empresas inexistentes</li>
-                  <li>• Estoques fictícios</li>
-                  <li>• Vendedores fraudulentos</li>
+                  <li>• Validação de Ativos e Veículos</li>
+                  <li>• Certificação de Sede Física Comercial</li>
+                  <li>• Auditoria de Existência de Estoque</li>
+                  <li>• Verificação de Legitimidade Empresarial</li>
+                  <li>• Confirmação de Identidade de Vendedores</li>
                 </ul>
               </div>
             </div>
