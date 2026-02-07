@@ -14,30 +14,30 @@ const CasosReais = () => {
   const casos = [
     {
       icon: Building2,
-      title: "A Imobiliária Fantasma",
-      subtitle: "Golpe de Aluguel Evitado",
-      description: "Um profissional liberal de outra cidade queria alugar uma sala comercial em prédio de luxo. A imobiliária parecia legítima, mas algo não batia.",
-      resultado: "Nossa diligência confirmou: a sala estava completamente vazia e a imobiliária não existia. O cliente evitou perder o valor que seria depositado como caução.",
-      tipo: "Verificação de Endereço",
-      cor: "destructive"
+      title: "Auditoria de Existência Física e Sede Comercial",
+      subtitle: "Segurança em Contratos de Locação Corporativa",
+      description: "Um profissional liberal de outra cidade buscava locar uma sala em um centro empresarial de alto padrão. Antes da assinatura do contrato, solicitou a validação da legitimidade da oferta.",
+      resultado: "Nossa Vistoria In Loco constatou que a unidade estava desocupada e sem vínculo com a suposta administradora. O relatório de inconsistência protegeu o capital do cliente antes de qualquer transferência.",
+      tipo: "Auditoria de Campo",
+      cor: "accent"
     },
     {
       icon: Car,
-      title: "O Anúncio Clonado",
-      subtitle: "Carro já Vendido",
-      description: "Um cliente de fora do estado queria reservar um veículo específico anunciado online. Pediu para confirmarmos se o carro realmente estava disponível.",
-      resultado: "A vistoria provou que o anúncio era clone - o veículo já havia sido vendido há semanas. Golpe evitado antes da transferência.",
-      tipo: "Diligência Anti-Golpe",
-      cor: "destructive"
+      title: "Vistoria de Constatação de Ativos",
+      subtitle: "Validação de Ofertas e Veículos em Plataformas Digitais",
+      description: "Um investidor de fora do estado demonstrou interesse em um veículo anunciado online. A diligência foi acionada para confirmar se o ativo estava disponível e em posse do anunciante.",
+      resultado: "Através da Diligência de Campo, comprovamos que o anúncio utilizava informações de um bem já comercializado anteriormente. A verificação de legitimidade evitou uma transação insegura baseada em dados divergentes.",
+      tipo: "Vistoria de Constatação",
+      cor: "accent"
     },
     {
       icon: Package,
-      title: "O Pátio Vazio",
-      subtitle: "Containers Inexistentes",
-      description: "Um cliente buscava um container para sua obra e encontrou um anúncio com preço atrativo. Solicitou verificação antes de pagar.",
-      resultado: "Em visita ao endereço, constatamos que a empresa estava encerrando suas atividades. O pátio já não tinha nenhum container, com mato alto, e os funcionários não souberam explicar sobre o vídeo anunciado como atual mostrando o pátio cheio.",
-      tipo: "Verificação de Estoque",
-      cor: "destructive"
+      title: "Auditoria de Capacidade Operacional e Estoque",
+      subtitle: "Check de Risco para Aquisição de Equipamentos",
+      description: "Uma empresa buscava a aquisição de containers para um projeto de engenharia. A vistoria foi solicitada para atestar a existência do estoque e a saúde operacional do fornecedor.",
+      resultado: "A inspeção presencial revelou que o pátio não possuía os itens anunciados e apresentava sinais de inatividade. O relatório técnico reportou a divergência entre o vídeo comercial e a realidade atual, garantindo a conformidade da compra.",
+      tipo: "Check de Risco",
+      cor: "accent"
     },
     {
       icon: Radio,
@@ -53,12 +53,12 @@ const CasosReais = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Casos Reais de Diligências em Itajaí | Entregas Itajaí</title>
-        <meta name="description" content="Histórias reais de diligências que evitaram golpes: imobiliárias fantasmas, anúncios clonados de veículos, estoques fictícios. Verificação de endereço e combate a fraudes em Itajaí." />
-        <meta name="keywords" content="diligência anti-golpe, verificação anúncio veículo, imobiliária fantasma, combate fraude itajaí, verificação endereço" />
+        <title>Casos Reais: Inteligência de Campo em Ação | Entregas Itajaí</title>
+        <meta name="description" content="Casos reais de vistorias técnicas, auditorias de campo e verificações de conformidade. Inteligência logística para decisões estratégicas e corporativas em Itajaí." />
+        <meta name="keywords" content="auditoria de campo itajaí, vistoria de constatação, check de risco, validação de ativos, inteligência de campo, verificação corporativa" />
         <link rel="canonical" href="https://entregasitajai.com.br/casos-reais" />
-        <meta property="og:title" content="Casos Reais de Diligências - Golpes Evitados" />
-        <meta property="og:description" content="Veja como nossas diligências evitaram prejuízos reais: imobiliárias fantasmas, anúncios clonados e estoques fictícios." />
+        <meta property="og:title" content="Casos Reais: Inteligência de Campo em Ação" />
+        <meta property="og:description" content="Veja como nossas vistorias técnicas e auditorias de campo garantem segurança para decisões estratégicas e corporativas." />
       </Helmet>
       <Header />
       <main>
@@ -66,11 +66,11 @@ const CasosReais = () => {
         <section className="bg-primary text-primary-foreground py-20 px-5">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 uppercase tracking-wide">
-              Casos Reais
+              Casos Reais: Inteligência de Campo em Ação
             </h1>
             <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-8 leading-relaxed">
-              Histórias reais de como nossas diligências evitaram prejuízos 
-              e garantiram segurança para nossos clientes.
+              Cada diligência é um compromisso com a verdade. Veja como nossas vistorias 
+              e levantamentos técnicos fornecem a segurança necessária para decisões estratégicas e corporativas.
             </p>
           </div>
         </section>
@@ -81,15 +81,15 @@ const CasosReais = () => {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
               <div>
                 <div className="text-3xl md:text-4xl font-bold text-accent mb-1">150+</div>
-                <div className="text-sm text-muted-foreground">Golpes Evitados</div>
+                <div className="text-sm text-muted-foreground">Riscos Identificados</div>
               </div>
               <div>
                 <div className="text-3xl md:text-4xl font-bold text-accent mb-1">R$ 2M+</div>
-                <div className="text-sm text-muted-foreground">Prejuízos Prevenidos</div>
+                <div className="text-sm text-muted-foreground">Capital Protegido</div>
               </div>
               <div>
                 <div className="text-3xl md:text-4xl font-bold text-accent mb-1">500+</div>
-                <div className="text-sm text-muted-foreground">Diligências Realizadas</div>
+                <div className="text-sm text-muted-foreground">Vistorias Realizadas</div>
               </div>
               <div>
                 <div className="text-3xl md:text-4xl font-bold text-accent mb-1">100%</div>
@@ -104,30 +104,24 @@ const CasosReais = () => {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-foreground mb-4">
-                Histórias que Fazem a Diferença
+                Diligências que Fazem a Diferença
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Cada diligência conta uma história. Veja casos reais onde nossa 
-                verificação de endereço e combate a golpes fez a diferença.
+                Cada vistoria conta uma história. Veja casos reais onde nossa 
+                inteligência de campo garantiu segurança e conformidade.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {casos.map((caso, index) => (
                 <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow">
-                  <CardHeader className={`${caso.cor === 'destructive' ? 'bg-destructive/10' : 'bg-accent/10'}`}>
+                  <CardHeader className="bg-accent/10">
                     <div className="flex items-start gap-4">
-                      <div className={`w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 ${
-                        caso.cor === 'destructive' ? 'bg-destructive/20' : 'bg-accent/20'
-                      }`}>
-                        <caso.icon className={`w-6 h-6 ${
-                          caso.cor === 'destructive' ? 'text-destructive' : 'text-accent'
-                        }`} />
+                      <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 bg-accent/20">
+                        <caso.icon className="w-6 h-6 text-accent" />
                       </div>
                       <div>
-                        <div className={`text-xs font-semibold uppercase tracking-wide mb-1 ${
-                          caso.cor === 'destructive' ? 'text-destructive' : 'text-accent'
-                        }`}>
+                        <div className="text-xs font-semibold uppercase tracking-wide mb-1 text-accent">
                           {caso.tipo}
                         </div>
                         <CardTitle className="text-xl">{caso.title}</CardTitle>
