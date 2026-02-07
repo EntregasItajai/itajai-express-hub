@@ -89,11 +89,10 @@ const ApoioJuridico = () => {
               </div>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4 uppercase tracking-wide">
-              Motoboy em Itajaí para Apoio Jurídico Especializado
+              Logística de Apoio para Escritórios Jurídicos
             </h1>
             <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-8 leading-relaxed">
-              Motoboy para coletar assinatura em Itajaí. Suporte operacional especializado 
-              para advogados e assessorias jurídicas com documentação profissional.
+              Suporte logístico especializado para advocacias e assessorias. Realizamos a coleta de assinaturas, protocolos e transporte de documentos com o profissionalismo que o setor jurídico exige.
             </p>
             <Button 
               variant="hero" 
