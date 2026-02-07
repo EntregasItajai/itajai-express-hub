@@ -15,7 +15,7 @@ const MoreAdvantagesSection = () => {
     },
     {
       icon: ShieldCheck,
-      title: "Validação Local",
+      title: "Vistoria de Constatação In Loco",
       shortDescription: "Diligência de Campo (Field Research) para validação de dados e segurança em negócios.",
       description: "Oferecemos um serviço especializado de Diligência de Campo (Field Research) para validação de dados e segurança em negócios. Nossa equipe realiza Vistorias de Constatação presenciais para confirmar a existência física de estabelecimentos e validar se os dados declarados são reais antes do fechamento de contratos. Executamos o Levantamento de Informações Cadastrais e Check de Risco, identificando possíveis inconsistências ou endereços fictícios. É uma solução completa de Diligência de Compliance que garante que sua empresa parceira segue normas legais e possui sede ativa conforme anunciado.",
       collapsible: true
