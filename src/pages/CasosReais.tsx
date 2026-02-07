@@ -41,10 +41,10 @@ const CasosReais = () => {
     },
     {
       icon: Radio,
-      title: "Inspeção de Torres",
-      subtitle: "Documentação para Licenciamento",
-      description: "Empresa de telecomunicações precisava de registro fotográfico de torres para licenciamento ambiental.",
-      resultado: "Realizamos inspeção visual de 12 torres na região, documentando condições estruturais. Relatório técnico aceito pelo órgão ambiental.",
+      title: "Vistoria Técnica: Monitoramento e Licenciamento Ambiental",
+      subtitle: "Licenciamento Ambiental para Telecomunicações",
+      description: "Uma empresa de telecomunicações necessitava de um levantamento detalhado e registro fotográfico de torres de transmissão para instruir um processo de licenciamento ambiental. O objetivo era identificar a presença de ninhos que afetavam a estrutura e o funcionamento dos equipamentos.",
+      resultado: "Realizamos vistorias técnicas presenciais em 12 torres na região, produzindo fotos e vídeos detalhados com metadados de geolocalização e data. O relatório de constatação documentou as condições estruturais e a presença de fauna sinantrópica. O relatório técnico foi aceito integralmente pelo órgão ambiental, permitindo o sucesso na solicitação de licença para remanejo adequado e manutenção das torres.",
       tipo: "Vistoria Técnica",
       cor: "accent"
     }
