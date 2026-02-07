@@ -5,8 +5,7 @@ import FloatingWhatsAppButton from "@/components/FloatingWhatsAppButton";
 import ScrollToTopButton from "@/components/ScrollToTopButton";
 import TechnicalReportBadge from "@/components/TechnicalReportBadge";
 import { Button } from "@/components/ui/button";
-import { MessageCircle, CreditCard, ShieldCheck, Building2, FileSignature, Smartphone, MapPin } from "lucide-react";
-import { Car, Wrench, Eye } from "lucide-react";
+import { MessageCircle, CreditCard, ShieldCheck, Building2, FileSignature, Smartphone, MapPin, Binoculars, Car, Wrench, Eye } from "lucide-react";
 
 const Diligencias = () => {
   const whatsappUrl = "https://wa.me/5547991508563?text=Olá!%20Gostaria%20de%20solicitar%20uma%20diligência%20técnica%20na%20região%20de%20Itajaí.";
@@ -88,6 +87,11 @@ const Diligencias = () => {
         {/* Hero Section */}
         <section className="bg-primary text-primary-foreground py-20 px-5">
           <div className="max-w-4xl mx-auto text-center">
+            <div className="flex justify-center mb-6">
+              <div className="w-16 h-16 bg-secondary/20 rounded-full flex items-center justify-center">
+                <Binoculars className="w-8 h-8 text-secondary" />
+              </div>
+            </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4 uppercase tracking-wide">
               Motoboy em Itajaí para Diligências e Verificações Técnicas
             </h1>
