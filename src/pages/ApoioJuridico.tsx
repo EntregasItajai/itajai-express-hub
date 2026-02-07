@@ -92,7 +92,7 @@ const ApoioJuridico = () => {
               Logística de Apoio para Escritórios Jurídicos
             </h1>
             <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-8 leading-relaxed">
-              Suporte logístico especializado para advocacias e assessorias. Realizamos a coleta de assinaturas, protocolos e transporte de documentos com o profissionalismo que o setor jurídico exige.
+              Motoboy experiente para realizar a coleta de assinaturas, protocolos e transporte de documentos com o profissionalismo que o setor jurídico exige.
             </p>
             <Button 
               variant="hero" 
