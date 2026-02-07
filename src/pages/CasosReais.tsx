@@ -14,10 +14,10 @@ const CasosReais = () => {
   const casos = [
     {
       icon: Building2,
-      title: "Auditoria de Existência Física e Sede Comercial",
-      subtitle: "Segurança em Contratos de Locação Corporativa",
-      description: "Um profissional liberal de outra cidade buscava locar uma sala em um centro empresarial de alto padrão. Antes da assinatura do contrato, solicitou a validação da legitimidade da oferta.",
-      resultado: "Nossa Vistoria In Loco constatou que a unidade estava desocupada e sem vínculo com a suposta administradora. O relatório de inconsistência protegeu o capital do cliente antes de qualquer transferência.",
+      title: "Auditoria de Existência Física e Legitimidade Cadastral",
+      subtitle: "Validação de Sede Administrativa em Edifício Empresarial",
+      description: "Um profissional liberal de outra cidade buscava locar uma sala em um renomado Edifício Empresarial no centro de Itajaí. Antes da formalização contratual, solicitou nossa Diligência de Campo para atestar a existência física da imobiliária e da unidade negociada.",
+      resultado: "Nossa Vistoria In Loco revelou uma inconsistência crítica: a numeração da sala informada sequer constava na planta do edifício, e não havia registro da referida empresa no local. O relatório técnico detalhado serviu como prova de Check de Risco, impedindo que o cliente avançasse em uma negociação sem lastro real e protegendo seu investimento.",
       tipo: "Auditoria de Campo",
       cor: "accent"
     },
