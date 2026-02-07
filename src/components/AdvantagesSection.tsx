@@ -6,7 +6,7 @@ const AdvantagesSection = () => {
     {
       icon: Building2,
       title: "Soluções para Empresas",
-      description: "Parceiro logístico ideal: vistoria técnica de obra e edificação, protocolos em prefeituras, cartórios, repartições e confirmação de existência de comércio presencial."
+      description: "Parceiro logístico ideal: retiradas e entregas em transportadoras de Itajaí e região, incluindo transportadoras aéreas no Aeroporto de Navegantes, além de protocolos em prefeituras, cartórios e repartições."
     },
     {
       icon: MapPin,
