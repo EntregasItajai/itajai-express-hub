@@ -16,8 +16,8 @@ const MoreAdvantagesSection = () => {
     {
       icon: ShieldCheck,
       title: "Validação Local",
-      shortDescription: "Inteligência de campo para validação de dados e segurança em negócios.",
-      description: "Oferecemos um serviço especializado de inteligência de campo para validação de dados e segurança em negócios. Nossa equipe realiza visitas técnicas presenciais para verificar a existência de estabelecimentos físicos, validar endereços e realizar registros fotográficos detalhados. Além da constatação visual, executamos levantamentos de informações locais, incluindo entrevistas discretas com vizinhos e verificação de ambiente (investigação social), garantindo que sua tomada de decisão seja baseada em fatos reais apurados in loco.",
+      shortDescription: "Diligência de Campo (Field Research) para validação de dados e segurança em negócios.",
+      description: "Oferecemos um serviço especializado de Diligência de Campo (Field Research) para validação de dados e segurança em negócios. Nossa equipe realiza Vistorias de Constatação presenciais para confirmar a existência física de estabelecimentos e validar se os dados declarados são reais antes do fechamento de contratos. Executamos o Levantamento de Informações Cadastrais e Check de Risco, identificando possíveis inconsistências ou endereços fictícios. É uma solução completa de Diligência de Compliance que garante que sua empresa parceira segue normas legais e possui sede ativa conforme anunciado.",
       collapsible: true
     }
   ];
