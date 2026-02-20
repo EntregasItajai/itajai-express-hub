@@ -5,28 +5,28 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <!-- Página Principal: Motoboy em Itajaí -->
   <url>
-    <loc>https://www.entregasitajai.com.br/</loc>
+    <loc>https://www.entregasitajai.com/</loc>
     <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <!-- Diligências em Itajaí - Serviço Principal -->
   <url>
-    <loc>https://www.entregasitajai.com.br/diligencias</loc>
+    <loc>https://www.entregasitajai.com/diligencias</loc>
     <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <!-- Apoio Jurídico em Itajaí -->
   <url>
-    <loc>https://www.entregasitajai.com.br/apoio-juridico</loc>
+    <loc>https://www.entregasitajai.com/apoio-juridico</loc>
     <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Casos Reais - Prova Social -->
   <url>
-    <loc>https://www.entregasitajai.com.br/casos-reais</loc>
+    <loc>https://www.entregasitajai.com/casos-reais</loc>
     <lastmod>2026-02-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
