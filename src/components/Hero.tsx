@@ -34,7 +34,7 @@ const Hero = () => {
           asChild
           className="text-lg px-8 py-4"
         >
-          <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" onClick={() => { if (typeof window.gtag === 'function') { window.gtag('event', 'conversion', {'send_to': 'AW-871515514/hF_WCNj04IEcEPqKyZ8D'}); } }}>
+          <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" onClick={() => { const w = window as any; if (typeof w.gtag === 'function') { w.gtag('event', 'conversion', {'send_to': 'AW-871515514/hF_WCNj04IEcEPqKyZ8D'}); } }}>
             <MessageCircle size={24} />
             Chamar no WhatsApp
           </a>
