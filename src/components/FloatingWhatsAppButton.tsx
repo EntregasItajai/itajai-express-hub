@@ -11,6 +11,7 @@ const FloatingWhatsAppButton = () => {
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-50 w-16 h-16 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transform hover:scale-110 transition-all duration-300 animate-pulse-whatsapp-smooth overflow-hidden"
       aria-label="Falar no WhatsApp"
+      onClick={() => { const w = window as any; if (typeof w.gtag === 'function') { w.gtag('event', 'conversion', {'send_to': 'AW-871515514/hF_WCNj04IEcEPqKyZ8D'}); } }}
     >
       <img 
         src={whatsappIcon} 
