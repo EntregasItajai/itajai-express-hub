@@ -312,7 +312,7 @@ const ApoioJuridico = () => {
               asChild
               className="text-lg px-8 py-4"
             >
-              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" onClick={() => { const w = window as any; if (typeof w.gtag === 'function') { w.gtag('event', 'conversion', {'send_to': 'AW-871515514/hF_WCNj04IEcEPqKyZ8D'}); } }}>
                 <MessageCircle size={24} />
                 Falar com Especialista
               </a>
