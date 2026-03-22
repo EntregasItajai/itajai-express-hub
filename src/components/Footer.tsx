@@ -87,7 +87,9 @@ const Footer = () => {
           © 2025 Entregas Itajaí - Todos os direitos reservados.
           <br />
           <a 
-            href="#" 
+            href="https://docs.google.com/document/d/1DUP7uYIV20cbxfG5R7-BP0AwIwu-uhha/edit?usp=sharing&ouid=100310776499535963461&rtpof=true&sd=true" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-secondary hover:text-secondary/80 transition-colors"
           >
             Política de Privacidade
