@@ -134,6 +134,11 @@ All colors MUST be HSL.
     0% { transform: translateX(calc(100vw + 160px)); }
     100% { transform: translateX(calc(-220px + 160px)); }
   }
+  @keyframes float-icon {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-12px); }
+  }
   .moto-loop { animation: moto-loop 8s linear infinite; }
   .text-loop { animation: text-loop 8s linear infinite; }
+  .animate-float-icon { animation: float-icon 3s ease-in-out infinite; }
 }

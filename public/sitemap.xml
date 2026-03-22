@@ -24,6 +24,13 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
+  <!-- Assistência Pessoal em Itajaí -->
+  <url>
+    <loc>https://www.entregasitajai.com/assistencia-pessoal</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
   <!-- Casos Reais - Prova Social -->
   <url>
     <loc>https://www.entregasitajai.com/casos-reais</loc>
