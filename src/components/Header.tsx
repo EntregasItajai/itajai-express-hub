@@ -10,6 +10,7 @@ const Header = () => {
     { to: "/", label: "Início" },
     { to: "/diligencias", label: "Diligências" },
     { to: "/apoio-juridico", label: "Apoio Jurídico" },
+    { to: "/assistencia-pessoal", label: "Assistência Pessoal" },
     { to: "/casos-reais", label: "Casos Reais" },
   ];
 
