@@ -138,19 +138,14 @@ All colors MUST be HSL.
 }
 
 @layer utilities {
-  @keyframes moto-loop {
-    0% { transform: translateX(100%); }
-    100% { transform: translateX(-220px); }
-  }
-  @keyframes text-loop {
-    0% { transform: translateX(calc(100% + 160px)); }
-    100% { transform: translateX(calc(-220px + 160px)); }
+  @keyframes moto-group-loop {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-100vw - 100%)); }
   }
   @keyframes float-icon {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-12px); }
   }
-  .moto-loop { animation: moto-loop 8s linear infinite; }
-  .text-loop { animation: text-loop 8s linear infinite; }
+  .moto-group-loop { animation: moto-group-loop 8s linear infinite; will-change: transform; }
   .animate-float-icon { animation: float-icon 3s ease-in-out infinite; }
 }
