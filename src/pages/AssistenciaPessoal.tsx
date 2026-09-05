@@ -56,11 +56,11 @@ const AssistenciaPessoal = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Assistência Pessoal | Motoboy Express em Itajaí — Entregas Itajaí</title>
-        <meta name="description" content="Motoboy express em Itajaí para entrega rápida e tele-entrega de itens pessoais: chaves, celular na assistência, presentes e retirada em lojas. Atendemos Itajaí, Navegantes e Balneário Camboriú." />
-        <meta name="keywords" content="motoboy itajaí, motoboy em itajaí, motoboy express, entrega rápida, tele entrega, assistência pessoal itajaí, buscar chaves motoboy, retirada loja motoboy, entrega presente itajaí, motoboy navegantes, motoboy balneário camboriú" />
+        <meta name="description" content="Motoboy express em Itajaí para entrega rápida e tele-entrega de itens pessoais: chaves, celular na assistência, presentes, retirada em lojas e leilões. Apoio ao comprador em Itajaí, Navegantes e Balneário Camboriú." />
+        <meta name="keywords" content="motoboy itajaí, motoboy em itajaí, motoboy express, entrega rápida, tele entrega, assistência pessoal itajaí, buscar chaves motoboy, retirada loja motoboy, entrega presente itajaí, motoboy leilão itajaí, apoio comprador itajaí, motoboy navegantes, motoboy balneário camboriú" />
         <link rel="canonical" href="https://www.entregasitajai.com.br/assistencia-pessoal" />
         <meta property="og:title" content="Assistência Pessoal | Motoboy Express em Itajaí — Entregas Itajaí" />
-        <meta property="og:description" content="Motoboy express em Itajaí para entrega rápida e tele-entrega de itens pessoais: chaves, celular na assistência, presentes e retirada em lojas." />
+        <meta property="og:description" content="Motoboy express em Itajaí para entrega rápida e tele-entrega de itens pessoais: chaves, celular na assistência, presentes, retirada em lojas e leilões. Apoio ao comprador em Itajaí e região." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.entregasitajai.com.br/assistencia-pessoal" />
         <script type="application/ld+json">
@@ -71,7 +71,12 @@ const AssistenciaPessoal = () => {
             "serviceType": ["Personal Assistant Service", "Courier Service", "Errand Service"],
             "name": "Assistência Pessoal com Motoboy Express em Itajaí",
             "alternateName": "Tele-entrega de Itens Pessoais em Itajaí",
-            "description": "Motoboy express em Itajaí para entrega rápida e tele-entrega de itens pessoais: chaves, celular na assistência técnica, retirada em lojas, entrega de presentes e muito mais.",
+            "description": "Motoboy express em Itajaí para entrega rápida e tele-entrega de itens pessoais: chaves, celular na assistência técnica, retirada em lojas e leilões, entrega de presentes e apoio ao comprador.",
+            "knowsAbout": [
+              "Motoboy Leilão em Itajaí",
+              "Apoio ao Comprador em Itajaí",
+              "Motoboy Balneário Camboriú"
+            ],
             "provider": {
               "@type": "LocalBusiness",
               "@id": "https://www.entregasitajai.com.br/#organization",
@@ -83,7 +88,11 @@ const AssistenciaPessoal = () => {
               { "@type": "City", "name": "Navegantes" },
               { "@type": "City", "name": "Camboriú" },
               { "@type": "City", "name": "Balneário Camboriú" }
-            ]
+            ],
+            "audience": {
+              "@type": "Audience",
+              "audienceType": "Compradores em leilões, consumidores e clientes de lojas físicas ou online"
+            }
           })}
         </script>
       </Helmet>

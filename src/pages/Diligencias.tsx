@@ -29,11 +29,11 @@ const Diligencias = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Diligenciador em Itajaí | Motoboy para Diligências e Verificações Técnicas</title>
-        <meta name="description" content="Diligenciador em Itajaí para verificação de veículos em leilão, vistoria de obras, coleta de assinaturas e entregar notificação. Motoboy especializado em Itajaí, Navegantes e Balneário Camboriú." />
-        <meta name="keywords" content="motoboy itajaí, motoboy em itajaí, diligenciador, diligenciador itajaí, diligências itajaí, verificação veículo leilão itajaí, inspeção carro pátio leilão navegantes, vistoria técnica obra, motoboy coleta assinatura, verificação endereço itajaí, motoboy navegantes, motoboy balneário camboriú, investigação particular, levantamento de informações" />
+        <meta name="description" content="Diligenciador em Itajaí para verificação de veículos em leilão, vistoria de obras, coleta de assinaturas e entregar notificação. Motoboy advogado e apoio a imobiliária em Itajaí, Navegantes e Balneário Camboriú." />
+        <meta name="keywords" content="motoboy itajaí, motoboy em itajaí, diligenciador em itajaí, diligenciador, diligências itajaí, motoboy advogado itajaí, apoio a imobiliária itajaí, verificação veículo leilão itajaí, inspeção carro pátio leilão navegantes, vistoria técnica obra, motoboy coleta assinatura, verificação endereço itajaí, motoboy navegantes, motoboy balneário camboriú, investigação particular, levantamento de informações" />
         <link rel="canonical" href="https://www.entregasitajai.com.br/diligencias" />
         <meta property="og:title" content="Diligenciador em Itajaí | Motoboy para Diligências e Verificações Técnicas" />
-        <meta property="og:description" content="Diligenciador em Itajaí para verificação de veículos em leilão, vistorias técnicas, coleta de assinaturas e entregar notificação. Atendemos Itajaí, Navegantes e Balneário Camboriú." />
+        <meta property="og:description" content="Diligenciador em Itajaí para verificação de veículos em leilão, vistorias técnicas, coleta de assinaturas e entregar notificação. Motoboy advogado e apoio a imobiliária em Itajaí, Navegantes e Balneário Camboriú." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.entregasitajai.com.br/diligencias" />
         <script type="application/ld+json">
@@ -45,6 +45,16 @@ const Diligencias = () => {
             "name": "Diligências e Verificações Técnicas em Itajaí",
             "alternateName": "Diligenciador em Itajaí",
             "description": "Diligenciador e motoboy em Itajaí para diligências técnicas, verificação de veículos em pátios de leilão, vistoria de obras, coleta de assinaturas, entregar notificação e levantamento de informações.",
+            "knowsAbout": [
+              "Motoboy em Itajaí",
+              "Diligenciador em Itajaí",
+              "Motoboy Advogado em Itajaí",
+              "Apoio a Imobiliária em Itajaí"
+            ],
+            "audience": {
+              "@type": "Audience",
+              "audienceType": "Advogados, Imobiliárias, Financeiras e Revendas de Veículos"
+            },
             "provider": {
               "@type": "LocalBusiness",
               "@id": "https://www.entregasitajai.com.br/#organization",
