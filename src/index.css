@@ -139,11 +139,11 @@ All colors MUST be HSL.
 
 @layer utilities {
   @keyframes moto-loop {
-    0% { transform: translateX(100vw); }
+    0% { transform: translateX(100%); }
     100% { transform: translateX(-220px); }
   }
   @keyframes text-loop {
-    0% { transform: translateX(calc(100vw + 160px)); }
+    0% { transform: translateX(calc(100% + 160px)); }
     100% { transform: translateX(calc(-220px + 160px)); }
   }
   @keyframes float-icon {
