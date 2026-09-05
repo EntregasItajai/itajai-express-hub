@@ -123,20 +123,6 @@ export default {
             transform: "translateX(calc(-220px + 160px))"
           }
         },
-        "pulse-ring": {
-          "0%": {
-            transform: "scale(0.9)",
-            opacity: "0.7",
-          },
-          "70%": {
-            transform: "scale(1.35)",
-            opacity: "0",
-          },
-          "100%": {
-            transform: "scale(1.35)",
-            opacity: "0",
-          },
-        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -144,7 +130,6 @@ export default {
         "pulse-whatsapp-smooth": "pulse-whatsapp-smooth 4s ease-in-out infinite",
         "moto-loop": "moto-loop 60s linear infinite",
         "text-loop": "text-loop 60s linear infinite",
-        "pulse-ring": "pulse-ring 2.6s ease-out infinite",
       },
     },
   },

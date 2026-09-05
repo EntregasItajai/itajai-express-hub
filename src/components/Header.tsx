@@ -18,17 +18,11 @@ const Header = () => {
     <header className="bg-primary text-primary-foreground py-4 px-5 sticky top-0 z-50 shadow-lg [transform:translateZ(0)] [backface-visibility:hidden] will-change-transform">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3">
-          <span className="relative inline-flex h-12 w-12 flex-shrink-0">
-            <span
-              aria-hidden="true"
-              className="motion-safe:animate-pulse-ring absolute inset-0 rounded-lg border-2 border-secondary"
-            />
-            <img
-              src={logoEscudo}
-              alt="Logo Entregas Itajaí"
-              className="relative h-12 w-12 rounded-lg object-cover transition-transform duration-300 motion-safe:hover:-rotate-3 motion-safe:hover:scale-105"
-            />
-          </span>
+          <img
+            src={logoEscudo}
+            alt="Logo Entregas Itajaí"
+            className="h-12 w-auto"
+          />
           <div className="flex flex-col">
             <p className="text-2xl font-bold text-secondary tracking-wide">
               ENTREGAS ITAJAÍ
