@@ -18,10 +18,10 @@ const Header = () => {
     <header className="bg-primary text-primary-foreground py-4 px-5 sticky top-0 z-50 shadow-lg">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3">
-          <img 
-            src={logoEscudo} 
-            alt="Logo Entregas Itajaí" 
-            className="h-12 w-auto"
+          <img
+            src={logoEscudo}
+            alt="Logo Entregas Itajaí"
+            className="h-12 w-auto rounded-lg motion-safe:animate-pulse-logo transition-transform duration-300 motion-safe:hover:-rotate-3 motion-safe:hover:scale-105"
           />
           <div className="flex flex-col">
             <p className="text-2xl font-bold text-secondary tracking-wide">

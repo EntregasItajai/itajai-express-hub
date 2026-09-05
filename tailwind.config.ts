@@ -123,6 +123,14 @@ export default {
             transform: "translateX(calc(-220px + 160px))"
           }
         },
+        "pulse-logo": {
+          "0%, 100%": {
+            boxShadow: "0 0 0 0 rgba(34, 197, 94, 0.55)"
+          },
+          "50%": {
+            boxShadow: "0 0 0 9px rgba(34, 197, 94, 0)"
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -130,6 +138,7 @@ export default {
         "pulse-whatsapp-smooth": "pulse-whatsapp-smooth 4s ease-in-out infinite",
         "moto-loop": "moto-loop 60s linear infinite",
         "text-loop": "text-loop 60s linear infinite",
+        "pulse-logo": "pulse-logo 2.6s ease-in-out infinite",
       },
     },
   },
