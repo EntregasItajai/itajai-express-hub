@@ -31,7 +31,12 @@ const Header = () => {
   ];
 
   return (
-    <header className="bg-primary text-primary-foreground py-4 px-5 sticky top-0 z-50 shadow-lg [transform:translateZ(0)] [backface-visibility:hidden] will-change-transform">
+    <>
+    <div style={{ height: headerHeight }} aria-hidden="true" />
+    <header
+      ref={headerRef}
+      className="bg-primary text-primary-foreground py-4 px-5 fixed top-0 left-0 right-0 z-50 shadow-lg [transform:translateZ(0)] [backface-visibility:hidden] will-change-transform"
+    >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3">
           <img
