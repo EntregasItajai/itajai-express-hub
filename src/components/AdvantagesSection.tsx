@@ -1,5 +1,6 @@
 import AdvantageCard from "./AdvantageCard";
 import { Building2, MapPin, MessageCircle } from "lucide-react";
+import { motion } from "framer-motion";
 
 const AdvantagesSection = () => {
   const advantages = [
@@ -25,12 +26,23 @@ const AdvantagesSection = () => {
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {advantages.map((advantage, index) => (
-            <AdvantageCard
+            <motion.div
               key={index}
-              icon={advantage.icon}
-              title={advantage.title}
-              description={advantage.description}
-            />
+              initial={{
+                opacity: 0,
+                x: index % 2 === 0 ? -80 : 80,
+                y: index < advantages.length / 2 ? -60 : 60,
+              }}
+              whileInView={{ opacity: 1, x: 0, y: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.6, delay: index * 0.15, ease: "easeOut" }}
+            >
+              <AdvantageCard
+                icon={advantage.icon}
+                title={advantage.title}
+                description={advantage.description}
+              />
+            </motion.div>
           ))}
         </div>
       </div>

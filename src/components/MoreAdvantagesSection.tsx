@@ -1,5 +1,6 @@
 import AdvantageCard from "./AdvantageCard";
 import { FileSignature, User, ShieldCheck } from "lucide-react";
+import { motion } from "framer-motion";
 
 const MoreAdvantagesSection = () => {
   const advantages = [
@@ -30,15 +31,26 @@ const MoreAdvantagesSection = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {advantages.map((advantage, index) => (
-            <AdvantageCard
+            <motion.div
               key={index}
-              icon={advantage.icon}
-              title={advantage.title}
-              description={advantage.description}
-              shortDescription={advantage.shortDescription}
-              collapsible={advantage.collapsible}
-              variant="dark"
-            />
+              initial={{
+                opacity: 0,
+                x: index % 2 === 0 ? -80 : 80,
+                y: 60,
+              }}
+              whileInView={{ opacity: 1, x: 0, y: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.6, delay: index * 0.15, ease: "easeOut" }}
+            >
+              <AdvantageCard
+                icon={advantage.icon}
+                title={advantage.title}
+                description={advantage.description}
+                shortDescription={advantage.shortDescription}
+                collapsible={advantage.collapsible}
+                variant="dark"
+              />
+            </motion.div>
           ))}
         </div>
       </div>
