@@ -123,12 +123,18 @@ export default {
             transform: "translateX(calc(-220px + 160px))"
           }
         },
-        "pulse-logo": {
-          "0%, 100%": {
-            boxShadow: "0 0 0 0 rgba(34, 197, 94, 0.55)"
+        "pulse-ring": {
+          "0%": {
+            transform: "scale(0.9)",
+            opacity: "0.7",
           },
-          "50%": {
-            boxShadow: "0 0 0 9px rgba(34, 197, 94, 0)"
+          "70%": {
+            transform: "scale(1.35)",
+            opacity: "0",
+          },
+          "100%": {
+            transform: "scale(1.35)",
+            opacity: "0",
           },
         },
       },
@@ -138,7 +144,7 @@ export default {
         "pulse-whatsapp-smooth": "pulse-whatsapp-smooth 4s ease-in-out infinite",
         "moto-loop": "moto-loop 60s linear infinite",
         "text-loop": "text-loop 60s linear infinite",
-        "pulse-logo": "pulse-logo 2.6s ease-in-out infinite",
+        "pulse-ring": "pulse-ring 2.6s ease-out infinite",
       },
     },
   },
