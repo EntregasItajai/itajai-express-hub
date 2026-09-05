@@ -24,9 +24,9 @@ const Header = () => {
             className="h-12 w-auto"
           />
           <div className="flex flex-col">
-            <h1 className="text-2xl font-bold text-secondary tracking-wide">
+            <p className="text-2xl font-bold text-secondary tracking-wide">
               ENTREGAS ITAJAÍ
-            </h1>
+            </p>
             <p className="text-sm text-primary-foreground/80 font-medium hidden sm:block">
               Motoboy & Serviços sob Demanda
             </p>

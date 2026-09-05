@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { motion } from "framer-motion";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingWhatsAppButton from "@/components/FloatingWhatsAppButton";
@@ -7,18 +8,32 @@ import TechnicalReportBadge from "@/components/TechnicalReportBadge";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, CreditCard, ShieldCheck, Building2, FileSignature, Smartphone, MapPin, Binoculars, Car, Wrench, Eye } from "lucide-react";
 
+const fadeLeft = {
+  initial: { opacity: 0, x: -60, y: 30 },
+  whileInView: { opacity: 1, x: 0, y: 0 },
+  viewport: { once: true, amount: 0.3 },
+  transition: { duration: 0.6, ease: "easeOut" as const },
+};
+
+const fadeRight = {
+  initial: { opacity: 0, x: 60, y: 30 },
+  whileInView: { opacity: 1, x: 0, y: 0 },
+  viewport: { once: true, amount: 0.3 },
+  transition: { duration: 0.6, ease: "easeOut" as const },
+};
+
 const Diligencias = () => {
   const whatsappUrl = "https://wa.me/5547991508563?text=Olá!%20Gostaria%20de%20solicitar%20uma%20diligência%20técnica%20na%20região%20de%20Itajaí.";
 
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Motoboy em Itajaí para Diligências e Verificações Técnicas | Entregas Itajaí</title>
-        <meta name="description" content="Motoboy em Itajaí para diligências técnicas: verificação de veículos em pátios de leilão, vistoria de obras, coleta de assinaturas e inspeção de anúncios. Atendemos Itajaí, Navegantes e Camboriú." />
-        <meta name="keywords" content="motoboy itajaí, motoboy em itajaí, diligências itajaí, verificação veículo leilão itajaí, inspeção carro pátio leilão navegantes, vistoria técnica obra, motoboy coleta assinatura, verificação endereço itajaí, motoboy navegantes, investigação particular, levantamento de informações" />
+        <title>Diligenciador em Itajaí | Motoboy para Diligências e Verificações Técnicas</title>
+        <meta name="description" content="Diligenciador em Itajaí para verificação de veículos em leilão, vistoria de obras, coleta de assinaturas e entregar notificação. Motoboy especializado em Itajaí, Navegantes e Balneário Camboriú." />
+        <meta name="keywords" content="motoboy itajaí, motoboy em itajaí, diligenciador, diligenciador itajaí, diligências itajaí, verificação veículo leilão itajaí, inspeção carro pátio leilão navegantes, vistoria técnica obra, motoboy coleta assinatura, verificação endereço itajaí, motoboy navegantes, motoboy balneário camboriú, investigação particular, levantamento de informações" />
         <link rel="canonical" href="https://www.entregasitajai.com.br/diligencias" />
-        <meta property="og:title" content="Motoboy em Itajaí para Diligências e Verificações Técnicas" />
-        <meta property="og:description" content="Motoboy em Itajaí especializado em diligências: verificação de veículos em leilão, vistorias técnicas e coleta de assinaturas. Atendemos Itajaí, Navegantes e região." />
+        <meta property="og:title" content="Diligenciador em Itajaí | Motoboy para Diligências e Verificações Técnicas" />
+        <meta property="og:description" content="Diligenciador em Itajaí para verificação de veículos em leilão, vistorias técnicas, coleta de assinaturas e entregar notificação. Atendemos Itajaí, Navegantes e Balneário Camboriú." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.entregasitajai.com.br/diligencias" />
         <script type="application/ld+json">
@@ -28,7 +43,8 @@ const Diligencias = () => {
             "@id": "https://www.entregasitajai.com.br/diligencias#service",
             "serviceType": ["Legal Support Services", "Private Investigation Service", "Field Verification Service"],
             "name": "Diligências e Verificações Técnicas em Itajaí",
-            "description": "Serviço especializado de motoboy em Itajaí para diligências técnicas, verificação de veículos em pátios de leilão, vistoria de obras, coleta de assinaturas e levantamento de informações.",
+            "alternateName": "Diligenciador em Itajaí",
+            "description": "Diligenciador e motoboy em Itajaí para diligências técnicas, verificação de veículos em pátios de leilão, vistoria de obras, coleta de assinaturas, entregar notificação e levantamento de informações.",
             "provider": {
               "@type": "LocalBusiness",
               "@id": "https://www.entregasitajai.com.br/#organization",
@@ -92,24 +108,43 @@ const Diligencias = () => {
                 <Binoculars className="w-8 h-8 text-secondary" />
               </div>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 uppercase tracking-wide">
-              Motoboy em Itajaí para Diligências e Verificações Técnicas
-            </h1>
-            <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-8 leading-relaxed">
-              Visita técnica para coleta de assinaturas em contratos, digitalização de documentos 
-              para operações bancárias e confirmação de existência de comércio presencial.
-            </p>
-            <Button 
-              variant="hero" 
-              size="lg"
-              asChild
-              className="text-lg px-8 py-4"
+            <motion.h1
+              initial={{ opacity: 0, x: -100, y: -40 }}
+              whileInView={{ opacity: 1, x: 0, y: 0 }}
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.7, ease: "easeOut" }}
+              className="text-4xl md:text-5xl font-bold mb-4 uppercase tracking-wide"
             >
-              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" onClick={() => { const w = window as any; if (typeof w.gtag === 'function') { w.gtag('event', 'conversion', {'send_to': 'AW-871515514/hF_WCNj04IEcEPqKyZ8D'}); } }}>
-                <MessageCircle size={24} />
-                Solicitar Diligência
-              </a>
-            </Button>
+              Motoboy em Itajaí para Diligências e Verificações Técnicas
+            </motion.h1>
+            <motion.p
+              initial={{ opacity: 0, x: 100, y: 40 }}
+              whileInView={{ opacity: 1, x: 0, y: 0 }}
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.7, delay: 0.15, ease: "easeOut" }}
+              className="text-xl md:text-2xl max-w-3xl mx-auto mb-8 leading-relaxed"
+            >
+              Visita técnica para coleta de assinaturas em contratos, digitalização de documentos
+              para operações bancárias e confirmação de existência de comércio presencial.
+            </motion.p>
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.6, delay: 0.3, ease: "easeOut" }}
+            >
+              <Button
+                variant="hero"
+                size="lg"
+                asChild
+                className="text-lg px-8 py-4"
+              >
+                <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" onClick={() => { const w = window as any; if (typeof w.gtag === 'function') { w.gtag('event', 'conversion', {'send_to': 'AW-871515514/hF_WCNj04IEcEPqKyZ8D'}); } }}>
+                  <MessageCircle size={24} />
+                  Solicitar Diligência
+                </a>
+              </Button>
+            </motion.div>
           </div>
         </section>
 
@@ -117,7 +152,7 @@ const Diligencias = () => {
         <section className="py-16 px-5">
           <div className="max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div>
+              <motion.div {...fadeLeft}>
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center">
                     <CreditCard className="w-6 h-6 text-accent" />
@@ -149,8 +184,8 @@ const Diligencias = () => {
                     </span>
                   </li>
                 </ul>
-              </div>
-              <div className="bg-card rounded-2xl p-8 shadow-lg">
+              </motion.div>
+              <motion.div className="bg-card rounded-2xl p-8 shadow-lg" {...fadeRight}>
                 <h3 className="text-xl font-semibold text-foreground mb-4">Ideal para:</h3>
                 <ul className="space-y-3 text-muted-foreground">
                   <li>• Correspondentes bancários</li>
@@ -159,7 +194,7 @@ const Diligencias = () => {
                   <li>• Despachantes documentais</li>
                   <li>• Assessorias de crédito</li>
                 </ul>
-              </div>
+              </motion.div>
             </div>
           </div>
         </section>
@@ -168,7 +203,7 @@ const Diligencias = () => {
         <section className="py-16 px-5 bg-muted/50">
           <div className="max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div className="lg:order-2">
+              <motion.div className="lg:order-2" {...fadeRight}>
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center">
                     <ShieldCheck className="w-6 h-6 text-accent" />
@@ -200,8 +235,8 @@ const Diligencias = () => {
                     </span>
                   </li>
                 </ul>
-              </div>
-              <div className="bg-card rounded-2xl p-8 shadow-lg lg:order-1">
+              </motion.div>
+              <motion.div className="bg-card rounded-2xl p-8 shadow-lg lg:order-1" {...fadeLeft}>
                 <h3 className="text-xl font-semibold text-foreground mb-4">Garantia de Autenticidade:</h3>
                 <ul className="space-y-3 text-muted-foreground">
                   <li>• Validação de Ativos e Veículos</li>
@@ -210,7 +245,7 @@ const Diligencias = () => {
                   <li>• Verificação de Legitimidade Empresarial</li>
                   <li>• Confirmação de Identidade de Vendedores</li>
                 </ul>
-              </div>
+              </motion.div>
             </div>
           </div>
         </section>
@@ -220,7 +255,7 @@ const Diligencias = () => {
         <section className="py-16 px-5 bg-muted/50">
           <div className="max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div className="lg:order-2">
+              <motion.div className="lg:order-2" {...fadeRight}>
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center">
                     <Car className="w-6 h-6 text-accent" />
@@ -252,8 +287,8 @@ const Diligencias = () => {
                     </span>
                   </li>
                 </ul>
-              </div>
-              <div className="bg-card rounded-2xl p-8 shadow-lg lg:order-1">
+              </motion.div>
+              <motion.div className="bg-card rounded-2xl p-8 shadow-lg lg:order-1" {...fadeLeft}>
                 <h3 className="text-xl font-semibold text-foreground mb-4">O que verificamos:</h3>
                 <ul className="space-y-3 text-muted-foreground">
                   <li>• Vazamentos de óleo e fluidos</li>
@@ -263,7 +298,7 @@ const Diligencias = () => {
                   <li>• Pneus, freios e suspensão</li>
                   <li>• Sinais de alagamento ou incêndio</li>
                 </ul>
-              </div>
+              </motion.div>
             </div>
           </div>
         </section>
@@ -272,7 +307,7 @@ const Diligencias = () => {
         <section className="py-16 px-5">
           <div className="max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div>
+              <motion.div {...fadeLeft}>
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center">
                     <Building2 className="w-6 h-6 text-accent" />
@@ -304,8 +339,8 @@ const Diligencias = () => {
                     </span>
                   </li>
                 </ul>
-              </div>
-              <div className="bg-card rounded-2xl p-8 shadow-lg">
+              </motion.div>
+              <motion.div className="bg-card rounded-2xl p-8 shadow-lg" {...fadeRight}>
                 <h3 className="text-xl font-semibold text-foreground mb-4">Aplicações:</h3>
                 <ul className="space-y-3 text-muted-foreground">
                   <li>• Acompanhamento de obras</li>
@@ -314,7 +349,7 @@ const Diligencias = () => {
                   <li>• Laudos técnicos</li>
                   <li>• Documentação para seguros</li>
                 </ul>
-              </div>
+              </motion.div>
             </div>
           </div>
         </section>
@@ -323,15 +358,21 @@ const Diligencias = () => {
 
         {/* CTA */}
         <section className="bg-primary text-primary-foreground py-16 px-5">
-          <div className="max-w-4xl mx-auto text-center">
+          <motion.div
+            className="max-w-4xl mx-auto text-center"
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.4 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+          >
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Solicite sua Diligência Agora
             </h2>
             <p className="text-xl mb-8 opacity-90">
               Relatório técnico completo com geolocalização e certificação temporal
             </p>
-            <Button 
-              variant="hero" 
+            <Button
+              variant="hero"
               size="lg"
               asChild
               className="text-lg px-8 py-4"
@@ -341,7 +382,7 @@ const Diligencias = () => {
                 Falar com Especialista
               </a>
             </Button>
-          </div>
+          </motion.div>
         </section>
       </main>
       <Footer />

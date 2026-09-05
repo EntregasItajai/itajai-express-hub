@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { motion } from "framer-motion";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingWhatsAppButton from "@/components/FloatingWhatsAppButton";
@@ -54,25 +55,26 @@ const AssistenciaPessoal = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Assistência Pessoal | Motoboy em Itajaí — Entregas Itajaí</title>
-        <meta name="description" content="Nosso motoboy em Itajaí busca itens pessoais por você: chaves, celular na assistência, presentes, retirada em lojas e muito mais. Praticidade no seu dia a dia." />
-        <meta name="keywords" content="motoboy itajaí, motoboy em itajaí, assistência pessoal itajaí, buscar chaves motoboy, retirada loja motoboy, entrega presente itajaí, motoboy navegantes, motoboy camboriú" />
-        <link rel="canonical" href="https://www.entregasitajai.com/assistencia-pessoal" />
-        <meta property="og:title" content="Assistência Pessoal | Motoboy em Itajaí — Entregas Itajaí" />
-        <meta property="og:description" content="Nosso motoboy em Itajaí busca itens pessoais por você: chaves, celular na assistência, presentes, retirada em lojas e muito mais." />
+        <title>Assistência Pessoal | Motoboy Express em Itajaí — Entregas Itajaí</title>
+        <meta name="description" content="Motoboy express em Itajaí para entrega rápida e tele-entrega de itens pessoais: chaves, celular na assistência, presentes e retirada em lojas. Atendemos Itajaí, Navegantes e Balneário Camboriú." />
+        <meta name="keywords" content="motoboy itajaí, motoboy em itajaí, motoboy express, entrega rápida, tele entrega, assistência pessoal itajaí, buscar chaves motoboy, retirada loja motoboy, entrega presente itajaí, motoboy navegantes, motoboy balneário camboriú" />
+        <link rel="canonical" href="https://www.entregasitajai.com.br/assistencia-pessoal" />
+        <meta property="og:title" content="Assistência Pessoal | Motoboy Express em Itajaí — Entregas Itajaí" />
+        <meta property="og:description" content="Motoboy express em Itajaí para entrega rápida e tele-entrega de itens pessoais: chaves, celular na assistência, presentes e retirada em lojas." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.entregasitajai.com/assistencia-pessoal" />
+        <meta property="og:url" content="https://www.entregasitajai.com.br/assistencia-pessoal" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "@id": "https://www.entregasitajai.com/assistencia-pessoal#service",
+            "@id": "https://www.entregasitajai.com.br/assistencia-pessoal#service",
             "serviceType": ["Personal Assistant Service", "Courier Service", "Errand Service"],
-            "name": "Assistência Pessoal com Motoboy em Itajaí",
-            "description": "Motoboy em Itajaí para buscar itens pessoais: chaves, celular na assistência técnica, retirada em lojas, entrega de presentes e muito mais.",
+            "name": "Assistência Pessoal com Motoboy Express em Itajaí",
+            "alternateName": "Tele-entrega de Itens Pessoais em Itajaí",
+            "description": "Motoboy express em Itajaí para entrega rápida e tele-entrega de itens pessoais: chaves, celular na assistência técnica, retirada em lojas, entrega de presentes e muito mais.",
             "provider": {
               "@type": "LocalBusiness",
-              "@id": "https://www.entregasitajai.com/#organization",
+              "@id": "https://www.entregasitajai.com.br/#organization",
               "name": "Entregas Itajaí",
               "telephone": "+55 47 99150-8563"
             },
@@ -116,29 +118,54 @@ const AssistenciaPessoal = () => {
                 <Gift className="w-8 h-8 text-secondary" />
               </div>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 uppercase tracking-wide">
+            <motion.h1
+              initial={{ opacity: 0, x: -100, y: -40 }}
+              whileInView={{ opacity: 1, x: 0, y: 0 }}
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.7, ease: "easeOut" }}
+              className="text-4xl md:text-5xl font-bold mb-4 uppercase tracking-wide"
+            >
               Assistência Pessoal com Motoboy em Itajaí
-            </h1>
-            <p className="text-lg md:text-xl text-secondary font-semibold mb-2">
+            </motion.h1>
+            <motion.p
+              initial={{ opacity: 0, x: 100, y: -20 }}
+              whileInView={{ opacity: 1, x: 0, y: 0 }}
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
+              className="text-lg md:text-xl text-secondary font-semibold mb-2"
+            >
               Praticidade e cuidado no seu dia a dia
-            </p>
-            <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-8 leading-relaxed">
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, x: -80, y: 40 }}
+              whileInView={{ opacity: 1, x: 0, y: 0 }}
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.7, delay: 0.2, ease: "easeOut" }}
+              className="text-xl md:text-2xl max-w-3xl mx-auto mb-8 leading-relaxed"
+            >
               Conte com nosso motoboy em Itajaí para buscar itens pessoais por você:
               chave da casa ou escritório, celular na assistência técnica, retirada
               em lojas, entrega de presentes, busca de itens onde você precisar —
               tudo com discrição, agilidade e cuidado.
-            </p>
-            <Button
-              variant="hero"
-              size="lg"
-              asChild
-              className="text-lg px-8 py-4"
+            </motion.p>
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.6, delay: 0.35, ease: "easeOut" }}
             >
-              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" onClick={() => { const w = window as any; if (typeof w.gtag === 'function') { w.gtag('event', 'conversion', {'send_to': 'AW-871515514/hF_WCNj04IEcEPqKyZ8D'}); } }}>
-                <MessageCircle size={24} />
-                Solicitar Assistência Pessoal
-              </a>
-            </Button>
+              <Button
+                variant="hero"
+                size="lg"
+                asChild
+                className="text-lg px-8 py-4"
+              >
+                <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" onClick={() => { const w = window as any; if (typeof w.gtag === 'function') { w.gtag('event', 'conversion', {'send_to': 'AW-871515514/hF_WCNj04IEcEPqKyZ8D'}); } }}>
+                  <MessageCircle size={24} />
+                  Solicitar Assistência Pessoal
+                </a>
+              </Button>
+            </motion.div>
           </div>
         </section>
 
@@ -149,9 +176,13 @@ const AssistenciaPessoal = () => {
               {services.map((service, index) => {
                 const Icon = service.icon;
                 return (
-                  <div
+                  <motion.div
                     key={index}
                     className="bg-card rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 text-center"
+                    initial={{ opacity: 0, x: index % 2 === 0 ? -70 : 70, y: 50 }}
+                    whileInView={{ opacity: 1, x: 0, y: 0 }}
+                    viewport={{ once: true, amount: 0.3 }}
+                    transition={{ duration: 0.6, delay: (index % 3) * 0.15, ease: "easeOut" }}
                   >
                     <div className="w-14 h-14 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-5">
                       <Icon className="w-7 h-7 text-accent" />
@@ -162,7 +193,7 @@ const AssistenciaPessoal = () => {
                     <p className="text-muted-foreground leading-relaxed">
                       {service.description}
                     </p>
-                  </div>
+                  </motion.div>
                 );
               })}
             </div>
@@ -171,7 +202,13 @@ const AssistenciaPessoal = () => {
 
         {/* CTA */}
         <section className="bg-primary text-primary-foreground py-16 px-5">
-          <div className="max-w-4xl mx-auto text-center">
+          <motion.div
+            className="max-w-4xl mx-auto text-center"
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.4 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+          >
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Precisa de Praticidade no Dia a Dia?
             </h2>
@@ -189,7 +226,7 @@ const AssistenciaPessoal = () => {
                 Solicitar Assistência Pessoal
               </a>
             </Button>
-          </div>
+          </motion.div>
         </section>
       </main>
       <Footer />
