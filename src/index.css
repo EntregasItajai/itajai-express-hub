@@ -122,6 +122,7 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    overflow-x: hidden;
   }
 
   html {
@@ -129,7 +130,11 @@ All colors MUST be HSL.
        sozinho quando conteúdo abaixo muda de tamanho durante a rolagem,
        o que fazia o header sticky "sumir e voltar" no mobile. */
     overflow-anchor: none;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
   }
+
 }
 
 @layer utilities {
