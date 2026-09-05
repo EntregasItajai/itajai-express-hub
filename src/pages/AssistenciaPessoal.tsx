@@ -53,7 +53,7 @@ const AssistenciaPessoal = () => {
   const whatsappUrl = "https://wa.me/5547991508563?text=Olá!%20Gostaria%20de%20solicitar%20uma%20Assistência%20Pessoal.";
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-dvh bg-background">
       <Helmet>
         <title>Assistência Pessoal | Motoboy Express em Itajaí — Entregas Itajaí</title>
         <meta name="description" content="Motoboy express em Itajaí para entrega rápida e tele-entrega de itens pessoais: chaves, celular na assistência, presentes, retirada em lojas e leilões. Apoio ao comprador em Itajaí, Navegantes e Balneário Camboriú." />

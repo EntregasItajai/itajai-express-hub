@@ -14,7 +14,7 @@ import ScrollToTopButton from "@/components/ScrollToTopButton";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-dvh bg-background">
       <Helmet>
         <title>Motoboy em Itajaí | Entrega Rápida, Motoboy Express e Tele-Entrega</title>
         <meta name="description" content="Motoboy em Itajaí para entrega rápida, motoboy express e tele-entrega de documentos. Diligenciador de confiança em Itajaí, Navegantes e Balneário Camboriú. Chame no WhatsApp e receba seu orçamento agora!" />

@@ -52,7 +52,7 @@ const CasosReais = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-dvh bg-background">
       <Helmet>
         <title>Diligenciador em Itajaí: Casos Reais de Inteligência de Campo | Entregas Itajaí</title>
         <meta name="description" content="Veja casos reais de um diligenciador em Itajaí: vistorias técnicas, auditorias de campo e verificações de conformidade para decisões estratégicas e corporativas." />

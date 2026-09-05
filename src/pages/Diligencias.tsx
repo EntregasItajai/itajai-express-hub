@@ -26,7 +26,7 @@ const Diligencias = () => {
   const whatsappUrl = "https://wa.me/5547991508563?text=Olá!%20Gostaria%20de%20solicitar%20uma%20diligência%20técnica%20na%20região%20de%20Itajaí.";
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-dvh bg-background">
       <Helmet>
         <title>Diligenciador em Itajaí | Motoboy para Diligências e Verificações Técnicas</title>
         <meta name="description" content="Diligenciador em Itajaí para verificação de veículos em leilão, vistoria de obras, coleta de assinaturas e entregar notificação. Motoboy advogado e apoio a imobiliária em Itajaí, Navegantes e Balneário Camboriú." />

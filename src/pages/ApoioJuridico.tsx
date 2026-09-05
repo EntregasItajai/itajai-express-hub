@@ -26,7 +26,7 @@ const ApoioJuridico = () => {
   const whatsappUrl = "https://wa.me/5547991508563?text=Olá!%20Gostaria%20de%20solicitar%20uma%20diligência%20jurídica%20na%20região%20de%20Itajaí.";
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-dvh bg-background">
       <Helmet>
         <title>Motoboy em Itajaí para Entregar Notificação e Apoio Jurídico | Entregas Itajaí</title>
         <meta name="description" content="Motoboy em Itajaí especializado em entregar notificação extrajudicial, coleta de assinaturas e acompanhamento bancário. Diligenciador para advogados em Itajaí, Navegantes e Balneário Camboriú." />
