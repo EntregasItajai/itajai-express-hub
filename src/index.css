@@ -123,6 +123,13 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
   }
+
+  html {
+    /* Evita que o navegador (Chrome/Android em especial) reajuste o scroll
+       sozinho quando conteúdo abaixo muda de tamanho durante a rolagem,
+       o que fazia o header sticky "sumir e voltar" no mobile. */
+    overflow-anchor: none;
+  }
 }
 
 @layer utilities {
