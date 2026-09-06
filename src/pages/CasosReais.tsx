@@ -55,7 +55,7 @@ const CasosReais = () => {
     <div className="min-h-dvh bg-background">
       <Helmet>
         <title>Diligenciador em Itajaí: Casos Reais de Inteligência de Campo | Entregas Itajaí</title>
-        <meta name="description" content="Veja casos reais de um diligenciador em Itajaí: vistorias técnicas, auditorias de campo e verificações de conformidade para decisões estratégicas e corporativas." />
+        <meta name="description" content="Veja casos reais de um diligenciador em Itajaí: vistorias técnicas, auditorias de campo e verificações de conformidade para decisões estratégicas." />
         <meta name="keywords" content="diligenciador, diligenciador itajaí, auditoria de campo itajaí, vistoria de constatação, check de risco, validação de ativos, inteligência de campo, verificação corporativa, motoboy itajaí" />
         <link rel="canonical" href="https://www.entregasitajai.com/casos-reais" />
         <meta property="og:title" content="Diligenciador em Itajaí: Casos Reais de Inteligência de Campo" />

@@ -29,7 +29,7 @@ const ApoioJuridico = () => {
     <div className="min-h-dvh bg-background">
       <Helmet>
         <title>Motoboy em Itajaí para Entregar Notificação e Apoio Jurídico | Entregas Itajaí</title>
-        <meta name="description" content="Motoboy em Itajaí especializado em entregar notificação extrajudicial, coleta de assinaturas e acompanhamento bancário. Diligenciador para advogados em Itajaí, Navegantes e Balneário Camboriú." />
+        <meta name="description" content="Motoboy em Itajaí para entregar notificação extrajudicial, coleta de assinaturas e acompanhamento bancário. Diligenciador para advogados em Itajaí e região." />
         <meta name="keywords" content="motoboy itajaí, motoboy em itajaí, motoboy advogado itajaí, motoboy jurídico itajaí, entregar notificação, entregar notificação itajaí, notificação extrajudicial itajaí, apoio jurídico itajaí, diligenciador, motoboy coletar assinatura, coleta assinatura contrato, motoboy navegantes, motoboy balneário camboriú, apoio operacional jurídico" />
         <link rel="canonical" href="https://www.entregasitajai.com/apoio-juridico" />
         <meta property="og:title" content="Motoboy em Itajaí para Entregar Notificação e Apoio Jurídico" />

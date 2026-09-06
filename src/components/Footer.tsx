@@ -84,7 +84,7 @@ const Footer = () => {
         </div>
 
         <div className="pt-8 border-t border-primary-foreground/20 text-sm opacity-80">
-          © 2025 Entregas Itajaí - Todos os direitos reservados.
+          © {new Date().getFullYear()} Entregas Itajaí - Todos os direitos reservados.
           <br />
           <a 
             href="https://docs.google.com/document/d/1DUP7uYIV20cbxfG5R7-BP0AwIwu-uhha/edit?usp=sharing&ouid=100310776499535963461&rtpof=true&sd=true" 

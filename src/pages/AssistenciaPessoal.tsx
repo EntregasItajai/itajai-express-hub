@@ -56,11 +56,11 @@ const AssistenciaPessoal = () => {
     <div className="min-h-dvh bg-background">
       <Helmet>
         <title>Assistência Pessoal | Motoboy Express em Itajaí — Entregas Itajaí</title>
-        <meta name="description" content="Motoboy express em Itajaí para entrega rápida e tele-entrega de itens pessoais: chaves, celular na assistência, presentes, retirada em lojas e leilões. Apoio ao comprador em Itajaí, Navegantes e Balneário Camboriú." />
+        <meta name="description" content="Motoboy express em Itajaí: entrega rápida de itens pessoais, retirada em leilões e lojas, apoio ao comprador. Navegantes e Balneário Camboriú." />
         <meta name="keywords" content="motoboy itajaí, motoboy em itajaí, motoboy express, entrega rápida, tele entrega, assistência pessoal itajaí, buscar chaves motoboy, retirada loja motoboy, entrega presente itajaí, motoboy leilão itajaí, apoio comprador itajaí, motoboy navegantes, motoboy balneário camboriú" />
         <link rel="canonical" href="https://www.entregasitajai.com/assistencia-pessoal" />
         <meta property="og:title" content="Assistência Pessoal | Motoboy Express em Itajaí — Entregas Itajaí" />
-        <meta property="og:description" content="Motoboy express em Itajaí para entrega rápida e tele-entrega de itens pessoais: chaves, celular na assistência, presentes, retirada em lojas e leilões. Apoio ao comprador em Itajaí e região." />
+        <meta property="og:description" content="Motoboy express em Itajaí: entrega rápida de itens pessoais, retirada em leilões e lojas, apoio ao comprador. Navegantes e Balneário Camboriú." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.entregasitajai.com/assistencia-pessoal" />
         <script type="application/ld+json">

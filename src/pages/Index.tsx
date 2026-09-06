@@ -17,11 +17,11 @@ const Index = () => {
     <div className="min-h-dvh bg-background">
       <Helmet>
         <title>Motoboy em Itajaí | Entrega Rápida, Motoboy Express e Tele-Entrega</title>
-        <meta name="description" content="Motoboy em Itajaí para entrega rápida, motoboy express e tele-entrega de documentos. Diligenciador de confiança em Itajaí, Navegantes e Balneário Camboriú. Chame no WhatsApp e receba seu orçamento agora!" />
+        <meta name="description" content="Motoboy em Itajaí para entrega rápida, motoboy express e tele-entrega de documentos. Diligenciador de confiança em Itajaí, Navegantes e Balneário Camboriú." />
         <meta name="keywords" content="motoboy itajaí, motoboy em itajaí, entrega rápida, motoboy express, tele entrega, diligenciador, entregar notificação, motoboy navegantes, motoboy balneário camboriú, coletar assinatura itajaí, diligência verificação anúncio, vistoria técnica obra, entrega contrato bancário, verificação endereço, combate golpes itajaí, logística corporativa" />
         <link rel="canonical" href="https://www.entregasitajai.com/" />
         <meta property="og:title" content="Motoboy em Itajaí | Entrega Rápida, Motoboy Express e Tele-Entrega" />
-        <meta property="og:description" content="Motoboy em Itajaí para entrega rápida, motoboy express e tele-entrega de documentos. Diligenciador de confiança em Itajaí, Navegantes e Balneário Camboriú. Chame no WhatsApp!" />
+        <meta property="og:description" content="Motoboy em Itajaí para entrega rápida, motoboy express e tele-entrega de documentos. Diligenciador de confiança em Itajaí, Navegantes e Balneário Camboriú." />
         <meta property="og:url" content="https://www.entregasitajai.com/" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">
