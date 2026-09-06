@@ -31,16 +31,16 @@ const ApoioJuridico = () => {
         <title>Motoboy em Itajaí para Entregar Notificação e Apoio Jurídico | Entregas Itajaí</title>
         <meta name="description" content="Motoboy em Itajaí especializado em entregar notificação extrajudicial, coleta de assinaturas e acompanhamento bancário. Diligenciador para advogados em Itajaí, Navegantes e Balneário Camboriú." />
         <meta name="keywords" content="motoboy itajaí, motoboy em itajaí, motoboy advogado itajaí, motoboy jurídico itajaí, entregar notificação, entregar notificação itajaí, notificação extrajudicial itajaí, apoio jurídico itajaí, diligenciador, motoboy coletar assinatura, coleta assinatura contrato, motoboy navegantes, motoboy balneário camboriú, apoio operacional jurídico" />
-        <link rel="canonical" href="https://www.entregasitajai.com.br/apoio-juridico" />
+        <link rel="canonical" href="https://www.entregasitajai.com/apoio-juridico" />
         <meta property="og:title" content="Motoboy em Itajaí para Entregar Notificação e Apoio Jurídico" />
         <meta property="og:description" content="Motoboy em Itajaí para escritórios de advocacia: entregar notificação extrajudicial, coleta de assinaturas e acompanhamento bancário com relatório profissional." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.entregasitajai.com.br/apoio-juridico" />
+        <meta property="og:url" content="https://www.entregasitajai.com/apoio-juridico" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "@id": "https://www.entregasitajai.com.br/apoio-juridico#service",
+            "@id": "https://www.entregasitajai.com/apoio-juridico#service",
             "serviceType": ["Legal Support Services", "Process Server", "Document Delivery Service"],
             "name": "Apoio Jurídico Operacional em Itajaí",
             "alternateName": "Entregar Notificação em Itajaí",
@@ -52,7 +52,7 @@ const ApoioJuridico = () => {
             ],
             "provider": {
               "@type": "LocalBusiness",
-              "@id": "https://www.entregasitajai.com.br/#organization",
+              "@id": "https://www.entregasitajai.com/#organization",
               "name": "Entregas Itajaí",
               "telephone": "+55 47 99150-8563"
             },

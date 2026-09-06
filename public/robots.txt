@@ -24,7 +24,7 @@ Disallow: /api/
 Disallow: /*.json$
 
 # Sitemap principal
-Sitemap: https://www.entregasitajai.com.br/sitemap.xml
+Sitemap: https://www.entregasitajai.com/sitemap.xml
 
 # Páginas prioritárias para indexação:
 # - Motoboy em Itajaí (home)

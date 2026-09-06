@@ -57,23 +57,23 @@ const CasosReais = () => {
         <title>Diligenciador em Itajaí: Casos Reais de Inteligência de Campo | Entregas Itajaí</title>
         <meta name="description" content="Veja casos reais de um diligenciador em Itajaí: vistorias técnicas, auditorias de campo e verificações de conformidade para decisões estratégicas e corporativas." />
         <meta name="keywords" content="diligenciador, diligenciador itajaí, auditoria de campo itajaí, vistoria de constatação, check de risco, validação de ativos, inteligência de campo, verificação corporativa, motoboy itajaí" />
-        <link rel="canonical" href="https://www.entregasitajai.com.br/casos-reais" />
+        <link rel="canonical" href="https://www.entregasitajai.com/casos-reais" />
         <meta property="og:title" content="Diligenciador em Itajaí: Casos Reais de Inteligência de Campo" />
         <meta property="og:description" content="Veja como nosso diligenciador em Itajaí garante segurança para decisões estratégicas e corporativas com vistorias técnicas e auditorias de campo." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.entregasitajai.com.br/casos-reais" />
+        <meta property="og:url" content="https://www.entregasitajai.com/casos-reais" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "@id": "https://www.entregasitajai.com.br/casos-reais#service",
+            "@id": "https://www.entregasitajai.com/casos-reais#service",
             "serviceType": ["Private Investigation Service", "Field Verification Service", "Risk Assessment Service"],
             "name": "Diligenciador e Auditoria de Campo em Itajaí",
             "alternateName": "Diligenciador em Itajaí",
             "description": "Diligenciador em Itajaí para auditorias de campo, vistorias de constatação e checagem de risco, com casos reais de validação de ativos e verificação corporativa.",
             "provider": {
               "@type": "LocalBusiness",
-              "@id": "https://www.entregasitajai.com.br/#organization",
+              "@id": "https://www.entregasitajai.com/#organization",
               "name": "Entregas Itajaí",
               "telephone": "+55 47 99150-8563"
             },
