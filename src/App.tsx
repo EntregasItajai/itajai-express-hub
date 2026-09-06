@@ -11,6 +11,8 @@ import Diligencias from "./pages/Diligencias";
 import ApoioJuridico from "./pages/ApoioJuridico";
 import AssistenciaPessoal from "./pages/AssistenciaPessoal";
 import CasosReais from "./pages/CasosReais";
+import BlogListPage from "./pages/BlogListPage";
+import BlogPostPage from "./pages/BlogPostPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -34,6 +36,8 @@ const App = () => {
               <Route path="/apoio-juridico" element={<ApoioJuridico />} />
               <Route path="/assistencia-pessoal" element={<AssistenciaPessoal />} />
               <Route path="/casos-reais" element={<CasosReais />} />
+              <Route path="/blog" element={<BlogListPage />} />
+              <Route path="/blog/diligencia-exemplo" element={<BlogPostPage />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>
