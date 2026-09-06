@@ -36,6 +36,9 @@ const Diligencias = () => {
         <meta property="og:description" content="Diligenciador em Itajaí: verificação de veículos em leilão, vistoria de obras, coleta de assinaturas e entregar notificação. Navegantes e Balneário Camboriú." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.entregasitajai.com/diligencias" />
+        <meta property="og:image" content="https://www.entregasitajai.com/entregasitajai-og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",

@@ -23,6 +23,9 @@ const Index = () => {
         <meta property="og:title" content="Motoboy em Itajaí | Entrega Rápida, Motoboy Express e Tele-Entrega" />
         <meta property="og:description" content="Motoboy em Itajaí para entrega rápida, motoboy express e tele-entrega de documentos. Diligenciador de confiança em Itajaí, Navegantes e Balneário Camboriú." />
         <meta property="og:url" content="https://www.entregasitajai.com/" />
+        <meta property="og:image" content="https://www.entregasitajai.com/entregasitajai-og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">
           {JSON.stringify({

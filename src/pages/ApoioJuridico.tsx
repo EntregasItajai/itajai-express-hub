@@ -36,6 +36,9 @@ const ApoioJuridico = () => {
         <meta property="og:description" content="Motoboy em Itajaí para escritórios de advocacia: entregar notificação extrajudicial, coleta de assinaturas e acompanhamento bancário com relatório profissional." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.entregasitajai.com/apoio-juridico" />
+        <meta property="og:image" content="https://www.entregasitajai.com/entregasitajai-og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",

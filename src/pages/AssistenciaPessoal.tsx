@@ -63,6 +63,9 @@ const AssistenciaPessoal = () => {
         <meta property="og:description" content="Motoboy express em Itajaí: entrega rápida de itens pessoais, retirada em leilões e lojas, apoio ao comprador. Navegantes e Balneário Camboriú." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.entregasitajai.com/assistencia-pessoal" />
+        <meta property="og:image" content="https://www.entregasitajai.com/entregasitajai-og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
