@@ -80,6 +80,25 @@ const Index = () => {
             }
           })}
         </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "VideoObject",
+            "name": "Entregas Itajaí — Motoboy Express em Itajaí, SC",
+            "description": "Vídeo institucional da Entregas Itajaí: entregamos mais que objetos, entregamos tempo de volta para você. Atendemos quem está perto, longe ou fora do país. Chame o Motoboy Entregas Itajaí, seu assistente de confiança para entregas, coletas e diligências em Itajaí, Navegantes, Balneário Camboriú e toda a região.",
+            "thumbnailUrl": [
+              "https://www.entregasitajai.com/motoboy-video-cover.png"
+            ],
+            "uploadDate": "2025-09-20",
+            "contentUrl": "https://www.entregasitajai.com/motoboy-video.mp4",
+            "duration": "PT1M6S",
+            "publisher": {
+              "@type": "Organization",
+              "@id": "https://www.entregasitajai.com/#organization",
+              "name": "Entregas Itajaí"
+            }
+          })}
+        </script>
       </Helmet>
       <Header />
       <main>
