@@ -27,7 +27,7 @@ const IntroSection = () => {
         >
           <a 
             href={whatsappUrl}
-            onClick={() => { const w = window as any; if (typeof w.gtag === 'function') { w.gtag('event', 'conversion', {'send_to': 'AW-871515514/hF_WCNj04IEcEPqKyZ8D'}); } }}
+            onClick={() => { const w = window as any; if (typeof w.gtag === 'function') { w.gtag('event', 'conversion', {'send_to': 'AW-871515514/Y75hCN_lgs0cEPqKyZ8D'}); } }}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3"

@@ -4,7 +4,9 @@
  */
 
 const GOOGLE_ADS_ID = "AW-871515514";
-const CONVERSION_LABEL = "hF_WCNj04IEcEPqKyZ8D"; // Clique WhatsApp
+// Rótulo da ação de conversão "Clique WhatsApp" (ID 7677719263) no Google Ads.
+// A ação antiga "Clique WhatsApp Site" (hF_WCNj04IEcEPqKyZ8D) foi removida em jun/2026.
+const CONVERSION_LABEL = "Y75hCN_lgs0cEPqKyZ8D";
 
 // Valores realistas para motoboy (ticket médio baixo)
 export const EVENT_VALUES = {
