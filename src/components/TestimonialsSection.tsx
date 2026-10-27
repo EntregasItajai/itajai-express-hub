@@ -3,7 +3,7 @@ import { motion, useAnimationFrame, useMotionValue } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 import { Star } from "lucide-react";
 
-const testimonials = [
+export const testimonials = [
   {
     name: "Bibiana",
     text: "Muito top serviço do pessoal, precisava fazer uma coleta com urgência, pensei que poderia ser possível com moto, me informaram que devido ao peso não seria possível, e já me deram a solução, fizeram a coleta de carro, valor super acessível e com uma rapidez absurda!! Super indico !!"

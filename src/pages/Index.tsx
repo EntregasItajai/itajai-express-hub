@@ -5,7 +5,7 @@ import IntroSection from "@/components/IntroSection";
 import AdvantagesSection from "@/components/AdvantagesSection";
 import CTASection from "@/components/CTASection";
 import VideoSection from "@/components/VideoSection";
-import TestimonialsSection from "@/components/TestimonialsSection";
+import TestimonialsSection, { testimonials } from "@/components/TestimonialsSection";
 import MoreAdvantagesSection from "@/components/MoreAdvantagesSection";
 import HoursSection from "@/components/HoursSection";
 import Footer from "@/components/Footer";
@@ -83,9 +83,31 @@ const Index = () => {
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "@id": "https://www.entregasitajai.com/#organization",
+            "name": "Entregas Itajaí",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1",
+              "reviewCount": String(testimonials.length)
+            },
+            "review": testimonials.map((t) => ({
+              "@type": "Review",
+              "author": { "@type": "Person", "name": t.name },
+              "reviewBody": t.text,
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5", "worstRating": "1" }
+            }))
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "VideoObject",
             "name": "Entregas Itajaí — Motoboy Express em Itajaí, SC",
-            "description": "Vídeo institucional da Entregas Itajaí: entregamos mais que objetos, entregamos tempo de volta para você. Atendemos quem está perto, longe ou fora do país. Chame o Motoboy Entregas Itajaí, seu assistente de confiança para entregas, coletas e diligências em Itajaí, Navegantes, Balneário Camboriú e toda a região.",
+            "description": "Vídeo institucional da Entregas Itajaí: uma apresentadora explica como funcionam as entregas, coletas e diligências feitas pelo nosso motoboy em Itajaí, Navegantes, Balneário Camboriú e região. Entregamos mais que objetos, entregamos tempo de volta para você.",
+            "inLanguage": "pt-BR",
             "thumbnailUrl": [
               "https://www.entregasitajai.com/motoboy-video-cover.png"
             ],
