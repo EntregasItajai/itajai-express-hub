@@ -89,16 +89,23 @@ const Footer = () => {
           <br />
           <Link
             to="/politica-de-privacidade"
-            className="text-secondary hover:text-secondary/80 transition-colors"
+            className="text-secondary hover:text-secondary/80 transition-colors whitespace-nowrap"
           >
             Política de Privacidade
           </Link>
           {" · "}
           <Link
             to="/termos-de-uso"
-            className="text-secondary hover:text-secondary/80 transition-colors"
+            className="text-secondary hover:text-secondary/80 transition-colors whitespace-nowrap"
           >
             Termos de Uso
+          </Link>
+          {" · "}
+          <Link
+            to="/video"
+            className="text-secondary hover:text-secondary/80 transition-colors whitespace-nowrap"
+          >
+            Vídeo institucional
           </Link>
         </div>
       </div>
