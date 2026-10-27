@@ -55,7 +55,7 @@ const Hero = () => {
             whileInView={{ opacity: 1, x: 0, y: 0 }}
             viewport={{ once: true, amount: 0.5 }}
             transition={{ duration: 0.7, delay: 0.3, ease: "easeOut" }}
-            className="text-sm sm:text-lg md:text-xl max-w-3xl mx-auto mb-6 sm:mb-8 leading-relaxed text-secondary font-semibold"
+            className="w-fit text-[15px] sm:text-lg md:text-xl max-w-3xl mx-auto mb-6 sm:mb-8 leading-relaxed text-secondary font-semibold rounded-lg bg-black/40 backdrop-blur-sm px-3 py-2 sm:px-4 [text-shadow:0_1px_2px_rgba(0,0,0,0.6)]"
           >
             Especialistas em Diligências In Loco, Constatação de Conformidade e Levantamento de Informações.
           </motion.p>
