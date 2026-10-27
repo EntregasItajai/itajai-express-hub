@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { MapPin, Mail, Phone } from "lucide-react";
 import facebookIcon from "@/assets/facebook-icon.png";
 import instagramIcon from "@/assets/instagram-icon.png";
@@ -86,14 +87,19 @@ const Footer = () => {
         <div className="pt-8 border-t border-primary-foreground/20 text-sm opacity-80">
           © {new Date().getFullYear()} Entregas Itajaí - Todos os direitos reservados.
           <br />
-          <a 
-            href="https://docs.google.com/document/d/1DUP7uYIV20cbxfG5R7-BP0AwIwu-uhha/edit?usp=sharing&ouid=100310776499535963461&rtpof=true&sd=true" 
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/politica-de-privacidade"
             className="text-secondary hover:text-secondary/80 transition-colors"
           >
             Política de Privacidade
-          </a>
+          </Link>
+          {" · "}
+          <Link
+            to="/termos-de-uso"
+            className="text-secondary hover:text-secondary/80 transition-colors"
+          >
+            Termos de Uso
+          </Link>
         </div>
       </div>
     </footer>
