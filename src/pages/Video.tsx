@@ -8,7 +8,7 @@ import ScrollToTopButton from "@/components/ScrollToTopButton";
 
 const VIDEO_TITLE = "Entregas Itajaí — Motoboy Express em Itajaí, SC";
 const VIDEO_DESCRIPTION =
-  "Vídeo institucional da Entregas Itajaí: uma apresentadora explica como funcionam as entregas, coletas e diligências feitas pelo nosso motoboy em Itajaí, Navegantes, Balneário Camboriú e região. Entregamos mais que objetos, entregamos tempo de volta para você.";
+  "Vídeo institucional da Entregas Itajaí: a apresentadora Gabi explica como funcionam as entregas, coletas e diligências feitas pelo nosso motoboy em Itajaí, Navegantes, Balneário Camboriú e região. Entregamos mais que objetos, entregamos tempo de volta para você.";
 
 // Página de exibição do vídeo institucional. Existe para o Google ter uma página
 // em que o vídeo é o conteúdo principal; na home o vídeo segue sem schema.
