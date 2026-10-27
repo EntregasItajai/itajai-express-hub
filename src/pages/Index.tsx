@@ -112,7 +112,7 @@ const Index = () => {
             "thumbnailUrl": [
               "https://www.entregasitajai.com/motoboy-video-cover.png"
             ],
-            "uploadDate": "2025-09-20",
+            "uploadDate": "2025-09-20T08:00:00-03:00",
             "contentUrl": "https://www.entregasitajai.com/motoboy-video.mp4",
             "duration": "PT1M6S",
             "publisher": {
