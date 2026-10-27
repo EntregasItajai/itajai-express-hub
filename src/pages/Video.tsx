@@ -38,6 +38,7 @@ const Video = () => {
             "uploadDate": "2025-09-20T08:00:00-03:00",
             "contentUrl": "https://www.entregasitajai.com/motoboy-video.mp4",
             "duration": "PT1M6S",
+            "sameAs": "https://www.youtube.com/shorts/djfjLmcPaWU",
             "publisher": {
               "@type": "Organization",
               "@id": "https://www.entregasitajai.com/#organization",
