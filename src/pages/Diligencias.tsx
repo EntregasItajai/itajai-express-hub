@@ -7,7 +7,7 @@ import FloatingWhatsAppButton from "@/components/FloatingWhatsAppButton";
 import ScrollToTopButton from "@/components/ScrollToTopButton";
 import TechnicalReportBadge from "@/components/TechnicalReportBadge";
 import { Button } from "@/components/ui/button";
-import { MessageCircle, CreditCard, ShieldCheck, Building2, FileSignature, Smartphone, MapPin, Binoculars, Car, Wrench, Eye } from "lucide-react";
+import { MessageCircle, CreditCard, ShieldCheck, Building2, FileSignature, Smartphone, MapPin, Binoculars, Car, Wrench, Eye, Globe } from "lucide-react";
 
 const fadeLeft = {
   initial: { opacity: 0, x: -60, y: 30 },
@@ -129,18 +129,25 @@ const Diligencias = () => {
               transition={{ duration: 0.7, ease: "easeOut" }}
               className="text-4xl md:text-5xl font-bold mb-4 uppercase tracking-wide"
             >
-              Motoboy em Itajaí para Diligências e Verificações Técnicas
+              Diligências e Verificações Presenciais em Itajaí
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, x: 100, y: 40 }}
               whileInView={{ opacity: 1, x: 0, y: 0 }}
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.7, delay: 0.15, ease: "easeOut" }}
-              className="text-xl md:text-2xl max-w-3xl mx-auto mb-8 leading-relaxed"
+              className="text-xl md:text-2xl max-w-3xl mx-auto mb-4 leading-relaxed"
             >
-              Visita técnica para coleta de assinaturas em contratos, digitalização de documentos
-              para operações bancárias e confirmação de existência de comércio presencial.
+              Vistorias, auditorias de campo, verificação de endereços, coleta de evidências e
+              representação operacional para pessoas e empresas que precisem de constatações na
+              região de Itajaí.
             </motion.p>
+            <p className="text-base md:text-lg max-w-3xl mx-auto mb-4 opacity-90">
+              Executadas por profissionais com experiência em campo, logística e atendimento empresarial.
+            </p>
+            <p className="text-xl md:text-2xl font-semibold text-secondary mb-8">
+              Somos seus olhos e ouvidos no local.
+            </p>
             <motion.div
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -158,6 +165,51 @@ const Diligencias = () => {
                   Solicitar Diligência
                 </a>
               </Button>
+            </motion.div>
+          </div>
+        </section>
+
+        {/* Olhos e ouvidos no local */}
+        <section className="py-16 px-5">
+          <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <motion.div className="bg-card rounded-2xl p-8 shadow-lg" {...fadeLeft}>
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center">
+                  <Globe className="w-6 h-6 text-accent" />
+                </div>
+                <h2 className="text-2xl font-bold text-foreground">Você não precisa estar aqui</h2>
+              </div>
+              <p className="text-muted-foreground mb-4 leading-relaxed">
+                Nosso atendimento é presencial: vamos até o local. Por isso, atender significa atender
+                quem está em qualquer lugar:
+              </p>
+              <ul className="space-y-3 text-foreground">
+                <li>
+                  <strong>Na própria região</strong>, sem poder ou querer se deslocar, focado na sua
+                  atividade principal.
+                </li>
+                <li>
+                  <strong>Em outra cidade, estado ou país</strong>, e precisa verificar ou resolver
+                  algo aqui na região de Itajaí.
+                </li>
+              </ul>
+            </motion.div>
+            <motion.div className="bg-card rounded-2xl p-8 shadow-lg" {...fadeRight}>
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center">
+                  <MessageCircle className="w-6 h-6 text-accent" />
+                </div>
+                <h2 className="text-2xl font-bold text-foreground">Comunicação ativa durante a diligência</h2>
+              </div>
+              <p className="text-muted-foreground mb-4 leading-relaxed">
+                Enquanto estamos no local, passamos as informações na hora, para você fazer a
+                constatação e a conferência em tempo real.
+              </p>
+              <ul className="space-y-3 text-foreground">
+                <li>Fotos e informações enviadas durante a visita, sem esperar o fim.</li>
+                <li>Dúvidas tiradas na hora, com o local à vista.</li>
+                <li>Você pode pedir um detalhe a mais antes de sairmos do local.</li>
+              </ul>
             </motion.div>
           </div>
         </section>
@@ -388,6 +440,10 @@ const Diligencias = () => {
                 <span className="text-muted-foreground"> — inspeção no pátio antes do lance.</span>
               </li>
             </ul>
+            <p className="text-muted-foreground mt-6">
+              Também atendemos demandas que tradicionalmente são buscadas como serviços de motoboy
+              especializado.
+            </p>
           </div>
         </section>
 

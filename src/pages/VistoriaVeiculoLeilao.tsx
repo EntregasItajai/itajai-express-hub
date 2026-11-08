@@ -39,6 +39,7 @@ const VistoriaVeiculoLeilao = () => (
         "Sinais de alagamento ou de incêndio, como marcas de água, mofo, resíduos e áreas queimadas.",
         "Placa e chassi visíveis, para você conferir com o lote do edital.",
         "Fotos gerais e de detalhe, e vídeo curto quando o pátio permitir.",
+        "Durante a vistoria, passamos as informações na hora, para você conferir em tempo real e pedir um detalhe a mais antes de sairmos do pátio.",
       ],
     }}
     extra={{

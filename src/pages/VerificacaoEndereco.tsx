@@ -20,6 +20,7 @@ const VerificacaoEndereco = () => (
         "Escritórios de advocacia e assessorias",
         "Revendas e empresas que vão fechar negócio com alguém de fora",
         "Quem vai alugar, comprar ou contratar sem conhecer o local",
+        "Quem está em outra cidade, estado ou país, ou não pode se deslocar",
       ],
     }}
     problem={{
@@ -37,6 +38,7 @@ const VerificacaoEndereco = () => (
         "Perguntamos pelo nome exato do morador ou da empresa na portaria, no comércio ao lado ou aos vizinhos, e registramos se o nome é reconhecido.",
         "Observamos sinais de moradia ou de atividade: movimento, veículo na garagem, relógio de luz e água, letreiros, horário de funcionamento e outras empresas no mesmo endereço.",
         "Quando o endereço não existe ou a numeração não confere, registramos isso com fotos da numeração da rua e com o que os moradores informaram.",
+        "Durante a visita, passamos as informações na hora, para você conferir em tempo real e pedir um detalhe a mais antes de sairmos do local.",
         "Entregamos relatório em PDF com fotos, geolocalização e data e hora. O texto separa o que foi constatado pelo diligenciador, o que foi declarado por alguém no local e o que não foi possível verificar.",
       ],
     }}
