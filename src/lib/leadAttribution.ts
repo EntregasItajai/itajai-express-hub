@@ -16,6 +16,7 @@ const LEAD_WEBHOOK = "https://assistent-n8n.gmmg0l.easypanel.host/webhook/sniper
 // Sem 0, O, 1, I e L para o código não ser confundido ao ser lido ou digitado.
 const CODE_ALPHABET = "23456789ABCDEFGHJKMNPQRSTUVWXYZ";
 const ORIGINAL_HREF_ATTR = "data-ei-original-href";
+const LAST_SET_HREF_ATTR = "data-ei-last-href";
 const TRACKED_PARAMS = [
   "gclid",
   "gbraid",
@@ -159,12 +160,20 @@ export function prepareWhatsAppClick(target: EventTarget | null): void {
     const link = target.closest("a");
     if (!(link instanceof HTMLAnchorElement)) return;
 
-    const originalHref = link.getAttribute(ORIGINAL_HREF_ATTR) || link.getAttribute("href") || "";
+    // Parte sempre do link "limpo". Se o href ainda é o que nós gravamos no clique anterior, o limpo
+    // está guardado no atributo. Se o href mudou (o React trocou a mensagem ao mudar de página),
+    // o href atual já é o link limpo novo.
+    const currentHref = link.getAttribute("href") || "";
+    const keptOriginal = link.getAttribute(ORIGINAL_HREF_ATTR);
+    const lastSetHref = link.getAttribute(LAST_SET_HREF_ATTR);
+    const originalHref = keptOriginal && lastSetHref === currentHref ? keptOriginal : currentHref;
+
     const code = newLeadCode();
     const newHref = withLeadCode(originalHref, code);
     if (!newHref) return;
 
     link.setAttribute(ORIGINAL_HREF_ATTR, originalHref);
+    link.setAttribute(LAST_SET_HREF_ATTR, newHref);
     link.setAttribute("href", newHref);
     registerLead(code, link);
   } catch {

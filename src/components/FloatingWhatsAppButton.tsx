@@ -1,8 +1,12 @@
 import { MessageCircle } from "lucide-react";
+import { useLocation } from "react-router-dom";
 import whatsappIcon from "@/assets/whatsapp-icon-2.png";
+import { whatsappUrlForPath } from "@/lib/whatsappMessages";
 
 const FloatingWhatsAppButton = () => {
-  const whatsappUrl = "https://wa.me/5547991508563?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento.";
+  // A mensagem acompanha a página aberta (diligências, apoio jurídico etc.).
+  const { pathname } = useLocation();
+  const whatsappUrl = whatsappUrlForPath(pathname);
 
   return (
     <a
