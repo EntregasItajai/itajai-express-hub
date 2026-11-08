@@ -160,7 +160,7 @@ const Diligencias = () => {
                 asChild
                 className="text-lg px-8 py-4"
               >
-                <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" onClick={() => { const w = window as any; if (typeof w.gtag === 'function') { w.gtag('event', 'conversion', {'send_to': 'AW-871515514/Y75hCN_lgs0cEPqKyZ8D'}); } }}>
+                <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
                   <MessageCircle size={24} />
                   Solicitar Diligência
                 </a>
@@ -468,7 +468,7 @@ const Diligencias = () => {
               asChild
               className="text-lg px-8 py-4"
             >
-              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" onClick={() => { const w = window as any; if (typeof w.gtag === 'function') { w.gtag('event', 'conversion', {'send_to': 'AW-871515514/Y75hCN_lgs0cEPqKyZ8D'}); } }}>
+              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
                 <MessageCircle size={24} />
                 Falar com Especialista
               </a>
