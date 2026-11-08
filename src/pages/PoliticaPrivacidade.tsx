@@ -138,8 +138,10 @@ const PoliticaPrivacidade = () => {
         </li>
         <li>
           <strong>Origem do clique no WhatsApp:</strong> no seu navegador, por até 30 dias; em
-          nosso banco de dados, por até 24 meses, para comparar o resultado das campanhas ao
-          longo do tempo
+          nosso banco de dados, pelo mesmo prazo dos dados de pedidos, até 5 anos após o último
+          atendimento, para comparar o resultado das campanhas ao longo do tempo. Registros de
+          números que nunca contrataram um serviço são excluídos quando deixam de ser úteis para
+          medir as campanhas
         </li>
       </ul>
       <p>Encerrados esses prazos, os dados são excluídos ou anonimizados.</p>
