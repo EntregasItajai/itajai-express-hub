@@ -8,7 +8,7 @@ const PoliticaPrivacidade = () => {
       metaTitle="Política de Privacidade | Entregas Itajaí"
       description="Como a Entregas Itajaí coleta, usa, armazena e protege seus dados pessoais, conforme a Lei Geral de Proteção de Dados (LGPD)."
       path="/politica-de-privacidade"
-      updatedAt="27 de outubro de 2026"
+      updatedAt="8 de novembro de 2026"
     >
       <p>
         Esta Política de Privacidade descreve como a Entregas Itajaí coleta, utiliza, armazena e
@@ -45,6 +45,15 @@ const PoliticaPrivacidade = () => {
           Dados de navegação coletados por cookies do Google Ads e Google Analytics, como endereço
           IP, tipo de dispositivo, páginas visitadas e origem do acesso
         </li>
+        <li>
+          Origem do contato pelo WhatsApp: ao clicar em um botão de WhatsApp do site, registramos
+          a página e o botão clicados, o identificador da campanha de anúncios (como o gclid do
+          Google Ads) e os parâmetros de campanha do endereço de acesso (utm). Esses dados ficam
+          guardados no seu navegador por até 30 dias e recebem um código de atendimento (por
+          exemplo, EI-AB12C) que aparece na mensagem de WhatsApp. Quando você envia a mensagem,
+          ligamos esse código ao seu número de WhatsApp e ao texto da primeira mensagem, e também
+          registramos a opção que você tocar no menu de boas-vindas
+        </li>
       </ul>
 
       <h2>3. Para que usamos seus dados</h2>
@@ -54,6 +63,10 @@ const PoliticaPrivacidade = () => {
         <li>Emitir comprovantes de entrega e relatórios fotográficos</li>
         <li>Cumprir obrigações fiscais e legais</li>
         <li>Medir o desempenho do site e das campanhas de anúncios</li>
+        <li>
+          Saber de qual página, botão e campanha veio cada pedido, e qual tipo de serviço foi
+          pedido, para decidir onde investir em anúncios
+        </li>
       </ul>
 
       <h2>4. Base legal do tratamento</h2>
@@ -75,13 +88,23 @@ const PoliticaPrivacidade = () => {
           <strong>Consentimento</strong> (art. 7º, I): cookies de medição e publicidade no site,
           que você pode recusar nas configurações do navegador
         </li>
+        <li>
+          <strong>Legítimo interesse</strong> (art. 7º, IX): ligar o clique no botão de WhatsApp ao
+          pedido que resulta dele, para medir quais anúncios e páginas trazem clientes. Usamos
+          apenas o necessário para isso e você pode se opor a qualquer momento, pelos canais da
+          seção 9
+        </li>
       </ul>
 
       <h2>5. Com quem compartilhamos</h2>
       <p>Seus dados não são vendidos. Podemos compartilhá-los apenas com:</p>
       <ul>
         <li>Motoboys parceiros autônomos, exclusivamente para executar o serviço contratado</li>
-        <li>Google LLC, por meio das ferramentas de análise e publicidade (Analytics e Ads)</li>
+        <li>
+          Google LLC, por meio das ferramentas de análise e publicidade (Analytics e Ads). Quando
+          um anúncio resulta em serviço contratado, informamos ao Google Ads apenas o identificador
+          do clique, a data e o valor do serviço, sem nome, telefone ou endereço
+        </li>
         <li>Autoridades públicas, quando exigido por lei ou ordem judicial</li>
       </ul>
 
@@ -113,13 +136,20 @@ const PoliticaPrivacidade = () => {
           <strong>Dados de navegação:</strong> pelos prazos definidos pelo Google nas ferramentas
           Analytics e Ads
         </li>
+        <li>
+          <strong>Origem do clique no WhatsApp:</strong> no seu navegador, por até 30 dias; em
+          nosso banco de dados, por até 24 meses, para comparar o resultado das campanhas ao
+          longo do tempo
+        </li>
       </ul>
       <p>Encerrados esses prazos, os dados são excluídos ou anonimizados.</p>
 
       <h2>8. Armazenamento e segurança</h2>
       <p>
-        Os dados operacionais ficam no WhatsApp e no Google Workspace (Planilhas e Drive), com
-        acesso restrito ao responsável pelo serviço. Adotamos medidas razoáveis para protegê-los
+        Os dados operacionais ficam no WhatsApp, no Google Workspace (Planilhas e Drive) e em
+        sistemas de gestão e automação em nuvem contratados pela Entregas Itajaí (banco de dados
+        do painel de atendimento e ferramentas de automação), com acesso restrito ao responsável
+        pelo serviço. Adotamos medidas razoáveis para protegê-los
         contra acesso não autorizado, perda ou alteração.
       </p>
 
