@@ -18,6 +18,19 @@
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
+  <!-- Páginas especializadas de diligência -->
+  <url>
+    <loc>https://www.entregasitajai.com/verificacao-de-endereco-itajai</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.entregasitajai.com/vistoria-veiculo-leilao-itajai</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
   <!-- Apoio Jurídico em Itajaí -->
   <url>
     <loc>https://www.entregasitajai.com/apoio-juridico</loc>

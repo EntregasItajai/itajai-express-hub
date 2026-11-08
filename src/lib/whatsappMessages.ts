@@ -12,6 +12,8 @@ const MESSAGES_BY_PATH: Record<string, string> = {
   "/diligencias": "Olá! Gostaria de solicitar uma diligência técnica na região de Itajaí.",
   "/apoio-juridico": "Olá! Gostaria de solicitar uma diligência jurídica na região de Itajaí.",
   "/assistencia-pessoal": "Olá! Gostaria de solicitar uma Assistência Pessoal.",
+  "/verificacao-de-endereco-itajai": "Olá! Gostaria de solicitar uma diligência de verificação de endereço em Itajaí.",
+  "/vistoria-veiculo-leilao-itajai": "Olá! Gostaria de solicitar uma vistoria de veículo em leilão na região de Itajaí.",
   "/casos-reais": "Vi os casos reais no site e gostaria de um orçamento para uma vistoria similar.",
 };
 

@@ -11,6 +11,8 @@ import Diligencias from "./pages/Diligencias";
 import ApoioJuridico from "./pages/ApoioJuridico";
 import AssistenciaPessoal from "./pages/AssistenciaPessoal";
 import CasosReais from "./pages/CasosReais";
+import VerificacaoEndereco from "./pages/VerificacaoEndereco";
+import VistoriaVeiculoLeilao from "./pages/VistoriaVeiculoLeilao";
 import PoliticaPrivacidade from "./pages/PoliticaPrivacidade";
 import TermosUso from "./pages/TermosUso";
 import Video from "./pages/Video";
@@ -37,6 +39,8 @@ const App = () => {
               <Route path="/apoio-juridico" element={<ApoioJuridico />} />
               <Route path="/assistencia-pessoal" element={<AssistenciaPessoal />} />
               <Route path="/casos-reais" element={<CasosReais />} />
+              <Route path="/verificacao-de-endereco-itajai" element={<VerificacaoEndereco />} />
+              <Route path="/vistoria-veiculo-leilao-itajai" element={<VistoriaVeiculoLeilao />} />
               <Route path="/politica-de-privacidade" element={<PoliticaPrivacidade />} />
               <Route path="/termos-de-uso" element={<TermosUso />} />
               <Route path="/video" element={<Video />} />

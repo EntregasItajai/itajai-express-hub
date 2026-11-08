@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import Header from "@/components/Header";
@@ -368,6 +369,27 @@ const Diligencias = () => {
         </section>
 
         <TechnicalReportBadge />
+
+        {/* Páginas especializadas */}
+        <section className="py-12 px-5">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-2xl font-bold text-foreground mb-4">Serviços especializados</h2>
+            <ul className="space-y-3">
+              <li>
+                <Link to="/verificacao-de-endereco-itajai" className="text-accent font-semibold hover:underline">
+                  Verificação de endereço em Itajaí
+                </Link>
+                <span className="text-muted-foreground"> — confirmação no local, com fotos e relatório.</span>
+              </li>
+              <li>
+                <Link to="/vistoria-veiculo-leilao-itajai" className="text-accent font-semibold hover:underline">
+                  Vistoria de veículo em leilão
+                </Link>
+                <span className="text-muted-foreground"> — inspeção no pátio antes do lance.</span>
+              </li>
+            </ul>
+          </div>
+        </section>
 
         {/* CTA */}
         <section className="bg-primary text-primary-foreground py-16 px-5">
