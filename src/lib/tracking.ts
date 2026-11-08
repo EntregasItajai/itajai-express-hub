@@ -1,3 +1,5 @@
+import { captureAttribution, prepareWhatsAppClick } from "@/lib/leadAttribution";
+
 /**
  * Central tracking utility for Google Ads (AW-871515514).
  * Sends events + conversions via gtag with realistic BRL values.
@@ -158,7 +160,14 @@ export function trackEvent(eventName: TrackedEvent, value?: number): void {
 export function initGlobalTracking(): () => void {
   const trackedVideos = new WeakSet<HTMLVideoElement>();
 
+  // Método Sniper: guarda gclid/utm da visita para ligar o lead à campanha.
+  captureAttribution();
+
   const handleClick = (e: MouseEvent) => {
+    // Método Sniper: se for link do WhatsApp com mensagem pronta, acrescenta o código do lead.
+    // Roda antes de tudo e nunca lança erro, para não atrapalhar o clique.
+    prepareWhatsAppClick(e.target);
+
     const target = e.target as HTMLElement | null;
     if (!target) return;
 
@@ -201,11 +210,18 @@ export function initGlobalTracking(): () => void {
     trackEvent("video_play");
   };
 
+  // Clique com o botão do meio (abre em nova aba) não dispara "click": trata o auxclick também.
+  const handleAuxClick = (e: MouseEvent) => {
+    if (e.button === 1) prepareWhatsAppClick(e.target);
+  };
+
   document.addEventListener("click", handleClick, true);
+  document.addEventListener("auxclick", handleAuxClick, true);
   document.addEventListener("play", handlePlay, true);
 
   return () => {
     document.removeEventListener("click", handleClick, true);
+    document.removeEventListener("auxclick", handleAuxClick, true);
     document.removeEventListener("play", handlePlay, true);
   };
 }
