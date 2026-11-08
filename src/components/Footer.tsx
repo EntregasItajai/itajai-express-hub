@@ -84,6 +84,23 @@ const Footer = () => {
           </div>
         </div>
 
+        <div className="pb-6 text-sm">
+          <span className="opacity-80">Serviços: </span>
+          <Link
+            to="/verificacao-de-endereco-itajai"
+            className="text-secondary hover:text-secondary/80 transition-colors whitespace-nowrap"
+          >
+            Verificação de endereço
+          </Link>
+          {" · "}
+          <Link
+            to="/vistoria-veiculo-leilao-itajai"
+            className="text-secondary hover:text-secondary/80 transition-colors whitespace-nowrap"
+          >
+            Vistoria de veículo em leilão
+          </Link>
+        </div>
+
         <div className="pt-8 border-t border-primary-foreground/20 text-sm opacity-80">
           © {new Date().getFullYear()} Entregas Itajaí - Todos os direitos reservados.
           <br />
