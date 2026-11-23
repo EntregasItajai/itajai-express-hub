@@ -19,7 +19,9 @@ const MoreAdvantagesSection = () => {
       title: "Diligência de Campo e Vistoria de Constatação",
       shortDescription: "Diligenciador experiente faz a verificação presencial no lugar do cliente — em qualquer situação que exija presença física no local.",
       description: "Nosso diligenciador tem ampla experiência em atividades comerciais e diligências externas, e vai pessoalmente ao local para ser os olhos do cliente que não pode (ou não quer) ir até lá conferir — um estabelecimento, um veículo, um container, uma obra, uma empresa em processo judicial ou qualquer situação que exija presença física no local.\n\nMais do que uma visita ao endereço: é uma abordagem profissional, com comunicação adequada a cada ambiente e interlocutor, observação atenta e levantamento de informações que não aparecem numa consulta cadastral ou documental.\n\nAtendemos Vistorias de Constatação, Verificação de Endereço, Inspeção de Veículos e Bens, Levantamento de Informações Cadastrais e diligências de apoio à análise de conformidade em Itajaí, Navegantes, Balneário Camboriú e região — com relatório objetivo e registro fotográfico para subsidiar decisões comerciais e jurídicas.",
-      collapsible: true
+      collapsible: true,
+      linkTo: "/diligencias",
+      linkLabel: "Conheça nosso serviço de diligências em Itajaí"
     }
   ];
 
@@ -48,6 +50,8 @@ const MoreAdvantagesSection = () => {
                 description={advantage.description}
                 shortDescription={advantage.shortDescription}
                 collapsible={advantage.collapsible}
+                linkTo={advantage.linkTo}
+                linkLabel={advantage.linkLabel}
                 variant="dark"
               />
             </motion.div>
