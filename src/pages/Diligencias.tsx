@@ -45,19 +45,29 @@ const Diligencias = () => {
             "@context": "https://schema.org",
             "@type": "Service",
             "@id": "https://www.entregasitajai.com/diligencias#service",
-            "serviceType": ["Legal Support Services", "Private Investigation Service", "Field Verification Service"],
+            "serviceType": [
+              "Legal Support Services",
+              "Private Investigation Service",
+              "Field Verification Service",
+              "Due Diligence Service"
+            ],
             "name": "Diligências e Verificações Técnicas em Itajaí",
             "alternateName": "Diligenciador em Itajaí",
-            "description": "Diligenciador e motoboy em Itajaí para diligências técnicas, verificação de veículos em pátios de leilão, vistoria de obras, coleta de assinaturas, entregar notificação e levantamento de informações.",
+            "description": "Diligenciador em Itajaí para vistorias de constatação e diligências de campo: verificação presencial de estabelecimentos, veículos, containers, obras, empresas em processo judicial e qualquer situação que exija presença física no local. Atua como os olhos do cliente que não pode (ou não quer) ir até lá, com abordagem profissional, levantamento de informações, relatório objetivo e registro fotográfico em Itajaí, Navegantes, Balneário Camboriú e região.",
             "knowsAbout": [
               "Motoboy em Itajaí",
               "Diligenciador em Itajaí",
               "Motoboy Advogado em Itajaí",
-              "Apoio a Imobiliária em Itajaí"
+              "Apoio a Imobiliária em Itajaí",
+              "Vistoria de Constatação",
+              "Diligência de Campo",
+              "Verificação de Endereço Comercial",
+              "Inspeção de Veículos e Bens",
+              "Diligência em Processo Judicial"
             ],
             "audience": {
               "@type": "Audience",
-              "audienceType": "Advogados, Imobiliárias, Financeiras e Revendas de Veículos"
+              "audienceType": "Advogados, Administradores Judiciais, Imobiliárias, Financeiras, Revendas de Veículos, Operadores de Mídia OOH e Empresas de Checking"
             },
             "provider": {
               "@type": "LocalBusiness",
@@ -69,12 +79,24 @@ const Diligencias = () => {
               { "@type": "City", "name": "Itajaí" },
               { "@type": "City", "name": "Navegantes" },
               { "@type": "City", "name": "Camboriú" },
-              { "@type": "City", "name": "Balneário Camboriú" }
+              { "@type": "City", "name": "Balneário Camboriú" },
+              { "@type": "City", "name": "Penha" },
+              { "@type": "City", "name": "Piçarras" },
+              { "@type": "City", "name": "Itapema" },
+              { "@type": "City", "name": "Brusque" }
             ],
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
               "name": "Serviços de Diligências",
               "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Vistoria de Constatação",
+                    "description": "Verificação presencial de estabelecimentos, bens e situações, com relatório objetivo e registro fotográfico"
+                  }
+                },
                 {
                   "@type": "Offer",
                   "itemOffered": {
@@ -105,6 +127,22 @@ const Diligencias = () => {
                     "@type": "Service",
                     "name": "Levantamento de Informações",
                     "description": "Verificação de anúncios, empresas e endereços para prevenção de fraudes"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Diligência em Empresa sob Administração Judicial",
+                    "description": "Verificação presencial de atividade, estoque e conformidade em empresas em processo judicial, com relatório para administrador judicial"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Inspeção de Container e Carga",
+                    "description": "Verificação presencial de containers e cargas em pátios, transportadoras e terminais em Itajaí e Navegantes"
                   }
                 }
               ]
