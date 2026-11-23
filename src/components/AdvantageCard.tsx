@@ -1,6 +1,7 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { LucideIcon, ChevronDown, ChevronUp } from "lucide-react";
+import { LucideIcon, ChevronDown, ChevronUp, ArrowRight } from "lucide-react";
 
 interface AdvantageCardProps {
   icon: LucideIcon;
@@ -9,15 +10,19 @@ interface AdvantageCardProps {
   shortDescription?: string;
   variant?: 'light' | 'dark';
   collapsible?: boolean;
+  linkTo?: string;
+  linkLabel?: string;
 }
 
-const AdvantageCard = ({ 
-  icon: Icon, 
-  title, 
-  description, 
+const AdvantageCard = ({
+  icon: Icon,
+  title,
+  description,
   shortDescription,
   variant = 'light',
-  collapsible = false 
+  collapsible = false,
+  linkTo,
+  linkLabel
 }: AdvantageCardProps) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -70,6 +75,21 @@ const AdvantageCard = ({
               </>
             )}
           </button>
+        )}
+        {linkTo && linkLabel && (
+          <Link
+            to={linkTo}
+            className={`
+              mt-4 flex items-center gap-1 text-sm font-semibold transition-colors group
+              ${variant === 'dark'
+                ? 'text-secondary hover:text-secondary/80'
+                : 'text-primary hover:text-primary/80'
+              }
+            `}
+          >
+            {linkLabel}
+            <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
+          </Link>
         )}
       </CardContent>
     </Card>
